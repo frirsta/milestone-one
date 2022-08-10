@@ -28,6 +28,8 @@ h2 {
     margin-left: 20px;
 }
 
+/* navigation links */
+
 #menu {
     font-size: 110%;
     letter-spacing: 5px;
@@ -98,10 +100,24 @@ h2 {
     width: 600px;
     height: 400px;
 
-    padding-top: 50px;
+    padding-top: 70px;
 
     position: absolute;
     top: 50%;
     left: 50%;
     margin: -200px 0 0 -300px;
 }
+
+/* yoga and meditation services */
+
+#left-yoga {}
+
+#left-yoga-heading {}
+
+#left-yoga-image {}
+
+#right-meditation {}
+
+#right-meditation-heading {}
+
+#right-meditation-image {}
