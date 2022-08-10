@@ -108,7 +108,23 @@ h2 {
     margin: -200px 0 0 -300px;
 }
 
+#cover-button {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    border: 4px solid #000;
+
+    position: relative;
+
+    left: 400px;
+    top: 50px;
+}
+
 /* yoga and meditation services */
+
+#practices {}
 
 #left-yoga {}
 
