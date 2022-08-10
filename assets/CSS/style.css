@@ -137,14 +137,23 @@ h2 {
 
 #left-yoga {
     float: left;
-    margin: 200px;
 }
 
 #left-yoga-heading {}
 
-#left-yoga-image {}
+#yoga-image-container{
+    position: relative;
+    
+}
 
-#right-meditation {}
+#left-yoga-image {
+    position: absolute;
+}
+
+#right-meditation {
+    float: right;
+   
+}
 
 #right-meditation-heading {}
 
