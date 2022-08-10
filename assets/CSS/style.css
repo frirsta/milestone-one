@@ -1,6 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     border: none;
+}
+
+body {
+    font-family: 'Old Standard TT', serif;
+}
+
+/* headings and logo */
+
+h1,
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+
+#logo {
+    float: left;
+    font-size: 300%;
 }
