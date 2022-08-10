@@ -26,11 +26,12 @@ h2 {
 }
 
 #menu {
- font-size: 110%;
- letter-spacing: 5px;
+    font-size: 110%;
+    letter-spacing: 5px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
 
@@ -44,10 +45,22 @@ h2 {
     text-decoration: none;
 }
 
-#menu a:hover {
+#menu a:hover {}
+
+.active {}
+
+/* cover text and hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
 
 }
 
-.active {
-
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/image\ \(2\).jpg") no-repeat center center;
 }
