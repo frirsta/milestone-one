@@ -124,6 +124,10 @@ h2 {
 
 /* yoga and meditation services */
 
+#practices-container {
+    height: 600px;
+}
+
 #practices {
     font-weight: 600;
     text-align: center;
@@ -132,7 +136,8 @@ h2 {
 }
 
 #left-yoga {
-
+    float: left;
+    margin: 200px;
 }
 
 #left-yoga-heading {}
