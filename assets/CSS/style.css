@@ -135,26 +135,3 @@ h2 {
     line-height: 75px;
 }
 
-#left-yoga {
-    float: left;
-}
-
-#left-yoga-heading {}
-
-#yoga-image-container{
-    position: relative;
-    
-}
-
-#left-yoga-image {
-    position: absolute;
-}
-
-#right-meditation {
-    float: right;
-   
-}
-
-#right-meditation-heading {}
-
-#right-meditation-image {}
