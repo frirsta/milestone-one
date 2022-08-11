@@ -124,14 +124,32 @@ h2 {
 
 /* yoga and meditation services */
 
-#practices-container {
+#practices {
     height: 600px;
 }
 
-#practices {
+.container {
+    text-align: center;
+    width: 100%;
+    border: 5px solid #000;
+}
+
+.class-section {
+    display: inline-block;
+    width: 250px;
+    height: 350px;
+    border: 5px solid #000;
+}
+
+#class-image-one {
 
 }
 
-.practices-container {
+#class-image-two {
 
 }
+
+#class-image-three {
+    
+}
+
