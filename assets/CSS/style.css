@@ -126,10 +126,12 @@ h2 {
 
 #practices {
     height: 600px;
+    border: 2px solid #000;
 }
 
 .container {
     text-align: center;
+    height: 300px;
     width: 100%;
     border: 5px solid #000;
 }
@@ -137,15 +139,33 @@ h2 {
 .class-section {
     display: inline-block;
     width: 250px;
-    height: 350px;
-    border: 5px solid #000;
+    height: 150px;
 }
 
-#class-image-one {}
+#class-image-one {
+    background: url("../images/image\ \(5\).jpg") no-repeat;
+    height: 100%;
+    width: 100%;
 
-#class-image-two {}
+}
 
-#class-image-three {}
+#class-image-two {
+    background: url("../images/image\ \(6\).jpg") no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+#class-image-three {
+    background: url("../images/image\ \(7\).jpg") no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.fa-regular {
+    float: left;
+    padding: 0px;
+    margin: 5px;
+}
 
 /* social media links footer */
 
