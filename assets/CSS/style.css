@@ -145,6 +145,7 @@ h2 {
     margin: 50px 30px;
     overflow: hidden;
 }
+
 .fa-regular {
     display: inline-block;
 }
@@ -163,7 +164,7 @@ h2 {
 
 .class-section p {
     margin: 20px 15px;
-    
+
 }
 
 #class-image-one {
@@ -197,7 +198,7 @@ h2 {
     position: relative;
     top: 100px;
 
-    box-shadow: 5px 10px 10px 5px rgba(0,0,0, 0.3);
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
 /* social media links footer */
@@ -220,3 +221,40 @@ h2 {
 }
 
 /* testimonials container */
+
+.testimonials-container {
+    height: 600px;
+    border: 3px solid #000;
+}
+
+.testimonials {
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    border-radius: 50%;
+}
+
+.testimonials h3 {
+    
+}
+
+#testimonials-image-one {
+    background: url("../images/pexels-ike-louie-natividad-3310695\ \(2\).jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#testimonials-image-two {
+    background: url("../images/pexels-ike-louie-natividad-2709388\ \(2\).jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#testimonials-image-three {
+    background: url("../images/pexels-mateus-souza-3586798\ \(2\).jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
