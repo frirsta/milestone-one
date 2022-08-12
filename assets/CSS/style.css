@@ -122,7 +122,7 @@ h2 {
     top: 50px;
 }
 
-/* yoga and meditation services */
+/* yoga services */
 
 #practices {
     height: 600px;
@@ -141,15 +141,27 @@ h2 {
     border: 5px solid #000;
 }
 
-#class-image-one {
+#class-image-one {}
 
+#class-image-two {}
+
+#class-image-three {}
+
+/* social media links footer */
+
+.social-media-container {
+    border: 3px solid #000;
+    text-align: center;
+    height: 200px;
 }
 
-#class-image-two {
-
+.social-media-container li {
+    display: inline-block;
+    font-size: 50px;
+    border: 2px solid #000;
 }
 
-#class-image-three {
-    
+.social-media-container i {
+    color: #000;
+    margin: 50px;
 }
-
