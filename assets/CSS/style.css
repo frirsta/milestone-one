@@ -9,7 +9,6 @@
 
 body {
     font-family: 'Old Standard TT', serif;
-
 }
 
 /* headings and logo */
@@ -255,32 +254,92 @@ h2 {
 
 /* social media links footer */
 
-.social-media-container {
-    border: 3px solid #000;
-    text-align: center;
-    height: 200px;
-}
+.social-media-container {}
 
 .social-media-container li {
     display: inline-block;
-    font-size: 50px;
-    border: 2px solid #000;
+    font-size: 30px;
+    list-style-type: none;
+    margin: 50px;
+    padding: 10px;
 }
 
 .social-media-container i {
     color: #000;
-    margin: 50px;
+    margin: 5px;
 }
 
 /* footer */
 
-footer {
-    height: 500px;
-    width: 100%;
-    border: 3px solid rgb(255, 0, 0);
+footer h3 {
+    margin-top: 30px;
+    line-height: 40px;
+    letter-spacing: 5px;
 }
 
-.footer-links {
-    width: 300px;
+#footer-container {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-links {}
+
+#social-media {}
+
+#copyright {}
+
+/* contact form */
+
+#contact-form {
+    width: 20%;
+    height: 50%;
+    background-color: #747575;
+
+}
+
+#form {}
+
+#name {}
+
+
+
+#email {}
+
+#phone-number {}
+
+#message {
+    height: 30%;
+
+}
+
+#submit {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-input {
+    width: 100%;
+    height: 5%;
+    margin-bottom: 1%;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    padding: 5px 3px;
+    margin: 8px 0;
+
+}
+
+
+#contact-container {
+
+}
+#contact-information {
+    width: 23%;
     border: 3px solid #000;
 }
