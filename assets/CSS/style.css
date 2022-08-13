@@ -217,9 +217,23 @@ h2 {
     border-color: #000;
     border-width: 2px;
     border-radius: 50%;
+    margin: 5% 0 5% 10%;
 }
 
-.testimonials h3 {}
+.testimonials h3 {
+    text-transform: capitalize;
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+
+.testimonials p {
+    width: 500px;
+    height: auto;
+    padding-left: 150px;
+    padding-top: 10px;
+
+}
 
 #testimonials-image-one {
     background: url("../images/pexels-ike-louie-natividad-3310695\ \(2\).jpg") no-repeat center center;
@@ -267,6 +281,6 @@ footer {
 }
 
 .footer-links {
-width: 300px;
-border: 3px solid #000;
+    width: 300px;
+    border: 3px solid #000;
 }
