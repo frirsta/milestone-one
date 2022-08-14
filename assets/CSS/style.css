@@ -293,10 +293,11 @@ footer h3 {
 /* contact form */
 
 #contact-form {
-    width: 20%;
-    height: 50%;
-    background-color: #747575;
+    width: 25%;
+
+    background-color: #f2f2f2;
     display: inline-block;
+    padding: 1% 1%;
 }
 
 #form {}
@@ -338,51 +339,173 @@ footer h3 {
 
 #contact-container {
     position: relative;
-    left: 25%;
-    top: 100px;
-    padding: 10% 0;
+    text-align: center;
+ 
 }
 
 #contact-information {
     width: 23%;
     border: 3px solid #000;
     display: inline-block;
-    position: absolute;
+
 }
 
 /* about section */
 
-#about-container {
-
-}
-
-
 #about {
-    height: 600px;
-    width: 100%;
 
-    position: relative;
-    left: 25%;
+    height: 500px;
+
+    overflow: hidden;
+    text-align: center;
+}
+#about h2 {
+    padding-bottom: 1%;
 }
 
 #about-image {
-    background: url("../images/image\ \(13\).jpg") no-repeat;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    display: inline-block;
-    
-}
-#about p {
-    height: 250px;
-    width: 300px;
-    border: 5px solid #000;
-    position: absolute;
-    display: inline-block;
-    left: 30%;
+    background: url("../images/pexels-andrea-piacquadio-866023\ \(1\).jpg") no-repeat;
+
+
 }
 
-#about h2 {
-    height: 250px;
-    width: 300px;
+#about-text {
+    padding: 2% 1%;
+    border: 3px solid #000;
+}
+
+
+
+#about-background {
+    height: 100%;
+    width: 100%;
+    background: url("../images/image\ \(14\).jpg") no-repeat center center;
+    filter: blur(5px);
+}
+
+#about-background-outer {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#about-title {
+    font-size: 200%;
+    color: #fff;
+
+    text-align: center;
+    position: relative;
+    bottom: 50%;
+}
+
+.about-us {
+    display: inline-block;
+    width: 450px;
+    height: 55%;
+   
+    margin: 100px 10px;
+    overflow: hidden;
+}
+
+/* Trainers */
+
+#instructors-container {
+    border: 3px solid #000;
+    height: 500px;
+    padding: 3% 0;
+}
+
+.instructors {
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 5% 0 10% 10%;
+}
+
+.instructors h3 {
+    text-transform: capitalize;
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+
+.instructors p {
+    width: 500px;
+    height: auto;
+    padding-left: 150px;
+    padding-top: 10px;
+
+}
+
+#instructors-image-one {
+    background: url("../images/pexels-ike-louie-natividad-3310695\ \(2\).jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#instructors-image-two {
+    background: url("../images/pexels-ike-louie-natividad-2709388\ \(2\).jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#instructors-image-three {
+    background: url("../images/pexels-mateus-souza-3586798\ \(2\).jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.fa-solid {
+
+}
+
+.instructor-contact {
+    margin: 5% 0;
+}
+
+#instructors-left {
+    width: 50%;
+    float: left;
+
+}
+
+#instructors-right {
+    width: 50%;
+    float: right;
+}
+
+
+/*CONTACT*/
+
+
+#contact-background {
+    height: 100%;
+    width: 100%;
+    background: url("../images/pexels-yuliya-mulyukina-10740332\ \(1\).jpg") no-repeat center center;
+    filter: blur(5px);
+}
+
+#contact-background-outer {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#contact-title {
+    font-size: 200%;
+    color: #fff;
+
+    text-align: center;
+    position: relative;
+    bottom: 50%;
+}
+
+.contact-us {
+
 }
