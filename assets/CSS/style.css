@@ -293,10 +293,8 @@ footer h3 {
 /* contact form */
 
 #contact-form {
-    width: 25%;
 
     background-color: #f2f2f2;
-    display: inline-block;
     padding: 1% 1%;
 }
 
@@ -338,16 +336,19 @@ footer h3 {
 
 
 #contact-container {
+    height: 600px;
     position: relative;
     text-align: center;
- 
+
 }
 
 #contact-information {
-    width: 23%;
     border: 3px solid #000;
-    display: inline-block;
+    text-align: left;
+}
 
+#contact-information p {
+    
 }
 
 /* about section */
@@ -359,6 +360,7 @@ footer h3 {
     overflow: hidden;
     text-align: center;
 }
+
 #about h2 {
     padding-bottom: 1%;
 }
@@ -403,7 +405,7 @@ footer h3 {
     display: inline-block;
     width: 450px;
     height: 55%;
-   
+
     margin: 100px 10px;
     overflow: hidden;
 }
@@ -460,9 +462,7 @@ footer h3 {
     border-radius: 50%;
 }
 
-.fa-solid {
-
-}
+.fa-solid {}
 
 .instructor-contact {
     margin: 5% 0;
@@ -507,5 +507,9 @@ footer h3 {
 }
 
 .contact-us {
-
+    display: inline-block;
+    width: 350px;
+    height: 80%;
+    margin: 70px 50px;
+    overflow: hidden;
 }
