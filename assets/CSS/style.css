@@ -339,11 +339,50 @@ footer h3 {
 #contact-container {
     position: relative;
     left: 25%;
-    padding: 15% 0;
+    top: 100px;
+    padding: 10% 0;
 }
+
 #contact-information {
     width: 23%;
     border: 3px solid #000;
     display: inline-block;
     position: absolute;
+}
+
+/* about section */
+
+#about-container {
+
+}
+
+
+#about {
+    height: 600px;
+    width: 100%;
+
+    position: relative;
+    left: 25%;
+}
+
+#about-image {
+    background: url("../images/image\ \(13\).jpg") no-repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    
+}
+#about p {
+    height: 250px;
+    width: 300px;
+    border: 5px solid #000;
+    position: absolute;
+    display: inline-block;
+    left: 30%;
+}
+
+#about h2 {
+    height: 250px;
+    width: 300px;
 }
