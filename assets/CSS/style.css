@@ -296,7 +296,7 @@ footer h3 {
     width: 20%;
     height: 50%;
     background-color: #747575;
-
+    display: inline-block;
 }
 
 #form {}
@@ -337,9 +337,13 @@ footer h3 {
 
 
 #contact-container {
-
+    position: relative;
+    left: 25%;
+    padding: 15% 0;
 }
 #contact-information {
     width: 23%;
     border: 3px solid #000;
+    display: inline-block;
+    position: absolute;
 }
