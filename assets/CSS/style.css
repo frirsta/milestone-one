@@ -153,23 +153,23 @@ h2 {
 }
 
 #class-image-one {
-    background: url("../images/image\ \(5\).jpg") no-repeat;
-    height: 150px;
+    background: url("../images/pexels-yan-krukov-8436587.jpg") no-repeat ;
+    height: 200px;
     width: 100%;
     margin-bottom: 15px;
     
 }
 
 #class-image-two {
-    background: url("../images/image\ \(6\).jpg") no-repeat;
-    height: 150px;
+    background: url("../images/pexels-yan-krukov-8436601\ \(1\).jpg") no-repeat;
+    height: 200px;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #class-image-three {
-    background: url("../images/image\ \(7\).jpg") no-repeat;
-    height: 150px;
+    background: url("../images/pexels-yan-krukov-8436490\ \(1\).jpg") no-repeat;
+    height: 200px;
     width: 100%;
     margin-bottom: 15px;
 }
@@ -181,7 +181,7 @@ h2 {
     padding: 15px;
     margin: 20px 15px;
     position: relative;
-    top: 100px;
+    top: 50px;
     
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
