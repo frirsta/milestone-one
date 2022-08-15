@@ -12,12 +12,11 @@ body {
 }
 
 /* headings and logo */
-
 h1,
 h2 {
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 #logo {
@@ -36,8 +35,7 @@ h2 {
 
 #menu,
 #logo {
-    line-height: 75px;
-
+    line-height: 80px;
 }
 
 #menu li {
@@ -51,9 +49,13 @@ h2 {
     color: #000;
 }
 
-#menu a:hover {}
+#menu a:hover {
+    border-bottom: 1px solid #000;
+}
 
-.active {}
+.active {
+    border-bottom: 1px solid #000;
+}
 
 /* cover text and hero image */
 
@@ -62,12 +64,6 @@ h2 {
     width: 100%;
     overflow: hidden;
     position: relative;
-
-}
-
-#cover-text,
-#cover-text h2 {
-    color: #000;
 }
 
 #hero-image {
@@ -84,41 +80,42 @@ h2 {
 }
 
 #hero-image-creator p {
+    font-size: 10px;
     text-align: left;
     letter-spacing: 0px;
     color: #000;
-    font-size: 10px;
     position: absolute;
 }
 
+/* cover text and button */
 #cover-text {
-    font-size: 130%;
-    letter-spacing: 0px;
     text-align: left;
-
     width: 600px;
     height: 400px;
-
     padding-top: 70px;
-
     position: absolute;
     top: 50%;
     left: 50%;
     margin: -200px 0 0 -300px;
 }
 
+#cover-text h1 {
+    font-size: 250%;
+    color: #000;
+}
+
 #cover-button {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    background-color: #fff;
+    border: 4px solid #000;
     height: 50px;
     width: 50px;
-    background-color: #fff;
     padding: 20px;
-    text-decoration: none;
-    border: 4px solid #000;
-
     position: relative;
-
-    left: 400px;
-    top: 50px;
+    left: 70%;
+    top: 10%;
 }
 
 /* yoga services */
@@ -493,14 +490,6 @@ footer h3 {
     bottom: 50%;
 }
 
-.contact-us {
-    display: inline-block;
-    width: 350px;
-    height: 80%;
-    margin: 70px 50px;
-    overflow: hidden;
-}
-
 /* Classes header */
 
 #classes-background {
@@ -526,7 +515,7 @@ footer h3 {
     bottom: 50%;
 }
 
-/* Yoga for begginers classes */
+/* Yoga for beginners classes */
 
 #practices {
     height: 600px;
@@ -638,6 +627,25 @@ footer h3 {
     height: 30%;
 }
 
-#courses {
-    
+#courses {}
+
+#schedule-information {
+    border: 3px solid #000;
+    text-align: left;
+    width: 45%;
+    text-align: start;
+}
+
+.book-us {
+    display: inline-block;
+    width: 350px;
+    height: 80%;
+    margin: 70px 50px;
+    overflow: hidden;
+}
+
+.schedule-class {}
+
+#schedule-table {
+    border: 5px solid #000;
 }
