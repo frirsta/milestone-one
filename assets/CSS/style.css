@@ -122,14 +122,15 @@ h2 {
 
 #practices {
     height: 600px;
-    border: 2px solid #000;
 }
-
+#practices h2 {
+    text-align: center;
+    margin-top: 2%;
+}
 .container {
     text-align: center;
     height: 100%;
     width: 100%;
-    border: 5px solid #000;
 }
 
 .class-section {
@@ -138,20 +139,8 @@ h2 {
     height: 500px;
     text-align: left;
     border: 3px solid #000;
-    margin: 50px 30px;
+    margin: 20px 30px;
     overflow: hidden;
-}
-
-.fa-regular {
-    display: inline-block;
-}
-
-.fa-calendar-days {
-    margin-right: 0px;
-}
-
-.fa-clock {
-    margin-left: 10px;
 }
 
 .class-section h3 {
@@ -160,7 +149,7 @@ h2 {
 
 .class-section p {
     margin: 20px 15px;
-
+    
 }
 
 #class-image-one {
@@ -168,7 +157,7 @@ h2 {
     height: 150px;
     width: 100%;
     margin-bottom: 15px;
-
+    
 }
 
 #class-image-two {
@@ -193,8 +182,20 @@ h2 {
     margin: 20px 15px;
     position: relative;
     top: 100px;
-
+    
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.fa-regular {
+    display: inline-block;
+}
+
+.fa-calendar-days {
+    margin-right: 0px;
+}
+
+.fa-clock {
+    margin-left: 10px;
 }
 
 
@@ -517,7 +518,8 @@ footer h3 {
 
 /* Yoga for beginners classes */
 
-#practices {
+
+/* #practices {
     height: 600px;
     border: 2px solid #000;
 }
@@ -557,8 +559,7 @@ footer h3 {
 
 .class-section p {
     margin: 20px 15px;
-
-}
+} */
 
 #class-image-one {
     background: url("../images/image\ \(5\).jpg") no-repeat;
