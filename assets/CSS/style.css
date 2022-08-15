@@ -305,12 +305,6 @@ footer h3 {
     filter: blur(5px);
 }
 
-#about-background-outer {
-    height: 200px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
 
 #about-title {
     font-size: 200%;
@@ -406,16 +400,10 @@ footer h3 {
 #contact-background {
     height: 100%;
     width: 100%;
-    background: url("../images/pexels-yuliya-mulyukina-10740332\ \(1\).jpg") no-repeat center center;
+    background: url("../images/pexels-cottonbro-4325446.jpg") no-repeat center center;
     filter: blur(5px);
 }
 
-#contact-background-outer {
-    height: 200px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
 
 #contact-title {
     font-size: 200%;
@@ -427,17 +415,11 @@ footer h3 {
 }
 
 /* Classes header */
-#classes-background-outer {
-    height: 200px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
 
 #classes-background {
     height: 100%;
     width: 100%;
-    background: url("../images/pexels-yuliya-mulyukina-10740332\ \(1\).jpg") no-repeat center center;
+    background: url("../images/pexels-vlada-karpovich-8939837.jpg") no-repeat center center;
     filter: blur(5px);
 }
 
@@ -698,3 +680,12 @@ footer h3 {
     margin-bottom: 15px;
 
 }
+
+/**/
+.background-outer {
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
