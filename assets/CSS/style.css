@@ -523,55 +523,6 @@ footer h3 {
     border: 5px solid #000;
 }
 
-/* advanced classes*/
-
-#advanced-image-one {
-    background: url("../images/pexels-yan-krukov-8436601\ \(1\).jpg") no-repeat;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 15px;
-
-}
-
-#advanced-image-two {
-    background: url("../images/pexels-yan-krukov-8436610.jpg") no-repeat;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 15px;
-
-}
-
-#advanced-image-three {
-    background: url("../images/pexels-yan-krukov-8436609.jpg") no-repeat;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 15px;
-
-}
-
-#yoga-image-one {
-    background: url("../images/pexels-yan-krukov-8436478.jpg") no-repeat;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 15px;
-
-}
-
-#yoga-image-two {
-    background: url("../images/pexels-yan-krukov-8436476.jpg") no-repeat;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 15px;
-
-}
-
-#yoga-image-three {
-    background: url("../images/pexels-yan-krukov-8436479.jpg") no-repeat;
-    height: 200px;
-    width: 100%;
-    margin-bottom: 15px;
-
-}
 
 /* card-section, practices home page & classes page */
 
@@ -659,9 +610,6 @@ footer h3 {
 }
 
 /* beginner classes */
-#beginner-classes {
-    height: 600px;
-}
 
 #beginner-image-one {
     background: url("../images/pexels-yan-krukov-8436746.jpg") no-repeat;
@@ -699,3 +647,54 @@ footer h3 {
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
+/* advanced classes*/
+
+#advanced-image-one {
+    background: url("../images/pexels-yan-krukov-8436601\ \(1\).jpg") no-repeat;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+#advanced-image-two {
+    background: url("../images/pexels-yan-krukov-8436610.jpg") no-repeat;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+#advanced-image-three {
+    background: url("../images/pexels-yan-krukov-8436609.jpg") no-repeat;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+/* Yoga with friends */
+
+#yoga-image-one {
+    background: url("../images/pexels-yan-krukov-8436478.jpg") no-repeat;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+#yoga-image-two {
+    background: url("../images/pexels-yan-krukov-8436476.jpg") no-repeat;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+
+#yoga-image-three {
+    background: url("../images/pexels-yan-krukov-8436479.jpg") no-repeat;
+    height: 200px;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
