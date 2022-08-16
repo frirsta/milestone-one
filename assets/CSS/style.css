@@ -306,15 +306,6 @@ footer h3 {
 }
 
 
-/* #about-title {
-    font-size: 200%;
-    color: #fff;
-
-    text-align: center;
-    position: relative;
-    bottom: 50%;
-} */
-
 .about-us {
     display: inline-block;
     width: 450px;
@@ -322,75 +313,6 @@ footer h3 {
 
     margin: 100px 10px;
     overflow: hidden;
-}
-
-/* Trainers */
-
-#instructors-container {
-    border: 3px solid #000;
-    height: 500px;
-    padding: 3% 0;
-}
-
-.instructors {
-    height: 100px;
-    width: 100px;
-    padding: 0px;
-    border-style: solid;
-    border-color: #000;
-    border-width: 2px;
-    border-radius: 50%;
-    margin: 5% 0 10% 10%;
-}
-
-.instructors h3 {
-    text-transform: capitalize;
-    position: relative;
-    top: 10px;
-    left: 150px;
-}
-
-.instructors p {
-    width: 500px;
-    height: auto;
-    padding-left: 150px;
-    padding-top: 10px;
-
-}
-
-#instructors-image-one {
-    background: url("../images/pexels-ike-louie-natividad-3310695\ \(2\).jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-#instructors-image-two {
-    background: url("../images/pexels-ike-louie-natividad-2709388\ \(2\).jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-#instructors-image-three {
-    background: url("../images/pexels-mateus-souza-3586798\ \(2\).jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-.fa-solid {}
-
-.instructor-contact {
-    margin: 5% 0;
-}
-
-#instructors-left {
-    width: 50%;
-    float: left;
-
-}
-
-#instructors-right {
-    width: 50%;
-    float: right;
 }
 
 
@@ -405,14 +327,6 @@ footer h3 {
 }
 
 
-/* #contact-title {
-    font-size: 200%;
-    color: #fff;
-
-    text-align: center;
-    position: relative;
-    bottom: 50%;
-} */
 
 /* Classes header */
 
@@ -422,17 +336,6 @@ footer h3 {
     background: url("../images/pexels-vlada-karpovich-8939837.jpg") no-repeat center center;
     filter: blur(5px);
 }
-
-
-/* #classes-title {
-    font-size: 200%;
-    color: #fff;
-
-    text-align: center;
-    position: relative;
-    bottom: 50%;
-} */
-
 
 
 /* booking form */
@@ -696,4 +599,105 @@ footer h3 {
     text-align: center;
     position: relative;
     bottom: 50%;
+}
+
+
+/* instructors and testimonials*/
+
+
+.review-instructor-container {
+    height: 600px;
+    border: 3px solid #000;
+    position: relative;
+}
+
+
+.review-instructor {
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+    border: 5px solid #000;
+    border-radius: 50%;
+
+}
+
+
+
+.review-instructor-left {
+    width: 50%;
+    float: left;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+}
+
+.review-instructor-left {
+    width: 50%;
+    float: right;
+    position: absolute;
+    right: 50%;
+    top: 25%;
+}
+
+.review-instructor h3 {
+    text-transform: capitalize;
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+
+.review-instructor p {
+    width: 500px;
+    height: auto;
+    padding-left: 150px;
+    padding-top: 10px;
+
+}
+
+#testimonials-image-one {
+    background: url("../images/pexels-ike-louie-natividad-3310695\ \(2\).jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#testimonials-image-two {
+    background: url("../images/pexels-ike-louie-natividad-2709388\ \(2\).jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#testimonials-image-three {
+    background: url("../images/pexels-mateus-souza-3586798\ \(2\).jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+#instructors-image-one {
+    background: url("../images/pexels-ike-louie-natividad-3310695\ \(2\).jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#instructors-image-two {
+    background: url("../images/pexels-ike-louie-natividad-2709388\ \(2\).jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+#instructors-image-three {
+    background: url("../images/pexels-mateus-souza-3586798\ \(2\).jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.fa-solid {}
+
+.instructor-contact {
+    margin: 5% 0;
 }
