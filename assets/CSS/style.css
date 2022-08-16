@@ -353,6 +353,7 @@ footer h3 {
 }
 
 .classes-button {
+    color: #000;
     background-color: #fff;
     text-decoration: none;
     border: 4px solid #000;
@@ -499,20 +500,20 @@ footer h3 {
     padding: 0px;
     border: 5px solid #000;
     border-radius: 50%;
-    margin: 10% 0;
+    margin: 15% 0;
 }
 
 
 
 .review-instructor-left {
-    width: 50%;
+    width: 40%;
     float: left;
     position: absolute;
     left: 50%;
 }
 
 .review-instructor-right {
-    width: 50%;
+    width: 40%;
     float: right;
     position: absolute;
     right: 50%;
@@ -551,29 +552,50 @@ footer h3 {
     border-radius: 50%;
 }
 
-
+#testimonials-image-four {
+    background: url("../images/review\ 1.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+#testimonials-image-five {
+    background: url("../images/review2.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+#testimonials-image-six {
+    background: url("../images/review3.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
 
 
 
 
 
 #instructors-image-one {
-    background: url("../images/pexels-ike-louie-natividad-3310695\ \(2\).jpg") no-repeat center center;
+    background: url("../images/instructor1.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #instructors-image-two {
-    background: url("../images/pexels-ike-louie-natividad-2709388\ \(2\).jpg") no-repeat center center;
+    background: url("../images/instructor2.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #instructors-image-three {
-    background: url("../images/pexels-mateus-souza-3586798\ \(2\).jpg") no-repeat center center;
+    background: url("../images/instructor3.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
+
+#instructors-image-four {
+    background: url("../images/instructor4.jpg") no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
+
 
 .fa-solid {}
 
