@@ -596,29 +596,17 @@ footer h3 {
 
 #schedule-information {
     border: 3px solid #000;
-    
-    width: 45%;
     height: 70%;
-    text-align: start;
 }
 
-
-.schedule-class {
+table {
+    height: 100%;
 }
-
-#schedule-table {
-
-}
-
-th {
-    padding: 4% 0;
-}
-
 td {
-height: 50px;
-width: 100px;
-border: 5px solid #f2f2f2;
+    border: 1px solid #000;
 }
+
+
 
 /* Book form and contact form */
 
@@ -638,6 +626,7 @@ border: 5px solid #f2f2f2;
     width: 300px;
     background-color: #f2f2f2;
     padding: 1% 1%;
+    vertical-align: top;
 }
 
 .contact-us {
@@ -652,6 +641,7 @@ border: 5px solid #f2f2f2;
     display: inline-block;
     margin: 70px 20px;
     overflow: hidden;
+    width: 45%;
 }
 
 .form-input {
