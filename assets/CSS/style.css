@@ -306,14 +306,14 @@ footer h3 {
 }
 
 
-#about-title {
+/* #about-title {
     font-size: 200%;
     color: #fff;
 
     text-align: center;
     position: relative;
     bottom: 50%;
-}
+} */
 
 .about-us {
     display: inline-block;
@@ -405,14 +405,14 @@ footer h3 {
 }
 
 
-#contact-title {
+/* #contact-title {
     font-size: 200%;
     color: #fff;
 
     text-align: center;
     position: relative;
     bottom: 50%;
-}
+} */
 
 /* Classes header */
 
@@ -424,14 +424,14 @@ footer h3 {
 }
 
 
-#classes-title {
+/* #classes-title {
     font-size: 200%;
     color: #fff;
 
     text-align: center;
     position: relative;
     bottom: 50%;
-}
+} */
 
 
 
@@ -689,3 +689,11 @@ footer h3 {
     position: relative;
 }
 
+.background-title {
+    font-size: 200%;
+    color: #fff;
+
+    text-align: center;
+    position: relative;
+    bottom: 50%;
+}
