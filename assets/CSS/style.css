@@ -119,73 +119,6 @@ h2 {
     top: 10%;
 }
 
-
-/* testimonials container */
-
-.testimonials-container {
-    height: 600px;
-    border: 3px solid #000;
-    position: relative;
-}
-
-.testimonials {
-    height: 100px;
-    width: 100px;
-    padding: 0px;
-    border: 5px solid #000;
-    border-radius: 50%;
-
-}
-
-#testimonials-left {
-    width: 50%;
-    float: left;
-    position: absolute;
-    left: 50%;
-    top: 25%;
-}
-
-#testimonials-right {
-    width: 50%;
-    float: right;
-    position: absolute;
-    right: 50%;
-    top: 25%;
-}
-
-.testimonials h3 {
-    text-transform: capitalize;
-    position: relative;
-    top: 10px;
-    left: 150px;
-}
-
-.testimonials p {
-    width: 500px;
-    height: auto;
-    padding-left: 150px;
-    padding-top: 10px;
-
-}
-
-#testimonials-image-one {
-    background: url("../images/pexels-ike-louie-natividad-3310695\ \(2\).jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-#testimonials-image-two {
-    background: url("../images/pexels-ike-louie-natividad-2709388\ \(2\).jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-#testimonials-image-three {
-    background: url("../images/pexels-mateus-souza-3586798\ \(2\).jpg") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
 /* social media links footer */
 
 .social-media-container {}
@@ -261,7 +194,7 @@ footer h3 {
 
 .about-us {
     display: inline-block;
-    width: 450px;
+    width: 35%;
     height: 55%;
 
     margin: 100px 10px;
@@ -310,7 +243,7 @@ footer h3 {
 
 .card-section {
     display: inline-block;
-    width: 350px;
+    width: 25%;
     height: 500px;
     text-align: left;
     border: 3px solid #000;
@@ -496,7 +429,7 @@ footer h3 {
 
 .review-instructor {
     height: 100px;
-    width: 100px;
+    width: 20%;
     padding: 0px;
     border: 5px solid #000;
     border-radius: 50%;
@@ -649,7 +582,6 @@ td {
 
 }
 #contact-form {
-    width: 300px;
     background-color: #f2f2f2;
     padding: 1% 1%;
 }
@@ -663,7 +595,7 @@ td {
 
 .contact-us {
     display: inline-block;
-    width: 350px;
+    width: 25%;
     height: 80%;
     margin: 70px 50px;
     overflow: hidden;
