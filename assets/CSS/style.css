@@ -657,10 +657,11 @@ td {
 
 
 #contact-information {
-    padding-top: 1%;
+    padding: 1%;
     border: 4px solid #000;
     text-align: left;
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
+    list-style-type: none;
 }
 
 #contact-information p {
@@ -676,6 +677,10 @@ td {
 #opening-hours {
     text-align: right;
     line-height: 3;
+    list-style-type: none;
+}
+#opening-hours li{
+    list-style-type: none;
 }
 
 /* For screens 1200px wide and lower / medium screen size */
@@ -746,15 +751,18 @@ td {
         font-size: 90%;
     }
 
+        .book-button{
+            top: 10%;
+        }
 
     /* Review and instructors section in home page and about page */
     #instructor-outer {
-        height: 1200px;
+        height: 600px;
         margin: 5%;
     }
 
     #testimonials-outer {
-        height: 1200px;
+        height: 650px;
         margin: unset;
 
     }
