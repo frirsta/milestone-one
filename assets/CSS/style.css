@@ -879,10 +879,26 @@ td {
         font-weight: 600;
     }
 
-    #opening-hours li{
-        font-size: 15px;
-        font-weight: 600;
+
+    /* contact page and contact response page */
+    #opening-hours {
+margin-top: 10%;
+
+
     }
+
+    #opening-hours li{
+        font-size: 13px;
+        font-weight: 600;
+        padding-top: 10%;
+    }
+
+    #contact-information {
+        padding: 3% 1% 0 1%;
+        font-size: 13px;
+    }
+
+
     /* #booking {
          height: 1000px;
 
@@ -919,7 +935,6 @@ td {
     /**/
 }
 
-/* contact response*/
 
 #contact-response {
     width: 100%;
