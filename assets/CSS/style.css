@@ -851,8 +851,36 @@ td {
 
 
     /* booking section in classes page*/
-    #booking {
-        height: 1000px;
+  
+    .form-container {
+        margin-bottom: 5%;
+    
+    }
+
+    #schedule-information {
+        border: 3px solid #000;
+        height: 55%;
+        width: 40%;
+    }
+
+    .day {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .time {
+
+        font-size: 12px;
+        font-weight: 600;
+
+    }
+
+    td {
+        font-size: 10px;
+        font-weight: 600;
+    }
+    /* #booking {
+         height: 1000px;
 
     }
 
@@ -882,7 +910,7 @@ td {
     .day {
         font-size: 10px;
         font-weight: 600;
-    }
+    } */
 
     /**/
 }
