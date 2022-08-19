@@ -767,28 +767,28 @@ td {
     }
 
     .review-instructor {
-        height: 100px;
+        height: 80px;
         width: 20%;
         border: 5px solid #000;
         border-radius: 50%;
-        margin: 15% 0;
+        margin: 25% 0;
     }
 
     
 .review-instructor p {
     width: 450px;
-    padding-left: 120px;
+    padding-left: 80px;
 
 }
     .review-instructor-left {
-        width: 50%;
+        width: 35%;
         position: absolute;
         display: block;
-        left: 2%;
+        left: 5%;
     }
 
     .review-instructor-right {
-        width: 50%;
+        width: 35%;
         position: absolute;
         display: block;
         right: 2%;
@@ -802,10 +802,10 @@ td {
 
     
     .review-instructor h3 {
-        width: 400%;
+        width: 300%;
 
-        left: 120px;
-        top: 15%;
+        left: 100%;
+        top: 20%;
     }
     
     
@@ -897,6 +897,8 @@ margin-top: 10%;
         font-size: 13px;
     }
 
+
+/* contact respons page */
 
     /* #booking {
          height: 1000px;
