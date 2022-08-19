@@ -869,7 +869,6 @@ td {
     }
 
     .time {
-
         font-size: 12px;
         font-weight: 600;
 
@@ -877,6 +876,11 @@ td {
 
     td {
         font-size: 10px;
+        font-weight: 600;
+    }
+
+    #opening-hours li{
+        font-size: 15px;
         font-weight: 600;
     }
     /* #booking {
