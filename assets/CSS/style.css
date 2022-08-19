@@ -757,8 +757,7 @@ td {
 
     /* Review and instructors section in home page and about page */
     #instructor-outer {
-        height: 600px;
-        margin: 5%;
+        height: 450px;
     }
 
     #testimonials-outer {
