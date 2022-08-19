@@ -433,7 +433,7 @@ footer h3 {
 .review-instructor {
     height: 100px;
     width: 15%;
-    
+
     border: 5px solid #000;
     border-radius: 50%;
     margin: 10% 0;
@@ -679,7 +679,8 @@ td {
     line-height: 3;
     list-style-type: none;
 }
-#opening-hours li{
+
+#opening-hours li {
     list-style-type: none;
 }
 
@@ -751,9 +752,9 @@ td {
         font-size: 90%;
     }
 
-        .book-button{
-            top: 10%;
-        }
+    .book-button {
+        top: 10%;
+    }
 
     /* Review and instructors section in home page and about page */
     #instructor-outer {
@@ -769,17 +770,16 @@ td {
     .review-instructor {
         height: 80px;
         width: 20%;
-        border: 5px solid #000;
-        border-radius: 50%;
         margin: 25% 0;
     }
 
-    
-.review-instructor p {
-    width: 450px;
-    padding-left: 80px;
 
-}
+    .review-instructor p {
+        width: 450px;
+        padding-left: 80px;
+
+    }
+
     .review-instructor-left {
         width: 35%;
         position: absolute;
@@ -797,63 +797,66 @@ td {
     .review-instructor-container {
         position: relative;
     }
-    
 
-
-    
     .review-instructor h3 {
-        width: 300%;
+        width: 500%;
 
-        left: 100%;
-        top: 20%;
+        left: 180%;
+        top: unset;
+        bottom: 15%;
     }
-    
-    
+
+
     #testimonials-image-one {
         background: url("../images/pexels-ike-louie-natividad-3310695\ \(2\).jpg") no-repeat center center;
         height: 100%;
         border-radius: 50%;
     }
-    
+
     #testimonials-image-two {
         background: url("../images/pexels-ike-louie-natividad-2709388\ \(2\).jpg") no-repeat center center;
         height: 100%;
         border-radius: 50%;
     }
-    
+
     #testimonials-image-three {
         background: url("../images/pexels-mateus-souza-3586798\ \(2\).jpg") no-repeat center center;
         height: 100%;
         border-radius: 50%;
     }
-    
+
     #testimonials-image-four {
         background: url("../images/review\ 1.jpg") no-repeat center center;
         height: 100%;
         border-radius: 50%;
     }
-    
+
     #testimonials-image-five {
         background: url("../images/review2.jpg") no-repeat center center;
         height: 100%;
         border-radius: 50%;
     }
-    
+
     #testimonials-image-six {
         background: url("../images/review3.jpg") no-repeat center center;
         height: 100%;
         border-radius: 50%;
     }
-    
+
+    .instructor-contact {
+        position: relative;
+        bottom: 40%;
+        left: 50%;
+    }
 
     /**/
 
 
     /* booking section in classes page*/
-  
+
     .form-container {
         margin-bottom: 5%;
-    
+
     }
 
     #schedule-information {
@@ -881,12 +884,12 @@ td {
 
     /* contact page and contact response page */
     #opening-hours {
-margin-top: 10%;
+        margin-top: 10%;
 
 
     }
 
-    #opening-hours li{
+    #opening-hours li {
         font-size: 13px;
         font-weight: 600;
         padding-top: 10%;
@@ -898,10 +901,150 @@ margin-top: 10%;
     }
 
 
-/* contact respons page */
+    /* contact respons page */
+    #contact-response {
+        padding: 15% 5% 5% 5%;
+    }
+}
 
-    /* #booking {
-         height: 1000px;
+/* For screens 768px wide and lower */
+
+/* hero image and first page */
+
+@media screen and (min-width: 768px) {
+
+    #hero-outer {
+        height: 600px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    #hero-image {
+        height: 600px;
+        width: 100%;
+        background: url("../images/image\ \(2\).jpg") no-repeat center center;
+        filter: blur(15px);
+    }
+
+    #hero-image-creator {
+        position: relative;
+        bottom: 4%;
+        margin-left: 10px;
+    }
+
+    #hero-image-creator p {
+        font-size: 10px;
+        text-align: left;
+        letter-spacing: 0px;
+        color: #000;
+        position: absolute;
+    }
+
+    /* testimonials */
+
+    #testimonials-outer {
+        height: 1000px;
+    }
+
+    .review-instructor {
+        margin: 15% auto;
+    }
+
+
+    .review-instructor p {
+        padding-left: 100px;
+
+    }
+
+    .review-instructor h3 {
+        left: 180%;
+    }
+
+    .review-instructor-left {
+        width: unset;
+        position: unset;
+        display: unset;
+        left: unset;
+        float: unset;
+        right: unset;
+    }
+
+    .review-instructor-right {
+        width: unset;
+        position: unset;
+        display: unset;
+        left: unset;
+        float: unset;
+        right: unset;
+
+    }
+
+    .review-instructor-container {
+        display: inline-block;
+    }
+
+    /* instructor */
+
+    #instructor-outer {
+        height: 700px;
+        text-align: left;
+        margin: unset;
+    }
+
+    .instructor-contact {
+        position: relative;
+        bottom: 40%;
+        left: 50%;
+    }
+
+    #instructor-outer p {
+        padding-right: 140%;
+    }
+
+
+    /* navigation links */
+    #logo {
+        font-size: 180%;
+        margin-left: 10px;
+    }
+
+
+    #menu {
+        font-size: 110%;
+        letter-spacing: 5px;
+    }
+
+    #menu,
+    #logo {
+        line-height: 60px;
+    }
+
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 30px;
+    }
+
+    #menu a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    #menu a:hover {
+        border-bottom: 1px solid #000;
+    }
+
+    .active {
+        border-bottom: 1px solid #000;
+    }
+
+}
+
+/* */
+
+/* #booking {
+    height: 1000px;
 
     }
 
@@ -933,8 +1076,8 @@ margin-top: 10%;
         font-weight: 600;
     } */
 
-    /**/
-}
+/**/
+
 
 
 #contact-response {
