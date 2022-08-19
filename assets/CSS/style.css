@@ -445,14 +445,14 @@ footer h3 {
     width: 50%;
     float: left;
     position: absolute;
-    left: 50%;
+    right: 50%;
 }
 
 .review-instructor-right {
     width: 50%;
     float: right;
     position: absolute;
-    right: 50%;
+    left: 50%;
 }
 
 .review-instructor h3 {
@@ -776,7 +776,7 @@ td {
 
     
 .review-instructor p {
-    width: 500px;
+    width: 450px;
     padding-left: 120px;
 
 }
