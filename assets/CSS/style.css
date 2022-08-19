@@ -460,13 +460,15 @@ footer h3 {
     position: relative;
     top: 10px;
     left: 150px;
+    width: 400%;
+    padding: 15% 0;
 }
 
 .review-instructor p {
-    width: 500px;
+    width: 500%;
     height: auto;
     padding-left: 150px;
-    padding-top: 10px;
+    padding-top: 15%;
 
 }
 
@@ -545,7 +547,7 @@ footer h3 {
 
 #instructor-outer {
     height: 500px;
-    margin-top: 100px;
+    margin: 5%;
 }
 
 #testimonials-outer {
@@ -748,7 +750,7 @@ td {
     /* Review and instructors section in home page and about page */
     #instructor-outer {
         height: 1200px;
-        margin-top: 100px;
+        margin: 5%;
     }
 
     #testimonials-outer {
