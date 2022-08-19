@@ -755,33 +755,89 @@ td {
 
     #testimonials-outer {
         height: 1200px;
+        margin: unset;
 
     }
 
     .review-instructor {
         height: 100px;
         width: 20%;
-        padding: 0px;
         border: 5px solid #000;
         border-radius: 50%;
-        margin: 10% auto;
+        margin: 15% 0;
     }
 
+    
+.review-instructor p {
+    width: 500px;
+    padding-left: 120px;
+
+}
     .review-instructor-left {
         width: 50%;
-        float: none;
         position: absolute;
         display: block;
-        left: 0%;
+        left: 2%;
     }
 
     .review-instructor-right {
         width: 50%;
-        float: none;
         position: absolute;
         display: block;
-        right: 0%;
+        right: 2%;
     }
+
+    .review-instructor-container {
+        position: relative;
+    }
+    
+
+
+    
+    .review-instructor h3 {
+        width: 400%;
+
+        left: 120px;
+        top: 15%;
+    }
+    
+    
+    #testimonials-image-one {
+        background: url("../images/pexels-ike-louie-natividad-3310695\ \(2\).jpg") no-repeat center center;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
+    #testimonials-image-two {
+        background: url("../images/pexels-ike-louie-natividad-2709388\ \(2\).jpg") no-repeat center center;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
+    #testimonials-image-three {
+        background: url("../images/pexels-mateus-souza-3586798\ \(2\).jpg") no-repeat center center;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
+    #testimonials-image-four {
+        background: url("../images/review\ 1.jpg") no-repeat center center;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
+    #testimonials-image-five {
+        background: url("../images/review2.jpg") no-repeat center center;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
+    #testimonials-image-six {
+        background: url("../images/review3.jpg") no-repeat center center;
+        height: 100%;
+        border-radius: 50%;
+    }
+    
 
     /**/
 
