@@ -100,8 +100,8 @@ h2 {
     margin: -200px 0 0 -300px;
 }
 
-#cover-text h1 {
-    font-size: 250%;
+#cover-text h2 {
+    font-size: 150%;
     color: #000;
 }
 
@@ -1320,6 +1320,81 @@ td {
     .social-media-container li {
         display: block;
 
+    }
+
+}
+
+
+/* For small screens 600px wide and lower */
+
+
+
+@media screen and (max-width: 600px) {
+
+
+    #logo {
+
+        font-size: 180%;
+    }
+    
+    /* navigation links */
+    
+    #menu {
+
+        display: inline-block;
+
+    }
+    
+    #menu,
+    #logo {
+        width: 100%;
+        text-align: center;
+        line-height: 50px;
+        display: inline-block;
+    }
+    
+    #menu li {
+        float: none;
+        display: inline-block;
+    }
+    
+    #menu a {
+        text-align: center;
+    }
+
+
+    /* cover section*/
+
+    #hero-outer {
+        height: 200px;
+    }
+
+    #hero-image {
+        height: 100%;
+    }
+
+    #cover-text {
+        width: 100%;
+        height: 200px;
+        position: relative;
+        top: -20px;
+        padding-top: 7%;
+
+    }
+    #cover-text h2 {
+        font-size: 100%;
+        font-weight: 600;
+    }
+
+    #cover-button {
+        height: 20%;
+        width: 17%;
+        padding: 5px;
+        position: absolute;
+        bottom: 0%;
+        right: 40%;
+        top: unset;
+        left: unset;
     }
 
 }
