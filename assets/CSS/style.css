@@ -1419,51 +1419,30 @@ td {
 
     }
 
-    .review-instructor h3 {
-        left: 180%;
-    }
+   
 
-    .review-instructor-left {
-        width: unset;
-        position: unset;
-        display: unset;
-        left: unset;
-        float: unset;
-        right: unset;
-    }
 
-    .review-instructor-right {
-        width: unset;
-        position: unset;
-        display: unset;
-        left: unset;
-        float: unset;
-        right: unset;
-
-    }
-
-    .review-instructor-container {
-        display: inline-block;
-    }
 
     /* instructor */
 
-    #instructor-outer {
-        height: 700px;
-        text-align: left;
-        margin: unset;
-    }
-
-    .instructor-contact {
-        position: relative;
-        bottom: 40%;
-        left: 50%;
-    }
 
     #instructor-outer p {
-        padding-right: 140%;
+        padding-right: unset;
     }
 
+
+    /* about page*/
+
+    #about-text {
+        height: 45%;
+    }
+
+
+    /* schedule */
+
+    #schedule-information {
+        width: 55%;
+    }
 
 }
 
