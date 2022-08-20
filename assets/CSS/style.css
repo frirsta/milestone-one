@@ -1122,14 +1122,12 @@ td {
     }
 
     .book-button {
-        top: 10%;
+        bottom: 1%;
+        right: 10%;
     }
 
-    /*Booking form */
+    /* About page */
 
-    #booking {
-        margin-top: 10%;
-    }
 
     #about {
         height: 800px;
@@ -1172,16 +1170,19 @@ td {
 
     }
 
-    #booking {
-        height: 900px;
-    
-        }
+
+    /* Booking section in classes.html */
     
         #schedule-information {
-            border: 3px solid #000;
-            height: 35%;
+            height: 20%;
+            width: 45%;
         }
-    
+        
+        #booking {
+            height: 1000px;
+            margin-top: 10%;
+        }
+
         .book-us {
             display: block;
             margin: 5% auto;
