@@ -1354,8 +1354,8 @@ td {
     }
     
     #menu li {
-        float: none;
         display: inline-block;
+        margin-right: 10%;
     }
     
     #menu a {
@@ -1367,6 +1367,8 @@ td {
 
     #hero-outer {
         height: 200px;
+        overflow: unset
+        ;
     }
 
     #hero-image {
@@ -1396,6 +1398,72 @@ td {
         top: unset;
         left: unset;
     }
+
+
+    /* reviews and instructors */
+
+
+    #testimonials-outer {
+        height: 1000px;
+        padding: 10% 0;
+    }
+
+    .review-instructor {
+        margin: 15% 25%;
+    }
+
+
+    .review-instructor p {
+        padding-left: 100px;
+        width: 400px;
+
+    }
+
+    .review-instructor h3 {
+        left: 180%;
+    }
+
+    .review-instructor-left {
+        width: unset;
+        position: unset;
+        display: unset;
+        left: unset;
+        float: unset;
+        right: unset;
+    }
+
+    .review-instructor-right {
+        width: unset;
+        position: unset;
+        display: unset;
+        left: unset;
+        float: unset;
+        right: unset;
+
+    }
+
+    .review-instructor-container {
+        display: inline-block;
+    }
+
+    /* instructor */
+
+    #instructor-outer {
+        height: 700px;
+        text-align: left;
+        margin: unset;
+    }
+
+    .instructor-contact {
+        position: relative;
+        bottom: 40%;
+        left: 50%;
+    }
+
+    #instructor-outer p {
+        padding-right: 140%;
+    }
+
 
 }
 
