@@ -346,7 +346,7 @@ footer h3 {
     color: #000;
     padding: 10px;
     position: absolute;
-    bottom: 2%;    
+    bottom: 2%;
     right: 30%;
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
@@ -1172,138 +1172,143 @@ td {
 
 
     /* Booking section in classes.html */
-    
-        #schedule-information {
-            height: 20%;
-            width: 45%;
-        }
-        
-        #booking {
-            height: 1000px;
-            margin-top: 10%;
-        }
 
-        .book-us {
-            display: block;
-            margin: 5% auto;
-            width: 30%;
-        }
-    
-        .box {
-            font-size: 10px;
-            font-weight: 600;
-        }
-    
-        .time {
-    
-            font-size: 10px;
-            font-weight: 600;
-    
-        }
-    
-        .day {
-            font-size: 10px;
-            font-weight: 600;
-        } 
+    #schedule-information {
+        height: 20%;
+        width: 45%;
+    }
 
-        #contact-text {
-            text-align: center;
-            font-size: 120%;
-            padding-top: 3%;
-        }
+    #booking {
+        height: 900px;
+        margin-top: 10%;
+    }
 
-        /* Contact form */
-        
-        .form-container {
-            height: 1000px;
-            position: relative;
-            text-align: center;
-        
-        }
+    .book-us {
+        display: block;
+        margin: 5% auto;
+        width: 30%;
+    }
 
-        
-        #contact-form {
-            background-color: #f2f2f2;
-            padding: 1% 1%;
-            border: 4px solid #f2f2f2;
-            box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-        }
-        
-        .contact-us {
-            display: block;
-            width: 35%;
-            height: 50%;
-            margin: 2% auto;
-           
-        }
+    .box {
+        font-size: 10px;
+        font-weight: 600;
+    }
 
-        
-        .form-input {
-            width: 100%;
-            height: 5%;
-            margin-bottom: 1%;
-            display: block;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        
-            padding: 5px 3px;
-            margin: 8px 0;
-        }
-        
-        #message {
-            height: 30%;
-        }
-        
-        .submit {
-            font-family: 'Old Standard TT', serif;
-            font-weight: 600;
-            letter-spacing: 5px;
-            text-transform: uppercase;
-            width: 50%;
-            padding: 14px 20px;
-            margin: 8px 0;
-            border-radius: 4px;
-            cursor: pointer;
-        
-            /* color: #000; */
-            border: 4px solid #f2f2f2;
-            box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-        }
-        
-        
-        #contact-information {
-            padding: 1%;
-            border: 4px solid #000;
-            text-align: left;
-            box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-            list-style-type: none;
-        }
-        
-        #contact-information p {
-            text-align: left;
-            padding-bottom: 20%;
-            font-weight: 600;
-        }
-        
-        #contact-header {
-            padding-top: 3%;
-        }
-        
-        #opening-hours {
-            text-align: right;
-            line-height: 3;
-            list-style-type: none;
-        }
-        
-        #opening-hours li {
-            list-style-type: none;
-        }
-        
+    .time {
+
+        font-size: 10px;
+        font-weight: 600;
+
+    }
+
+    .day {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    #contact-text {
+        text-align: center;
+        font-size: 120%;
+        padding-top: 3%;
+    }
+
+    /* Contact form */
+
+    .form-container {
+        height: 1000px;
+        position: relative;
+        text-align: center;
+
+    }
+
+
+    #contact-form {
+        background-color: #f2f2f2;
+        padding: 1% 1%;
+        border: 4px solid #f2f2f2;
+        box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .contact-us {
+        display: block;
+        width: 45%;
+        height: 48%;
+        margin: 2% auto;
+
+    }
+
+
+    .form-input {
+        width: 100%;
+        height: 5%;
+        margin-bottom: 1%;
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+
+        padding: 5px 3px;
+        margin: 8px 0;
+    }
+
+    #message {
+        height: 30%;
+    }
+
+    .submit {
+        font-family: 'Old Standard TT', serif;
+        font-weight: 600;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        width: 50%;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border-radius: 4px;
+        cursor: pointer;
+
+        /* color: #000; */
+        border: 4px solid #f2f2f2;
+        box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
+    }
+
+
+    #contact-information {
+        padding: 1%;
+        border: 4px solid #000;
+        text-align: left;
+        box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
+        list-style-type: none;
+        height: 38%;
+    }
+
+    #contact-information p {
+        text-align: left;
+        padding-bottom: 10%;
+        font-weight: 600;
+    }
+
+    #contact-header {
+        padding-top: 3%;
+    }
+
+    #opening-hours {
+        text-align: right;
+        line-height: 3;
+        list-style-type: none;
+    }
+
+    #opening-hours li {
+        list-style-type: none;
+    }
+
+
+    /* Footer */
+
+    .social-media-container li {
+        display: block;
+
+    }
 
 }
-
-
-
 
 
 /**/
