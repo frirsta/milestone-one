@@ -759,6 +759,14 @@ td {
         font-size: 13px;
     }
 
+    /* about page */
+
+    .about-us {
+        position: relative;
+        width: 45%;
+        height: 60%;
+    }
+
     /* Review and instructors section in home page and about page */
     #instructor-outer {
         height: 450px;
