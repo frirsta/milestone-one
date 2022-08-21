@@ -7,6 +7,13 @@ Mind and Body is a website that represents the physical yoga studio in Stockholm
 
 ## Features 
 
+### Navbar
+<ul><li>The navigation menu is on all four pages. The menu links to Home page, About, Classes, Contact and Logo</li>
+<li>This makes it easy to find what you are looking for.</li>
+</ul>
+
+<img src="assets/images/navar(1)" alt="navigation-menu">
+
 ## Features
 
 
