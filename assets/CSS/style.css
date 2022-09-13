@@ -1390,11 +1390,9 @@ td {
 
     .review-instructor {
         height: 70px;
-        width: 15%;
-        border: 5px solid #000;
 
         margin: unset;
-        margin-top: 50px;
+        margin-top: 10%;
     }
 
     .review-instructor p {
@@ -1409,6 +1407,7 @@ td {
         left: 150%;
         font-size: 100%;
         top: unset;
+        width: 600%;
     }
 
     #testimonials-outer {
@@ -1488,7 +1487,25 @@ td {
 
     #instructor-outer {
         height: 100%;
-        padding: unset;
+        width: 100%;
+        padding: 10% 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #instructor-outer p {
+padding-left: 100%;
+width: 500%;
+position: relative;
+padding-right: unset;
+top: 1%;
+    }
+
+    .review-instructor-container {
+        display: flex;
+        flex-direction: column;
+        font-size: 90%;
+        width: 100%;
     }
 
     /*
