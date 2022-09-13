@@ -1301,10 +1301,17 @@ td {
     }
 
     .review-instructor p {
-        width: 600%;
+        width: 800%;
         height: unset;
-        padding-left: 200%;
+        padding-left: 150%;
         padding-top: unset;
+        font-size: 80%;
+    }
+
+    .review-instructor h3 {
+        left: 150%;
+        font-size: 100%;
+        top: unset;
     }
 
     #testimonials-outer {
