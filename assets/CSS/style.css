@@ -1293,70 +1293,87 @@ td {
 
     #class-image-one {
         background: url("../images/beginner3small.jpg") no-repeat;
+        height: 100%;
+        width: 100%;
     }
 
     #class-image-two {
         background: url("../images/advanced1small.jpg") no-repeat;
+        height: 100%;
+        width: 100%;
     }
 
     #class-image-three {
         background: url("../images/group1small.jpg") no-repeat;
+
+        height: 100%;
+        width: 100%;
     }
 
     #beginner-image-one {
         background: url("../images/beginner1small.jpg") no-repeat;
-
+height: 100%;
+width: 100%;
     }
 
     #beginner-image-two {
         background: url("../images/beginner2small.jpg") no-repeat;
-
+height: 100%;
+width: 100%;
     }
 
     #beginner-image-three {
         background: url("../images/beginner3small.jpg") no-repeat;
-
+height: 100%;
+width: 100%;
     }
 
     #advanced-image-one {
         background: url("../images/advanced1small.jpg") no-repeat;
-
+        height: 100%;
+        width: 100%;
     }
 
     #advanced-image-two {
         background: url("../images/advanced2small.jpg") no-repeat;
-
+        height: 100%;
+        width: 100%;
     }
 
     #advanced-image-three {
         background: url("../images/advanced3small.jpg") no-repeat;
-
+        height: 100%;
+        width: 100%;
     }
 
     /* Yoga with friends */
 
     #yoga-image-one {
         background: url("../images/group3small.jpeg") no-repeat;
-
+        height: 100%;
+        width: 100%;
     }
 
     #yoga-image-two {
         background: url("../images/group2small.jpg") no-repeat;
-
+        height: 100%;
+        width: 100%;
     }
 
     #yoga-image-three {
         background: url("../images/group1small.jpg") no-repeat;
-
+        height: 100%;
+        width: 100%;
     }
 
     .card-section {
-        width: 75%;
-        height: 37vh;
+        width: 40%;
+        height: 40vh;
         margin: 2% auto;
         display: flex;
         flex-direction: column;
         align-items: center;
+        font-size: 60%;
     }
 
     .card-section h3 {
@@ -1377,18 +1394,16 @@ td {
     }
 
     .book-button {
-        padding: 10px;
-    
+        padding: 8px;
         right: unset;
-     
         position: relative;
         width: 40%;
-    height: 5%;
-    top: 1%;
-    font-size: 80%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+        height: 1%;
+        top: 1%;
+        font-size: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     /*REVIEW*/
@@ -1456,18 +1471,21 @@ td {
         justify-content: center;
         height: 100%;
     }
-#about h2 {
-    font-size: 120%;
-}
-#about-text {
-    padding: 4% 2%;
-    font-size: 65%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
- 
-}
+
+    #about h2 {
+        font-size: 120%;
+    }
+
+    #about-text {
+        padding: 4% 2%;
+        font-size: 65%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+
     .about-us {
         width: 70%;
         height: 80%;
@@ -1499,11 +1517,11 @@ td {
     }
 
     #instructor-outer p {
-padding-left: 100%;
-width: 500%;
-position: relative;
-padding-right: unset;
-top: 1%;
+        padding-left: 100%;
+        width: 500%;
+        position: relative;
+        padding-right: unset;
+        top: 1%;
     }
 
     .review-instructor-container {
