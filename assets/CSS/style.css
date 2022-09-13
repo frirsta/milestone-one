@@ -252,21 +252,21 @@ footer h3 {
 }
 
 #class-image-one {
-    background: url("../images/pexels-yan-krukov-8436587.jpg") no-repeat;
+    background: url("../images/beginner1.jpg") no-repeat;
     height: 200px;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #class-image-two {
-    background: url("../images/pexels-yan-krukov-8436601\ \(1\).jpg") no-repeat;
+    background: url("../images/advanced1.jpg") no-repeat;
     height: 200px;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #class-image-three {
-    background: url("../images/pexels-yan-krukov-8436490\ \(1\).jpg") no-repeat;
+    background: url("../images/group1.jpg") no-repeat;
     height: 200px;
     width: 100%;
     margin-bottom: 15px;
@@ -299,25 +299,26 @@ footer h3 {
 
 /* beginner classes */
 #beginner-image-one {
-    background: url("../images/pexels-yan-krukov-8436746.jpg") no-repeat;
+    background: url("../images/beginner1.jpg") no-repeat;
     height: 200px;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #beginner-image-two {
-    background: url("../images/pexels-yan-krukov-8436701.jpg") no-repeat;
+    background: url("../images/beginner2.jpg") no-repeat;
     height: 200px;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #beginner-image-three {
-    background: url("../images/pexels-yan-krukov-8436587.jpg") no-repeat;
+    background: url("../images/beginner3.jpg") no-repeat;
     height: 200px;
     width: 100%;
     margin-bottom: 15px;
 }
+
 
 .book-button {
     background-color: #fff;
@@ -342,14 +343,14 @@ footer h3 {
 }
 
 #advanced-image-two {
-    background: url("../images/pexels-yan-krukov-8436610.jpg") no-repeat;
+    background: url("../images/advanced2.jpg") no-repeat;
     height: 200px;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #advanced-image-three {
-    background: url("../images/pexels-yan-krukov-8436609.jpg") no-repeat;
+    background: url("../images/advanced3.jpg") no-repeat;
     height: 200px;
     width: 100%;
     margin-bottom: 15px;
@@ -358,14 +359,14 @@ footer h3 {
 /* Yoga with friends */
 
 #yoga-image-one {
-    background: url("../images/pexels-yan-krukov-8436478.jpg") no-repeat;
+    background: url("../images/group3.jpg") no-repeat;
     height: 200px;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #yoga-image-two {
-    background: url("../images/pexels-yan-krukov-8436476.jpg") no-repeat;
+    background: url("../images/group2.jpg") no-repeat;
     height: 200px;
     width: 100%;
     margin-bottom: 15px;
@@ -1288,6 +1289,100 @@ td {
         margin-top: 5%;
     }
 
+    /* card section */
+
+    #class-image-one {
+        background: url("../images/beginner3small.jpg") no-repeat;
+    }
+
+    #class-image-two {
+        background: url("../images/advanced1small.jpg") no-repeat;
+    }
+
+    #class-image-three {
+        background: url("../images/group1small.jpg") no-repeat;
+    }
+
+    #beginner-image-one {
+        background: url("../images/beginner1small.jpg") no-repeat;
+
+    }
+    #beginner-image-two {
+        background: url("../images/beginner2small.jpg") no-repeat;
+
+    }
+    
+    #beginner-image-three {
+        background: url("../images/beginner3small.jpg") no-repeat;
+
+    }
+
+    #advanced-image-one {
+        background: url("../images/advanced1small.jpg") no-repeat;
+
+    }
+    
+    #advanced-image-two {
+        background: url("../images/advanced2small.jpg") no-repeat;
+
+    }
+    
+    #advanced-image-three {
+        background: url("../images/advanced3small.jpg") no-repeat;
+
+    }
+    
+    /* Yoga with friends */
+    
+    #yoga-image-one {
+        background: url("../images/group3small.jpeg") no-repeat;
+
+    }
+    
+    #yoga-image-two {
+        background: url("../images/group2small.jpg") no-repeat;
+
+    }
+    
+    #yoga-image-three {
+        background: url("../images/group1small.jpg") no-repeat;
+
+    }
+
+    .card-section {
+        width: 75%;
+        height: 37vh;
+        margin: 2% auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-section h3 {
+        margin: 2% auto;
+        font-size: 80%;
+    }
+
+    .card-section p {
+        font-size: 70%;
+        padding: 2% 5%;
+    }
+
+    .classes-button {
+        padding: 10px;
+        font-size: 80%;
+        right: unset;
+        width: 45%;
+    }
+
+    .book-button {
+        right: unset;
+        bottom: 5%;
+        padding: 10px;
+        font-size: 80%;
+        right: unset;
+        width: 45%;
+    }
 
     /*REVIEW*/
 
@@ -1305,7 +1400,7 @@ td {
         height: unset;
         padding-left: 150%;
         padding-top: unset;
-        font-size: 80%;
+        font-size: 70%;
     }
 
     .review-instructor h3 {
@@ -1318,6 +1413,8 @@ td {
         height: 100%;
         padding: unset;
     }
+
+
 
     /*
 
