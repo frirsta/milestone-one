@@ -162,7 +162,7 @@ footer h3 {
 }
 
 #about-image {
-    background: url("../images/pexels-andrea-piacquadio-866023\ \(1\).jpg") no-repeat;
+    background: url("../images/aboutus.jpg") no-repeat;
 }
 
 #about-text {
@@ -173,7 +173,7 @@ footer h3 {
 #about-background {
     height: 100%;
     width: 100%;
-    background: url("../images/image\ \(14\).jpg") no-repeat center center;
+    background: url("../images/abouthero.jpg") no-repeat center center;
     filter: blur(5px);
 }
 
@@ -1307,11 +1307,12 @@ td {
         background: url("../images/beginner1small.jpg") no-repeat;
 
     }
+
     #beginner-image-two {
         background: url("../images/beginner2small.jpg") no-repeat;
 
     }
-    
+
     #beginner-image-three {
         background: url("../images/beginner3small.jpg") no-repeat;
 
@@ -1321,29 +1322,29 @@ td {
         background: url("../images/advanced1small.jpg") no-repeat;
 
     }
-    
+
     #advanced-image-two {
         background: url("../images/advanced2small.jpg") no-repeat;
 
     }
-    
+
     #advanced-image-three {
         background: url("../images/advanced3small.jpg") no-repeat;
 
     }
-    
+
     /* Yoga with friends */
-    
+
     #yoga-image-one {
         background: url("../images/group3small.jpeg") no-repeat;
 
     }
-    
+
     #yoga-image-two {
         background: url("../images/group2small.jpg") no-repeat;
 
     }
-    
+
     #yoga-image-three {
         background: url("../images/group1small.jpg") no-repeat;
 
@@ -1377,11 +1378,12 @@ td {
 
     .book-button {
         right: unset;
-        bottom: 5%;
+        top: 5%;
         padding: 10px;
-        font-size: 80%;
+        font-size: 100%;
         right: unset;
         width: 45%;
+        position: relative;
     }
 
     /*REVIEW*/
@@ -1415,20 +1417,21 @@ td {
     }
 
     /*booking*/
-#booking { 
-    height: 900px;
+    #booking {
+        height: 900px;
 
-    font-size: 60%;
-    width: 100%;
-}
+        font-size: 60%;
+        width: 100%;
+    }
 
-#book-form {
-    width: 75%;
-}
+    #book-form {
+        width: 75%;
+    }
 
-.submit {
-    padding: 1%;
-}
+    .submit {
+        padding: 1%;
+    }
+
     .form-container {
         width: 100%;
     }
@@ -1437,6 +1440,55 @@ td {
         height: 25%;
         width: 100%;
         text-align: left;
+    }
+
+    #about-section {
+        height: 600px;
+    }
+
+    #about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+    }
+#about h2 {
+    font-size: 120%;
+}
+#about-text {
+    padding: 4% 2%;
+    font-size: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+}
+    .about-us {
+        width: 70%;
+        height: 80%;
+        margin: 0 auto;
+
+    }
+
+    #about-image {
+        background: url("../images/aboutussmall.jpg") no-repeat;
+        max-width: 100%;
+        height: 100%;
+    }
+
+    #about-background {
+
+        background: url("../images/aboutherosmall.jpg") no-repeat center center;
+
+    }
+
+
+    /*instructor*/
+
+    #instructor-outer {
+        height: 100%;
+        padding: unset;
     }
 
     /*
