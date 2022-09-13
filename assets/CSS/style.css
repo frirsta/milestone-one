@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     border: none;
-    
+
 }
 
 body {
@@ -1210,6 +1210,7 @@ td {
 
 /* For small screens 600px wide and bigger */
 @media screen and (max-width: 600px) {
+
     /* headings and logo */
     header a {
         text-decoration: none;
@@ -1229,15 +1230,18 @@ td {
         margin-left: unset;
     }
 
-    #menu, #logo {
+    #menu,
+    #logo {
         line-height: 200%;
     }
+
     #hero-outer {
         height: 250px;
         width: 100%;
         overflow: hidden;
         position: relative;
     }
+
     #hero-image {
         height: 100%;
         width: 100%;
@@ -1249,30 +1253,53 @@ td {
         text-align: center;
         width: 100%;
         height: 100%;
-         padding-top: unset; 
+        padding-top: unset;
         position: absolute;
-        top: 10%;
-         left: unset; 
-         margin: unset;
-         }
-   #cover-text h2 {
-    font-size: 70%;
-}
-    
+        top: 1%;
+        left: unset;
+        margin: unset;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #cover-text h2 {
+        font-size: 70%;
+        width: 80%;
+    }
+
     #cover-button {
         text-decoration: none;
         font-weight: 600;
         color: #000;
         background-color: #fff;
         border: 4px solid #000;
-        height: unset; 
-        width: unset; 
-        padding: 20px;
-        position: unset; 
-        left: unset; 
-        top: unset; 
+        height: 15%;
+        width: 35%;
+        padding: unset;
+        position: unset;
+        left: unset;
+        top: unset;
+        display: flex;
+        flex-direction: column;
+        font-size: 70%;
+        justify-content: center;
+        margin-top: 5%;
     }
-     /*
+
+
+    /*REVIEW*/
+
+    .review-instructor {
+        height: 70px;
+        width: 15%;
+        border: 5px solid #000;
+
+        margin: unset;
+    }
+
+    /*
 
 
 #hero-image-creator {
@@ -1364,5 +1391,3 @@ td {
 } */
 
 }
- 
-
