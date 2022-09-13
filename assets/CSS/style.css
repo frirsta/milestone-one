@@ -1377,13 +1377,18 @@ td {
     }
 
     .book-button {
-        right: unset;
-        top: 5%;
         padding: 10px;
-        font-size: 100%;
+    
         right: unset;
-        width: 45%;
+     
         position: relative;
+        width: 40%;
+    height: 5%;
+    top: 1%;
+    font-size: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     }
 
     /*REVIEW*/
