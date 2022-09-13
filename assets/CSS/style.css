@@ -1414,7 +1414,30 @@ td {
         padding: unset;
     }
 
+    /*booking*/
+#booking { 
+    height: 900px;
 
+    font-size: 60%;
+    width: 100%;
+}
+
+#book-form {
+    width: 75%;
+}
+
+.submit {
+    padding: 1%;
+}
+    .form-container {
+        width: 100%;
+    }
+
+    #schedule-information {
+        height: 25%;
+        width: 100%;
+        text-align: left;
+    }
 
     /*
 
