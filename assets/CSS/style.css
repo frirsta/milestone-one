@@ -1297,6 +1297,19 @@ td {
         border: 5px solid #000;
 
         margin: unset;
+        margin-top: 50px;
+    }
+
+    .review-instructor p {
+        width: 600%;
+        height: unset;
+        padding-left: 200%;
+        padding-top: unset;
+    }
+
+    #testimonials-outer {
+        height: 100%;
+        padding: unset;
     }
 
     /*
