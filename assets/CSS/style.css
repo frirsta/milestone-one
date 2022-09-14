@@ -336,7 +336,7 @@ footer h3 {
 
 /* advanced classes*/
 #advanced-image-one {
-    background: url("../images/pexels-yan-krukov-8436601\ \(1\).jpg") no-repeat;
+    background: url("../images/advanced1.jpg") no-repeat;
     height: 200px;
     width: 100%;
     margin-bottom: 15px;
@@ -1292,7 +1292,7 @@ td {
     /* card section */
 
     #class-image-one {
-        background: url("../images/beginner3small.jpg") no-repeat;
+        background: url("../images/beginner3small.jpeg") no-repeat;
         height: 40%;
         margin-bottom: 5%;
         width: 100%;
@@ -1327,7 +1327,7 @@ td {
     }
 
     #beginner-image-three {
-        background: url("../images/beginner3small.jpg") no-repeat;
+        background: url("../images/beginner3small.jpeg") no-repeat;
         height: 40%;
         margin-bottom: 5%;
         width: 100%;
@@ -1357,7 +1357,7 @@ td {
     /* Yoga with friends */
 
     #yoga-image-one {
-        background: url("../images/group3small.jpeg") no-repeat;
+        background: url("../images/group1small.jpg") no-repeat;
         height: 40%;
         margin-bottom: 5%;
         width: 100%;
@@ -1371,7 +1371,7 @@ td {
     }
 
     #yoga-image-three {
-        background: url("../images/group1small.jpg") no-repeat;
+        background: url("../images/group3small.jpg") no-repeat;
         height: 40%;
         margin-bottom: 5%;
         width: 100%;
