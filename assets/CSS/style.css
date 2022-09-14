@@ -190,7 +190,7 @@ footer h3 {
 #contact-background {
     height: 100%;
     width: 100%;
-    background: url("../images/pexels-cottonbro-4325446.jpg") no-repeat center center;
+    background: url("../images/contacthero.jpg") no-repeat center center;
     filter: blur(5px);
 }
 
@@ -209,7 +209,7 @@ footer h3 {
 #classes-background {
     height: 100%;
     width: 100%;
-    background: url("../images/pexels-vlada-karpovich-8939837.jpg") no-repeat center center;
+    background: url("../images/classeshero.jpg") no-repeat center center;
     filter: blur(5px);
 }
 
@@ -633,7 +633,7 @@ td {
 }
 
 /* For screens 1200px wide and wider / medium screen size */
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
 
     /* card container home page and classes page */
     .card-container h2 {
@@ -1057,18 +1057,11 @@ td {
     }
 
     #about-image {
-        background: url("../images/pexels-andrea-piacquadio-866023\ \(1\).jpg") no-repeat;
+        background: url("../images/aboutus.jpg") no-repeat;
     }
 
     #about-text {
         padding: 1%;
-    }
-
-    #about-background {
-        height: 100%;
-        width: 100%;
-        background: url("../images/image\ \(14\).jpg") no-repeat center center;
-        filter: blur(5px);
     }
 
     .about-us {
@@ -1378,17 +1371,19 @@ td {
     }
 
     .card-section {
-        width: 40%;
+        width: 60%;
         height: 37vh;
         margin: 2% auto;
         display: flex;
         flex-direction: column;
         align-items: center;
-        font-size: 60%;
+        font-size: 80%;
     }
+
     .card-container h2 {
         font-size: 100%;
     }
+
     .card-section h3 {
         margin: 2% auto;
         font-size: 80%;
@@ -1406,7 +1401,7 @@ td {
         width: 50%;
         height: 2%;
         top: 5%;
-        font-size: 45%;
+        font-size: 75%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1419,7 +1414,7 @@ td {
         width: 50%;
         height: 2%;
         top: 3%;
-        font-size: 45%;
+        font-size: 75%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1432,9 +1427,9 @@ td {
 
     .review-instructor {
         height: 70px;
-
         margin: unset;
         margin-top: 10%;
+        font-size: 80%;
     }
 
     .review-instructor p {
@@ -1448,13 +1443,18 @@ td {
     .review-instructor h3 {
         left: 150%;
         font-size: 100%;
-        top: unset;
+        top: 5%;
         width: 600%;
     }
 
     #testimonials-outer {
         height: 100%;
         padding: unset;
+    }
+
+    #testimonials-outer h2 {
+        font-size: 80%;
+        padding-top: 5%;
     }
 
     /*booking*/
@@ -1496,7 +1496,7 @@ td {
 
     #about h2 {
         font-size: 120%;
-        padding-top: unset;
+        padding-top: 1%;
     }
 
     #about-text {
@@ -1514,6 +1514,7 @@ td {
         width: 38%;
         height: auto;
         margin: 0 auto;
+        border: 3px solid #000;
     }
 
     #about-image {
@@ -1541,7 +1542,7 @@ td {
 
     #instructor-outer p {
         padding-left: 100%;
-        width: 500%;
+        width: 600%;
         position: relative;
         padding-right: unset;
         top: 1%;
@@ -1550,101 +1551,138 @@ td {
     .review-instructor-container {
         display: flex;
         flex-direction: column;
-        font-size: 90%;
-        width: 100%;
+        font-size: 80%;
+        width: 60%;
+        margin: 0 auto;
     }
 
+    #classes-background {
+        background: url("../images/classesherosmall.jpg") no-repeat center center;
 
+    }
 
-    /*
+    #contact-background {
+        background: url("../images/contactherosmall.jpg") no-repeat center center;
 
+    }
 
-#hero-image-creator {
-    position: relative;
-    bottom: 4%;
-    margin-left: 10px;
-}
+    #contact-header {
+        font-size: 90%;
+    }
 
-#hero-image-creator p {
-    font-size: 10px;
-    text-align: left;
-    letter-spacing: 0px;
-    color: #000;
-    position: absolute;
-}
-
-
-#cover-text {
-    text-align: left;
-    width: 600px;
-    height: 400px;
-    padding-top: 70px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -200px 0 0 -300px;
-}
-
-#cover-text h2 {
-    font-size: 150%;
-    color: #000;
-}
-
-#cover-button {
-    text-decoration: none;
-    font-weight: 600;
-    color: #000;
-    background-color: #fff;
-    border: 4px solid #000;
-    height: 50px;
-    width: 50px;
-    padding: 20px;
-    position: relative;
-    left: 70%;
-    top: 10%;
-}
-    h1,
-    h2 {
-        text-transform: uppercase;
-        letter-spacing: 5px;
-        font-weight: 300;
+    #contact-text {
         text-align: center;
+        font-size: 80%;
+        padding-top: 3%;
     }
     
-#logo {
-    float: left;
-    font-size: 280%;
-    color: #000;
-    margin-left: 20px;
-}
+    .form-container {
+        height: auto;
+        padding: 10% 0;
+    }
+    
+    #contact-form {
+        background-color: #f2f2f2;
+        padding: 1% 1%;
+        border: 4px solid #f2f2f2;
+        box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
+    }
+    
+    #book-form {
+        width: 50%;
+        margin-bottom: 2%;
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 5px;
-}
+    }
+    
+    .contact-us {
+        display: inline-block;
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+        overflow: hidden;
+        font-size: 70%;
+    }
+    
+    .book-us {
+        display: inline-block;
+        margin: unset;
+        overflow: hidden;
+        width: 45%;
+    }
+    
+    .form-input {
+        width: 100%;
+        height: 5%;
+        margin-bottom: unset;
+        font-size: 100%;
+    
+        padding: unset;
+        margin: 8px 0;
+    }
+    
+    #message {
+        height: 30%;
+    }
+    
+    .submit {
+        font-size: 80%;
 
-#menu,
-#logo {
-    line-height: 80px;
-}
+        padding: unset;
+    }
+    
+    #contact-information {
+        font-size: 60%;
+        height: auto;
+    }
+    
+    #contact-information p {
+        padding-bottom: 5%;
 
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-}
+    }
+    
+    #contact-header {
+        padding-top: 3%;
+    }
+    
+    #opening-hours {
 
-#menu a {
-    text-decoration: none;
-    color: #000;
-}
+        line-height: unset;
 
-#menu a:hover {
-    border-bottom: 1px solid #000;
-}
+    }
+    
+    #opening-hours li {
+          font-size: unset;
+    padding-top: 5%;
+    } 
 
-.active {
-    border-bottom: 1px solid #000;
-} */
+    #booking {
+        height: 100%;
+        font-size: 60%;
+        width: 100%;
+    }
+    
+    #schedule-information {
+
+        text-align: left;
+    }
+
+    table {
+        height: auto;
+        width: 100%;
+    }
+    .time {
+        font-size: 100%;
+        font-weight: 600;
+    }
+
+    .day {
+        font-size: 100%;
+        font-weight: 600;
+    }
+
+    .box {
+        font-size: 100%;
+        font-weight: 600;
+    }
 
 }
