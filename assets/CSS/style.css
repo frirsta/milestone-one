@@ -1379,14 +1379,16 @@ td {
 
     .card-section {
         width: 40%;
-        height: 40vh;
+        height: 37vh;
         margin: 2% auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         font-size: 60%;
     }
-
+    .card-container h2 {
+        font-size: 100%;
+    }
     .card-section h3 {
         margin: 2% auto;
         font-size: 80%;
@@ -1416,11 +1418,12 @@ td {
         position: relative;
         width: 50%;
         height: 2%;
-        top: 5%;
+        top: 3%;
         font-size: 45%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        bottom: unset;
     }
 
 
@@ -1481,41 +1484,42 @@ td {
     }
 
     #about-section {
-        height: 600px;
+        height: 450px;
     }
 
     #about {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 100%;
+        height: 90%;
     }
 
     #about h2 {
         font-size: 120%;
+        padding-top: unset;
     }
 
     #about-text {
-        padding: 4% 2%;
-        font-size: 65%;
+        padding: unset;
+        font-size: 45%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: flex-start;
+        padding: unset;
 
     }
 
     .about-us {
-        width: 70%;
-        height: 80%;
+        width: 38%;
+        height: auto;
         margin: 0 auto;
-
     }
 
     #about-image {
-        background: url("../images/aboutussmall.jpg") no-repeat;
+        background: url("../images/aboutussmall.jpeg") no-repeat;
         max-width: 100%;
-        height: 100%;
+        height: 28%;
     }
 
     #about-background {
@@ -1549,6 +1553,8 @@ td {
         font-size: 90%;
         width: 100%;
     }
+
+
 
     /*
 
