@@ -1661,4 +1661,37 @@ td {
         font-weight: 600;
     }
 
+    /* footer */
+
+    footer h3 {
+        margin-top: unset;
+    }
+
+    #footer-container {
+        height: 40%;
+        font-size: 70%;
+        padding-top: 4%;
+    }
+    .social-media-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 4% 0;
+    }
+
+    .social-media-container i {
+
+      margin: unset; 
+
+    }
+
+    .social-media-container li {
+        display: inline-block;
+        align-items: unset;
+         margin: unset; 
+         padding: unset; 
+         font-size: 200%;
+    }
+
+
 }
