@@ -1293,56 +1293,64 @@ td {
 
     #class-image-one {
         background: url("../images/beginner3small.jpg") no-repeat;
-        height: 100%;
+        height: 40%;
+        margin-bottom: 5%;
         width: 100%;
     }
 
     #class-image-two {
         background: url("../images/advanced1small.jpg") no-repeat;
-        height: 100%;
+        height: 40%;
+        margin-bottom: 5%;
         width: 100%;
     }
 
     #class-image-three {
         background: url("../images/group1small.jpg") no-repeat;
-
-        height: 100%;
+        height: 40%;
+        margin-bottom: 5%;
         width: 100%;
     }
 
     #beginner-image-one {
         background: url("../images/beginner1small.jpg") no-repeat;
-height: 100%;
-width: 100%;
+        height: 40%;
+        margin-bottom: 5%;
+        width: 100%;
     }
 
     #beginner-image-two {
         background: url("../images/beginner2small.jpg") no-repeat;
-height: 100%;
-width: 100%;
+        height: 40%;
+        margin-bottom: 5%;
+        width: 100%;
     }
 
     #beginner-image-three {
         background: url("../images/beginner3small.jpg") no-repeat;
-height: 100%;
-width: 100%;
+        height: 40%;
+        margin-bottom: 5%;
+        width: 100%;
     }
 
     #advanced-image-one {
         background: url("../images/advanced1small.jpg") no-repeat;
-        height: 100%;
+        height: 40%;
+        margin-bottom: 5%;
         width: 100%;
     }
 
     #advanced-image-two {
         background: url("../images/advanced2small.jpg") no-repeat;
-        height: 100%;
+        height: 40%;
+        margin-bottom: 5%;
         width: 100%;
     }
 
     #advanced-image-three {
         background: url("../images/advanced3small.jpg") no-repeat;
-        height: 100%;
+        height: 40%;
+        margin-bottom: 5%;
         width: 100%;
     }
 
@@ -1350,19 +1358,22 @@ width: 100%;
 
     #yoga-image-one {
         background: url("../images/group3small.jpeg") no-repeat;
-        height: 100%;
+        height: 40%;
+        margin-bottom: 5%;
         width: 100%;
     }
 
     #yoga-image-two {
         background: url("../images/group2small.jpg") no-repeat;
-        height: 100%;
+        height: 40%;
+        margin-bottom: 5%;
         width: 100%;
     }
 
     #yoga-image-three {
         background: url("../images/group1small.jpg") no-repeat;
-        height: 100%;
+        height: 40%;
+        margin-bottom: 5%;
         width: 100%;
     }
 
@@ -1382,29 +1393,37 @@ width: 100%;
     }
 
     .card-section p {
-        font-size: 70%;
-        padding: 2% 5%;
+        font-size: 60%;
+        padding: 1%;
     }
 
     .classes-button {
-        padding: 10px;
-        font-size: 80%;
+        padding: 8px;
         right: unset;
-        width: 45%;
+        position: relative;
+        width: 50%;
+        height: 2%;
+        top: 5%;
+        font-size: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .book-button {
         padding: 8px;
         right: unset;
         position: relative;
-        width: 40%;
-        height: 1%;
-        top: 1%;
+        width: 50%;
+        height: 2%;
+        top: 5%;
         font-size: 45%;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
+
+
 
     /*REVIEW*/
 
