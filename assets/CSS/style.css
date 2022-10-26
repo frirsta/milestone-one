@@ -373,7 +373,7 @@ footer h3 {
 }
 
 #yoga-image-three {
-    background: url("../images/pexels-yan-krukov-8436479.jpg") no-repeat;
+    background: url("../images/group1.jpg") no-repeat;
     height: 200px;
     width: 100%;
     margin-bottom: 15px;
@@ -438,19 +438,19 @@ footer h3 {
 }
 
 #testimonials-image-one {
-    background: url("../images/pexels-ike-louie-natividad-3310695\ \(2\).jpg") no-repeat center center;
+    background: url("../images/testimonials-lisa-marie.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #testimonials-image-two {
-    background: url("../images/pexels-ike-louie-natividad-2709388\ \(2\).jpg") no-repeat center center;
+    background: url("../images/testimonials-karen-carson.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #testimonials-image-three {
-    background: url("../images/pexels-mateus-souza-3586798\ \(2\).jpg") no-repeat center center;
+    background: url("../images/testimonials-bree-flynn.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -462,7 +462,7 @@ footer h3 {
 }
 
 #testimonials-image-five {
-    background: url("../images/review2.jpg") no-repeat center center;
+    background: url("../images/testimonials-adam-smith.jpg") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -748,19 +748,19 @@ td {
     }
 
     #testimonials-image-one {
-        background: url("../images/pexels-ike-louie-natividad-3310695\ \(2\).jpg") no-repeat center center;
+        background: url("../images/testimonials-lisa-marie.jpg") no-repeat center center;
         height: 100%;
         border-radius: 50%;
     }
 
     #testimonials-image-two {
-        background: url("../images/pexels-ike-louie-natividad-2709388\ \(2\).jpg") no-repeat center center;
+        background: url("../images/testimonials-karen-carson.jpg") no-repeat center center;
         height: 100%;
         border-radius: 50%;
     }
 
     #testimonials-image-three {
-        background: url("../images/pexels-mateus-souza-3586798\ \(2\).jpg") no-repeat center center;
+        background: url("../images/testimonials-bree-flynn.jpg") no-repeat center center;
         height: 100%;
         border-radius: 50%;
     }
@@ -772,7 +772,7 @@ td {
     }
 
     #testimonials-image-five {
-        background: url("../images/review2.jpg") no-repeat center center;
+        background: url("../images/testimonials-adam-smith.jpg") no-repeat center center;
         height: 100%;
         border-radius: 50%;
     }
