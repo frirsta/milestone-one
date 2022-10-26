@@ -112,6 +112,7 @@ h2 {
     color: #000;
     background-color: #fff;
     border: 4px solid #000;
+    border-radius: 4px;
     height: 50px;
     width: 50px;
     padding: 20px;
@@ -375,12 +376,15 @@ footer h3 {
 
 /* classes book-button*/
 .classes-book-button-container {
-    height: 8%;
     width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: end;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
+    left: 0;
+    border-top: 1px solid #000;
+    padding-top: 5%;
 }
 
 .classes-book-button {
