@@ -284,6 +284,7 @@ footer h3 {
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 #class-image-two {
@@ -291,6 +292,7 @@ footer h3 {
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 #class-image-three {
@@ -298,6 +300,7 @@ footer h3 {
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 .classes-button {
@@ -305,12 +308,19 @@ footer h3 {
     background-color: #fff;
     text-decoration: none;
     border: 4px solid #000;
+    border-radius: 4px;
     padding: 15px;
     margin: 20px 15px;
     position: absolute;
     bottom: 4%;
     right: 30%;
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+.classes-button-container{
+    height: 8%;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
 }
 
 .fa-regular {
@@ -365,7 +375,12 @@ footer h3 {
 
 /* classes book-button*/
 .classes-book-button-container {
-    
+    height: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 10%;
 }
 
 .classes-book-button {
@@ -381,7 +396,7 @@ footer h3 {
     top: 1%;
     left: 50%;
     box-shadow: 5px 10px 10px 5px rgb(0 0 0 / 30%);
-    
+
 }
 
 #booking {}
