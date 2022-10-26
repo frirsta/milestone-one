@@ -71,7 +71,7 @@ h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url("../images/image\ \(2\).jpg") no-repeat center center;
+    background: url("../images/hero.jpg") no-repeat center center;
     filter: blur(15px);
 }
 
@@ -103,7 +103,7 @@ h2 {
 
 #cover-text h2 {
     font-size: 150%;
-    color: #000;
+    color: #fff;
 }
 
 #cover-button {
@@ -171,7 +171,7 @@ footer h3 {
 }
 
 #about-background {
-    height: 100%;
+    height: 200px;
     width: 100%;
     background: url("../images/abouthero.jpg") no-repeat center center;
     filter: blur(5px);
@@ -188,7 +188,7 @@ footer h3 {
 
 /*CONTACT*/
 #contact-background {
-    height: 100%;
+    height: 200px;
     width: 100%;
     background: url("../images/contacthero.jpg") no-repeat center center;
     filter: blur(5px);
@@ -207,7 +207,7 @@ footer h3 {
 /* Classes header */
 
 #classes-background {
-    height: 100%;
+    height: 200px;
     width: 100%;
     background: url("../images/classeshero.jpg") no-repeat center center;
     filter: blur(5px);
@@ -252,22 +252,22 @@ footer h3 {
 }
 
 #class-image-one {
-    background: url("../images/beginner1.jpg") no-repeat;
-    height: 200px;
+    background: url("../images/beginner1.jpg") no-repeat center center;
+    height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #class-image-two {
-    background: url("../images/advanced1.jpg") no-repeat;
-    height: 200px;
+    background: url("../images/advanced1.jpg") no-repeat center center;
+    height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #class-image-three {
-    background: url("../images/group1.jpg") no-repeat;
-    height: 200px;
+    background: url("../images/group1.png") no-repeat center center;
+    height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
@@ -299,22 +299,22 @@ footer h3 {
 
 /* beginner classes */
 #beginner-image-one {
-    background: url("../images/beginner1.jpg") no-repeat;
-    height: 200px;
+    background: url("../images/beginner1.jpg") no-repeat center center;
+    height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #beginner-image-two {
-    background: url("../images/beginner2.jpg") no-repeat;
-    height: 200px;
+    background: url("../images/beginner2.png") no-repeat center center;
+    height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #beginner-image-three {
-    background: url("../images/beginner3.jpg") no-repeat;
-    height: 200px;
+    background: url("../images/beginner3.jpg") no-repeat center center;
+    height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
@@ -336,22 +336,22 @@ footer h3 {
 
 /* advanced classes*/
 #advanced-image-one {
-    background: url("../images/advanced1.jpg") no-repeat;
-    height: 200px;
+    background: url("../images/advanced1.jpg") no-repeat center center;
+    height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #advanced-image-two {
-    background: url("../images/advanced2.jpg") no-repeat;
-    height: 200px;
+    background: url("../images/advanced2.jpg") no-repeat center center;
+    height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #advanced-image-three {
-    background: url("../images/advanced3.jpg") no-repeat;
-    height: 200px;
+    background: url("../images/advanced3.jpg") no-repeat center center;
+    height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
@@ -359,28 +359,28 @@ footer h3 {
 /* Yoga with friends */
 
 #yoga-image-one {
-    background: url("../images/group3.jpg") no-repeat;
-    height: 200px;
+    background: url("../images/group3.png") no-repeat center center;
+    height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #yoga-image-two {
-    background: url("../images/group2.jpg") no-repeat;
-    height: 200px;
+    background: url("../images/group2.png") no-repeat center center;
+    height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #yoga-image-three {
-    background: url("../images/group1.jpg") no-repeat;
-    height: 200px;
+    background: url("../images/group1.png") no-repeat center center;
+    height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 .background-outer {
-    height: 200px;
+    height: 40%;
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -389,9 +389,9 @@ footer h3 {
 .background-title {
     font-size: 200%;
     color: #fff;
-    text-align: center;
-    position: relative;
-    bottom: 50%;
+    position: absolute;
+    top: 50%;
+    left: 45%;
 }
 
 /* instructors and testimonials*/
@@ -438,61 +438,61 @@ footer h3 {
 }
 
 #testimonials-image-one {
-    background: url("../images/testimonials-lisa-marie.jpg") no-repeat center center;
+    background: url("../images/testimonials-lisa-marie.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #testimonials-image-two {
-    background: url("../images/testimonials-karen-carson.jpg") no-repeat center center;
+    background: url("../images/testimonials-karen-carson.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #testimonials-image-three {
-    background: url("../images/testimonials-bree-flynn.jpg") no-repeat center center;
+    background: url("../images/testimonials-bree-flynn.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #testimonials-image-four {
-    background: url("../images/review\ 1.jpg") no-repeat center center;
+    background: url("../images/testimonials-kara-james.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #testimonials-image-five {
-    background: url("../images/testimonials-adam-smith.jpg") no-repeat center center;
+    background: url("../images/testimonials-adam-smith.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #testimonials-image-six {
-    background: url("../images/review3.jpg") no-repeat center center;
+    background: url("../images/testimonials-lily-karlson.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #instructors-image-one {
-    background: url("../images/instructor1.jpg") no-repeat center center;
+    background: url("../images/instructor-susan-miranda.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #instructors-image-two {
-    background: url("../images/instructor2.jpg") no-repeat center center;
+    background: url("../images/instructor-jane-johnson.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #instructors-image-three {
-    background: url("../images/instructor3.jpg") no-repeat center center;
+    background: url("../images/instructor-anna-alfred.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
 
 #instructors-image-four {
-    background: url("../images/instructor4.jpg") no-repeat center center;
+    background: url("../images/instructor-maria-ericson.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
 }
@@ -633,10 +633,10 @@ td {
 }
 
 /* For screens 1200px wide and wider / medium screen size */
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1200px) {
 
     /* card container home page and classes page */
-    .card-container h2 {
+    /* .card-container h2 {
         margin: 4% 0 2% 0
     }
 
@@ -694,14 +694,14 @@ td {
     }
 
     /* about page */
-    .about-us {
+    /* .about-us {
         position: relative;
         width: 45%;
         height: 60%;
-    }
+    } */
 
     /* Review and instructors section in home page and about page */
-    #instructor-outer {
+    /* #instructor-outer {
         height: 450px;
     }
 
@@ -766,7 +766,7 @@ td {
     }
 
     #testimonials-image-four {
-        background: url("../images/review\ 1.jpg") no-repeat center center;
+        background: url("../images/testimonials-kara-james.jpg") no-repeat center center;
         height: 100%;
         border-radius: 50%;
     }
@@ -778,7 +778,7 @@ td {
     }
 
     #testimonials-image-six {
-        background: url("../images/review3.jpg") no-repeat center center;
+        background: url("../images/testimonials-lily-karlson.jpg") no-repeat center center;
         height: 100%;
         border-radius: 50%;
     }
@@ -787,13 +787,13 @@ td {
         position: relative;
         bottom: 40%;
         left: 50%;
-    }
+    } */
 
     /**/
 
 
     /* booking section in classes page*/
-
+/* 
     .form-container {
         margin-bottom: 5%;
 
@@ -819,10 +819,10 @@ td {
     td {
         font-size: 10px;
         font-weight: 600;
-    }
+    } */
 
     /* contact page and contact response page */
-    #opening-hours {
+    /* #opening-hours {
         margin-top: 10%;
     }
 
@@ -838,16 +838,16 @@ td {
     }
 
     /* contact respons page */
-    #contact-response {
+    /* #contact-response {
         padding: 15% 5% 5% 5%;
     }
-}
+}  */
 
 /* For screens 768px wide and wider */
 
 /* hero image and first page */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
 
     #hero-outer {
         height: 600px;
@@ -878,7 +878,7 @@ td {
     }
 
     /* testimonials */
-    #testimonials-outer {
+    /* #testimonials-outer {
         height: 1100px;
         padding: unset;
     }
@@ -916,11 +916,11 @@ td {
 
     .review-instructor-container {
         display: inline-block;
-    }
+    } */
 
     /* instructor */
 
-    #instructor-outer {
+    /* #instructor-outer {
         height: 700px;
         text-align: left;
         margin: unset;
@@ -934,10 +934,10 @@ td {
 
     #instructor-outer p {
         padding-right: 140%;
-    }
+    } */
 
     /* navigation links */
-    #logo {
+    /* #logo {
         font-size: 180%;
         margin-left: 10px;
     }
@@ -953,7 +953,7 @@ td {
     }
 
     /* cover-text */
-    #hero-outer {
+    /* #hero-outer {
         height: 400px;
     }
 
@@ -963,10 +963,10 @@ td {
 
     #cover-text h1 {
         font-size: 180%;
-    }
+    } */ 
 
     /* Card sections */
-    .card-container {
+    /* .card-container {
 
     }
 
@@ -988,9 +988,9 @@ td {
 
     #class-image-three {
         height: 200px;
-    }
+    } */
 
-    .card-section h3 {
+    /* .card-section h3 {
      
     }
 
@@ -1029,7 +1029,7 @@ td {
     }
 
     /* About page */
-    #about {
+    /* #about {
         height: 800px;
         overflow: hidden;
         text-align: center;
@@ -1054,11 +1054,11 @@ td {
         width: 55%;
         height: 40%;
         margin: 0 auto;
-        overflow: hidden;
-    }
+        overflow: hidden; 
+    } */
 
     /* Booking section in classes.html */
-    #schedule-information {
+    /* #schedule-information {
         height: 20%;
         width: 45%;
     }
@@ -1094,10 +1094,10 @@ td {
         text-align: center;
         font-size: 120%;
         padding-top: 3%;
-    }
+    } */
 
     /* Contact form */
-    .form-container {
+    /* .form-container {
         height: 1000px;
         position: relative;
         text-align: center;
@@ -1165,19 +1165,19 @@ td {
     #contact-response {
         font-size: 70%;
         padding: 15%;
-    }
+    } */ 
 
     /* Footer */
-    .social-media-container li {
+    /* .social-media-container li {
         display: block;
     }
-}
+} */
 
 /* For small screens 600px wide and bigger */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) { */
 
     /* headings and logo */
-    header a {
+    /* header a {
         text-decoration: none;
     }
 
@@ -1251,11 +1251,11 @@ td {
         font-size: 70%;
         justify-content: center;
         margin-top: 5%;
-    }
+    } */
 
     /* card section */
 
-    #class-image-one {
+    /* #class-image-one {
         background: url("../images/beginner3small.jpeg") no-repeat;
         height: 40%;
         margin-bottom: 5%;
@@ -1319,7 +1319,7 @@ td {
     }
 
     /* Yoga with friends */
-
+/*
     #yoga-image-one {
         background: url("../images/group1small.jpg") no-repeat;
         height: 40%;
@@ -1378,11 +1378,11 @@ td {
         justify-content: center;
     }
 
-
+ */
 
 
     /*REVIEW*/
-
+/*
     .review-instructor {
         height: 70px;
         margin: unset;
@@ -1416,7 +1416,7 @@ td {
     }
 
     /*booking*/
-    #booking {
+    /*#booking {
         height: 900px;
 
         font-size: 60%;
@@ -1434,7 +1434,7 @@ td {
         text-align: left;
     }
 
-    /* About */
+    /* About *//*
     #about-section {
         height: 450px;
     }
@@ -1496,7 +1496,7 @@ td {
 
 
     /*instructor*/
-
+/*
     #instructor-outer {
         height: 100%;
         width: 100%;
@@ -1648,7 +1648,7 @@ td {
 
     /* footer */
 
-    footer h3 {
+    /* footer h3 {
         margin-top: unset;
     }
 
@@ -1679,4 +1679,4 @@ td {
     }
 
 
-}
+} */ 
