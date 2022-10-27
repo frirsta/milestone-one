@@ -405,7 +405,10 @@ footer h3 {
 
 }
 
-#booking {}
+#booking {
+    height: 600px;
+    width: 100%;
+}
 
 /* advanced classes*/
 #advanced-image-one {
@@ -585,8 +588,9 @@ footer h3 {
 }
 
 /* Schedule */
-#schedule-information {
+ #schedule-information {
     border: 3px solid #000;
+    border-radius: 4px;
     height: 70%;
 }
 
@@ -600,7 +604,28 @@ td {
 
 .time {
     border: 1px solid #000;
+} 
+
+/* #schedule-container{
+    width: 50%;
+    text-align: left;
+    padding-left: 2%;
+
 }
+.day-container{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.day{
+    font-size: 95%;
+    letter-spacing: 1px;
+    border: 1px solid;
+    width: 100%;
+}
+.clock{
+    margin: unset;
+} */
 
 /* Book form and contact form */
 #contact-text {
@@ -610,9 +635,10 @@ td {
 }
 
 .form-container {
-    height: 600px;
-    position: relative;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 #contact-form {
@@ -625,9 +651,9 @@ td {
 #book-form {
     width: 300px;
     background-color: #f2f2f2;
-    padding: 1% 1%;
     vertical-align: top;
     border: 4px solid #f2f2f2;
+    border-radius: 4px;
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -649,13 +675,10 @@ td {
 .form-input {
     width: 100%;
     height: 5%;
-    margin-bottom: 1%;
-    display: block;
     border: 1px solid #ccc;
     border-radius: 4px;
-
-    padding: 5px 3px;
-    margin: 8px 0;
+    padding: 10px 3px;
+    margin: 3px 0;
 }
 
 #message {
@@ -798,7 +821,98 @@ td {
     #yoga-image-three {
         background: url('../images/classes-page-images/group3-max-width-1200px.png') no-repeat center center;
     }
+
+    #booking{}
+    #schedule-information{
+        width: 100%;
+        font-size: 90%;
+    }
+    #book-form{
+        width: 65%;
+    }
+    .book-us{
+        margin: 5px;
+    }
 }
+
+
+
+/*
+<div id="schedule-information" class="book-us">
+                <table>
+                    <tr>
+
+                        <th class="time" id="empty">Schedule</th>
+                        <th class="time">15:00-16:00</th>
+                        <th class="time">16:00-17:00</th>
+                        <th class="time">17:00-18:00</th>
+                        <th class="time">18:00-19:00</th>
+                        <th class="time">19:00-20:00</th>
+                    </tr>
+                    <tbody>
+                        <tr>
+                            <td class="day">MONDAY</td>
+                            <td class="box">---</td>
+                            <td class="box">BEGINNER YOGA</td>
+                            <td class="box">ADVANCED YOGA</td>
+                            <td class="box">---</td>
+                            <td class="box">---</td>
+
+                        </tr>
+                        <tr>
+                            <td class="day">TUESDAY</td>
+                            <td class="box">---</td>
+                            <td class="box">---</td>
+                            <td class="box">---</td>
+                            <td class="box" colspan="2">ADVANCED YOGA</td>
+                        </tr>
+                        <tr>
+                            <td class="day">WEDNESDAY</td>
+                            <td class="box">---</td>
+                            <td class="box">---</td>
+                            <td class="box">BEGINNER YOGA</td>
+                            <td class="box">---</td>
+                            <td class="box">---</td>
+
+                        </tr>
+                        <tr>
+                            <td class="day">THURSDAY</td>
+                            <td class="box">---</td>
+                            <td class="box">---</td>
+                            <td class="box">---</td>
+                            <td class="box" colspan="2">ADVANCED YOGA</td>
+
+                        </tr>
+                        <tr>
+                            <td class="day">FRIDAY</td>
+                            <td class="box">---</td>
+                            <td class="box">---</td>
+                            <td class="box">---</td>
+                            <td class="box">---</td>
+                            <td class="box">BEGINNER YOGA</td>
+                        </tr>
+                        <tr>
+                            <td class="day">SATURDAY</td>
+                            <td class="box" colspan="2">FRIEND GROUP YOGA</td>
+                            <td class="box">---</td>
+                            <td class="box" colspan="2">FRIEND GROUP YOGA</td>
+
+                        </tr>
+                        <tr>
+                            <td class="day">SUNDAY</td>
+                            <td class="box">---</td>
+                            <td class="box">---</td>
+                            <td class="box">---</td>
+                            <td class="box" colspan="2">FRIEND GROUP YOGA</td>
+
+                        </tr>
+                    </tbody>
+
+                </table>
+            </div>
+            */
+
+
 
 /* For screens 1200px wide and wider / medium screen size */
 /* @media screen and (max-width: 1200px) {
@@ -957,7 +1071,88 @@ td {
         left: 50%;
     } */
 
-/**/
+/*
+<div id="schedule-container">
+                <h3>Monday</h3>
+                <div class="day-container">
+                    <div class="day">
+                        <p><i class="fa-regular fa-clock clock"></i>16:00 - 17:00 </p>
+                        <h4>Beginner Yoga </h4>
+                        <br>
+                    </div>
+
+                    <div class="day">
+                        <p><i class="fa-regular fa-clock clock"></i>17:00 - 18:00 </p>
+                        <h4>Advanced Yoga </h4>
+                        <br>
+                    </div>
+                </div>
+
+                <h3>Tuesday</h3>
+
+                <div class="day-container">
+                    <div class="day">
+                        <p><i class="fa-regular fa-clock clock"></i>18:00 - 20:00 </p>
+                        <h4>Advanced Yoga </h4>
+                        <br>
+                    </div>
+                </div>
+
+                <h3>Wednesday</h3>
+                <div class="day-container">
+                    <div class="day">
+                        <p><i class="fa-regular fa-clock clock"></i>17:00 - 18:00 </p>
+                        <h4>Beginner Yoga </h4>
+                        <br>
+                    </div>
+                </div>
+
+                <h3>Thursday</h3>
+                <div class="day-container">
+                    <div class="day">
+                        <p><i class="fa-regular fa-clock clock"></i>18:00 - 20:00 </p>
+                        <h4>Advanced Yoga </h4>
+                        <br>
+                    </div>
+                </div>
+
+                <h3>Friday</h3>
+                <div class="day-container">
+                    <div class="day">
+                        <p><i class="fa-regular fa-clock clock"></i>19:00 - 20:00 </p>
+                        <h4>Beginner Yoga </h4>
+                        <br>
+                    </div>
+                </div>
+
+                <h3>Saturday</h3>
+                <div class="day-container">
+                    <div class="day">
+                        <p><i class="fa-regular fa-clock clock"></i>15:00 - 17:00 </p>
+                        <h4>Friend Group Yoga </h4>
+                        <br>
+                   
+                </div>
+
+                
+                    <div class="day">
+                        <p><i class="fa-regular fa-clock clock"></i>18:00 - 20:00 </p>
+                        <h4>Friend Group Yoga </h4>
+                        <br>
+                    </div>
+                    </div>
+                
+
+                <h3>Sunday</h3>
+                <div class="day-container">
+                    <div class="day">
+                        <p><i class="fa-regular fa-clock clock"></i>18:00 - 20:00 </p>
+                        <h4>Friend Group Yoga </h4>
+                        <br>
+                    </div>
+                </div>
+
+            </div>*/
 
 
 /* booking section in classes page*/
