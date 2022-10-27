@@ -472,80 +472,79 @@ footer h3 {
 
 /* instructors and testimonials*/
 .review-instructor-container {
-    position: relative;
+   
 }
 
 .review-instructor {
-    height: 100px;
-    width: 15%;
+    height: 100%;
+    width: 100%;
     border: 5px solid #000;
-    border-radius: 50%;
-    margin: 10% 0;
 }
 
 .review-instructor-left {
-    width: 50%;
-    float: left;
-    position: absolute;
-    right: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
 
 .review-instructor-right {
-    width: 50%;
-    float: right;
-    position: absolute;
-    left: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
 }
 
 .review-instructor h3 {
-    text-transform: capitalize;
-    position: relative;
-    top: 10px;
-    left: 150px;
-    width: 400%;
-    padding: 15% 0;
+
 }
 
 .review-instructor p {
-    width: 700%;
-    height: auto;
-    padding-left: 150px;
-    padding-top: 15%;
+
+
 }
 
 #testimonials-image-one {
-    background: url("../images/testimonials-lisa-marie.png") no-repeat center center;
-    height: 100%;
+    background: url("../images/reviews-images/testimonials-lisa-marie-1200px.png") no-repeat center center;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
 #testimonials-image-two {
-    background: url("../images/testimonials-karen-carson.png") no-repeat center center;
-    height: 100%;
+    background: url("../images/reviews-images/testimonials-karen-carson-1200px.png") no-repeat center center;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
 #testimonials-image-three {
-    background: url("../images/testimonials-bree-flynn.png") no-repeat center center;
-    height: 100%;
+    background: url("../images/reviews-images/testimonials-bree-flynn-1200px.png") no-repeat center center;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
 #testimonials-image-four {
-    background: url("../images/testimonials-kara-james.png") no-repeat center center;
-    height: 100%;
+    background: url("../images/reviews-images/testimonials-kara-james-1200px.png") no-repeat center center;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
 #testimonials-image-five {
-    background: url("../images/testimonials-adam-smith.png") no-repeat center center;
-    height: 100%;
+    background: url("../images/reviews-images/testimonials-adam-smith-1200px.png") no-repeat center center;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
 #testimonials-image-six {
-    background: url("../images/testimonials-lily-karlson.png") no-repeat center center;
-    height: 100%;
+    background: url("../images/reviews-images/testimonials-lily-karlson-1200px.png") no-repeat center center;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
 }
 
@@ -571,6 +570,9 @@ footer h3 {
     background: url("../images/instructor-maria-ericson.png") no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+.review-images{
+    
 }
 
 .instructor-contact {
