@@ -31,14 +31,13 @@ h2 {
 
 /* navigation links */
 #menu {
-    font-size: 80%;
+    font-size: 120%;
     letter-spacing: 3px;
 }
 
 #menu,
 #logo {
     line-height: 80px;
-    display: flex;
 }
 
 #menu li {
@@ -165,7 +164,7 @@ footer h3 {
 
 #about-image {
     background: url("../images/aboutus.png") no-repeat;
-    width: 25%;
+    width: 321px;
     height: 435px;
     border-radius: 4px;
     box-shadow: -39px -16px 0px -1px rgba(0, 0, 0, 0.73);
@@ -315,14 +314,18 @@ footer h3 {
     margin: 20px 15px;
     position: absolute;
     bottom: 4%;
-    right: 30%;
+    right: 0;
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
-.classes-button-container{
-    height: 8%;
+
+.classes-button-container {
+    height: 18%;
     width: 100%;
     position: absolute;
     bottom: 0%;
+    border-top: 1px solid #000;
+    padding-top: 5%;
+    left: 0;
 }
 
 .fa-regular {
@@ -702,6 +705,32 @@ td {
 
 #opening-hours li {
     list-style-type: none;
+}
+
+/*For screens 1200px wide and wider / medium screen size */
+@media screen and (max-width: 1200px) {
+
+    #logo {
+        font-size: 180%;
+    }
+
+    .card-section {
+        margin: 10px 10px;
+        width: 50%;
+        height: 75%;
+    }
+
+    .card-section h3 {
+        margin: unset;
+    }
+
+    .card-section p {
+        margin: unset;
+    }
+
+    .background-title {
+        left: 35%;
+    }
 }
 
 /* For screens 1200px wide and wider / medium screen size */
