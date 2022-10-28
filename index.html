@@ -10,6 +10,9 @@
     <meta name="keywords"
         content="mind and body, yoga, stockholm, sweden, beginner, advanced, yoga practice, yoga lessons">
     <link rel="stylesheet" href="assets/CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/home-styles.css">
+    <link rel="stylesheet" href="assets/CSS/contact-styles.css">
+    <link rel="stylesheet" href="assets/CSS/about-styles.css">
     <title>Mind and Body</title>
 </head>
 
@@ -20,7 +23,7 @@
         </a>
 
         <nav>
-            <ul id="menu">
+            <ul id="menu" class="menu">
                 <li>
                     <a aria-label="Go to our contact page" href="contact.html">Contact</a>
                 </li>
@@ -34,6 +37,7 @@
                     <a aria-label="Go to our home page" href="index.html" class="active">Home</a>
                 </li>
             </ul>
+            <a href="javascript:void(0);" class="icon" onclick="hamburger()"><i class="fa-solid fa-bars"></i></a>
         </nav>
     </header>
     <section id="hero-outer">
@@ -100,21 +104,21 @@
     </section>
     <section id="testimonials-outer">
         <h2>Testimonials</h2>
-        <div class="review-instructor-container">
-            <div class="review-instructor-left">
-                <div class="review-instructor">
+        <div class="review-container">
+            <div class="review-left">
+                <div class="review">
                     <div class="review-image-container">
                     <div class="review-images" id="testimonials-image-one"></div><h3>-Lisa-Marie</h3></div>
                     <p>I have been to many Yoga studios, but this one Mind and Body are a clear winner.</p>
                 </div>
-                <div class="review-instructor"><div class="review-image-container">
+                <div class="review"><div class="review-image-container">
                     <div class="review-images" id="testimonials-image-two"></div><h3>-Karen Carson</h3></div>
                         <p>The instructors give everyone a lot of personal attention and are really invested in helping
                             us get better at yoga</p>
                         
                     
                 </div>
-                <div class="review-instructor"><div class="review-image-container">
+                <div class="review"><div class="review-image-container">
                     <div class="review-images" id="testimonials-image-three"></div><h3>-Bree Flynn</h3></div>
                         <p>Amazing, elegant studio with experienced and qualified teachers! 100% recommend</p>
                         
@@ -122,22 +126,22 @@
                 </div>
             </div>
 
-            <div class="review-instructor-right">
-                <div class="review-instructor"><div class="review-image-container">
+            <div class="review-right">
+                <div class="review"><div class="review-image-container">
                     <div class="review-images" id="testimonials-image-four"></div><h3>-Kara James</h3></div>
                         <p>These instructors really pay attention to detail and invest their time in helping us develop
                             our yoga skills.</p>
                        
                     
                 </div>
-                <div class="review-instructor"><div class="review-image-container">
+                <div class="review"><div class="review-image-container">
                     <div class="review-images" id="testimonials-image-five"></div><h3>-Adam Smith</h3></div>
                         <p>I am surprised by how nice everyone is and how much I learnt after just one lesson, definitly
                             recommend!</p>
                         
                     
                 </div>
-                <div class="review-instructor"><div class="review-image-container">
+                <div class="review"><div class="review-image-container">
                     <div class="review-images" id="testimonials-image-six"></div><h3>-Lily Karlson</h3></div>
                         <p>I am so happy I found this studio, amazing atmosphere and the best instructors!</p>
                         
@@ -181,6 +185,7 @@
 
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/215e1e67e2.js" crossorigin="anonymous"></script>
+    <script src="assets/javascript/script.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

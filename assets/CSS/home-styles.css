@@ -1,0 +1,89 @@
+#testimonials-outer {
+    height: 600px;
+    margin: 3%;
+}
+
+.review-container {
+    position: relative;
+    top: 10%;
+}
+
+.review {
+    height: 100%;
+    width: 100%;
+    border: 3px solid #b5b5b5;
+    margin: 0% 1%;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+}
+
+.review-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-bottom: 1%;
+}
+
+.review-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    margin-bottom: 1%;
+}
+
+.review h3 {
+    position: relative;
+    left: 3%;
+}
+
+.review p {
+    position: relative;
+    top: 5%;
+    padding: 3%;
+}
+
+#testimonials-image-one {
+    background: url("../images/reviews-images/testimonials-lisa-marie-1200px.png") no-repeat center center;
+}
+
+#testimonials-image-two {
+    background: url("../images/reviews-images/testimonials-karen-carson-1200px.png") no-repeat center center;
+}
+
+#testimonials-image-three {
+    background: url("../images/reviews-images/testimonials-bree-flynn-1200px.png") no-repeat center center;
+}
+
+#testimonials-image-four {
+    background: url("../images/reviews-images/testimonials-kara-james-1200px.png") no-repeat center center;
+}
+
+#testimonials-image-five {
+    background: url("../images/reviews-images/testimonials-adam-smith-1200px.png") no-repeat center center;
+}
+
+#testimonials-image-six {
+    background: url("../images/reviews-images/testimonials-lily-karlson-1200px.png") no-repeat center center;
+}
+
+.review-images {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    border: 2px solid #b5b5b5;
+}
+
+
+.review-image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left: 2%;
+    top: 2%;
+}
+

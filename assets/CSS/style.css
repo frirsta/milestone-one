@@ -29,6 +29,9 @@ h2 {
     margin-left: 20px;
 }
 
+.icon{
+    display: none;
+}
 /* navigation links */
 #menu {
     font-size: 120%;
@@ -150,7 +153,7 @@ footer h3 {
 }
 
 /* about section */
-#about {
+/* #about {
     height: 500px;
     overflow: hidden;
     display: flex;
@@ -201,15 +204,15 @@ footer h3 {
     overflow: hidden;
     position: relative;
     margin: 1%;
-}
+} */
 
 /*CONTACT*/
-#contact-background {
+/* #contact-background {
     height: 200px;
     width: 100%;
     background: url("../images/contacthero.jpg") no-repeat center center;
     filter: blur(5px);
-}
+} */
 
 #footer-map {
     width: 100%;
@@ -455,7 +458,7 @@ footer h3 {
     margin-bottom: 15px;
 }
 
-.background-outer {
+/* .background-outer {
     height: 40%;
     width: 100%;
     overflow: hidden;
@@ -468,10 +471,10 @@ footer h3 {
     position: absolute;
     top: 50%;
     left: 45%;
-}
+} */
 
 /* instructors and testimonials*/
-.review-instructor-container {
+/* .review-instructor-container {
    
 }
 
@@ -587,7 +590,7 @@ footer h3 {
 #testimonials-outer {
     height: 600px;
     margin: 5%;
-}
+} */
 
 /* Schedule */
  #schedule-information {
@@ -598,6 +601,7 @@ footer h3 {
 
 table {
     height: 100%;
+    width: 100%;
 }
 
 td {
@@ -630,13 +634,13 @@ td {
 } */
 
 /* Book form and contact form */
-#contact-text {
+/* #contact-text {
     text-align: center;
     font-size: 120%;
     padding-top: 3%;
-}
+} */
 
-.form-container {
+/* .form-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -648,7 +652,7 @@ td {
     border-radius: 4px;
     border: 4px solid #f2f2f2;
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-}
+} */
 
 #book-form {
     width: 300px;
@@ -659,13 +663,13 @@ td {
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
-.contact-us {
+/* .contact-us {
     display: inline-block;
     width: 25%;
     height: 80%;
     margin: 70px 50px;
     overflow: hidden;
-}
+} */
 
 .book-us {
     display: inline-block;
@@ -674,20 +678,20 @@ td {
     width: 45%;
 }
 
-.form-input {
+/* .form-input {
     width: 100%;
     height: 5%;
     border: 1px solid #ccc;
     border-radius: 4px;
     padding: 10px 3px;
     margin: 3px 0;
-}
+} */
 
-#message {
+/* #message {
     height: 30%;
-}
+} */
 
-.submit {
+/* .submit {
     font-family: 'Old Standard TT', serif;
     font-weight: 600;
     letter-spacing: 5px;
@@ -697,12 +701,11 @@ td {
     margin: 8px 0;
     border-radius: 4px;
     cursor: pointer;
-    /* color: #000; */
     border: 4px solid #f2f2f2;
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-}
+} */
 
-#contact-information {
+/* #contact-information {
     padding: 1%;
     border: 4px solid #000;
     text-align: left;
@@ -714,13 +717,13 @@ td {
     text-align: left;
     padding-bottom: 20%;
     font-weight: 600;
-}
+} */
 
-#contact-header {
+/* #contact-header {
     padding-top: 3%;
-}
+} */
 
-#opening-hours {
+/* #opening-hours {
     text-align: right;
     line-height: 3;
     list-style-type: none;
@@ -728,7 +731,7 @@ td {
 
 #opening-hours li {
     list-style-type: none;
-}
+} */
 
 /*For screens 1200px wide and wider / medium screen size */
 @media screen and (max-width: 1200px) {
@@ -844,1213 +847,103 @@ td {
         padding: 25%;
     }
 }
-
-
-
-/*
-<div id="schedule-information" class="book-us">
-                <table>
-                    <tr>
-
-                        <th class="time" id="empty">Schedule</th>
-                        <th class="time">15:00-16:00</th>
-                        <th class="time">16:00-17:00</th>
-                        <th class="time">17:00-18:00</th>
-                        <th class="time">18:00-19:00</th>
-                        <th class="time">19:00-20:00</th>
-                    </tr>
-                    <tbody>
-                        <tr>
-                            <td class="day">MONDAY</td>
-                            <td class="box">---</td>
-                            <td class="box">BEGINNER YOGA</td>
-                            <td class="box">ADVANCED YOGA</td>
-                            <td class="box">---</td>
-                            <td class="box">---</td>
-
-                        </tr>
-                        <tr>
-                            <td class="day">TUESDAY</td>
-                            <td class="box">---</td>
-                            <td class="box">---</td>
-                            <td class="box">---</td>
-                            <td class="box" colspan="2">ADVANCED YOGA</td>
-                        </tr>
-                        <tr>
-                            <td class="day">WEDNESDAY</td>
-                            <td class="box">---</td>
-                            <td class="box">---</td>
-                            <td class="box">BEGINNER YOGA</td>
-                            <td class="box">---</td>
-                            <td class="box">---</td>
-
-                        </tr>
-                        <tr>
-                            <td class="day">THURSDAY</td>
-                            <td class="box">---</td>
-                            <td class="box">---</td>
-                            <td class="box">---</td>
-                            <td class="box" colspan="2">ADVANCED YOGA</td>
-
-                        </tr>
-                        <tr>
-                            <td class="day">FRIDAY</td>
-                            <td class="box">---</td>
-                            <td class="box">---</td>
-                            <td class="box">---</td>
-                            <td class="box">---</td>
-                            <td class="box">BEGINNER YOGA</td>
-                        </tr>
-                        <tr>
-                            <td class="day">SATURDAY</td>
-                            <td class="box" colspan="2">FRIEND GROUP YOGA</td>
-                            <td class="box">---</td>
-                            <td class="box" colspan="2">FRIEND GROUP YOGA</td>
-
-                        </tr>
-                        <tr>
-                            <td class="day">SUNDAY</td>
-                            <td class="box">---</td>
-                            <td class="box">---</td>
-                            <td class="box">---</td>
-                            <td class="box" colspan="2">FRIEND GROUP YOGA</td>
-
-                        </tr>
-                    </tbody>
-
-                </table>
-            </div>
-            */
-
-
-
-/* For screens 1200px wide and wider / medium screen size */
-/* @media screen and (max-width: 1200px) {
-
-    /* card container home page and classes page */
-/* .card-container h2 {
-        margin: 4% 0 2% 0
-    }
-
-    .card-section {
-        height: 65%;
-        margin: unset;
-        width: 30%;
-    }
-
-    .card-section h3 {
-        text-align: center;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        margin: 5px 0;
-        font-size: 80%;
-    }
-
-    .card-section p {
-        text-align: center;
-        margin: 5px 0;
-        font-size: 70%;
-    }
-
-    #class-image-one {
-        height: 180px;
-    }
-
-    #class-image-two {
-        height: 180px;
-    }
-
-    #class-image-three {
-        height: 180px;
-    }
-
-    .classes-button {
-        padding: 10px;
-        margin: 5px 0;
-        font-size: 13px;
-    }
-
-    .fa-calendar-days {
-        margin-right: 1px;
-        font-size: 90%;
-    }
-
-    .fa-clock {
-        font-size: 90%;
-    }
-
-    .book-button {
-        padding: 10px;
-        margin: 5px 0;
-        font-size: 13px;
-    }
-
-    /* about page */
-/* .about-us {
-        position: relative;
-        width: 45%;
-        height: 60%;
-    } */
-
-/* Review and instructors section in home page and about page */
-/* #instructor-outer {
-        height: 450px;
-    }
-
-    #testimonials-outer {
-        height: 650px;
-        margin: unset;
-    }
-
-    .review-instructor {
-        height: 80px;
-        width: 20%;
-        margin: 25% 0;
-    }
-
-    .review-instructor p {
-        width: 450px;
-        padding-left: 80px;
-
-    }
-
-    .review-instructor-left {
-        width: 35%;
-        position: absolute;
-        display: block;
-        left: 5%;
-    }
-
-    .review-instructor-right {
-        width: 35%;
-        position: absolute;
-        display: block;
-        right: 2%;
-    }
-
-    .review-instructor-container {
-        position: relative;
-    }
-
-    .review-instructor h3 {
-        width: 500%;
-        left: 180%;
-        top: unset;
-        bottom: 15%;
-    }
-
-    #testimonials-image-one {
-        background: url("../images/testimonials-lisa-marie.jpg") no-repeat center center;
-        height: 100%;
-        border-radius: 50%;
-    }
-
-    #testimonials-image-two {
-        background: url("../images/testimonials-karen-carson.jpg") no-repeat center center;
-        height: 100%;
-        border-radius: 50%;
-    }
-
-    #testimonials-image-three {
-        background: url("../images/testimonials-bree-flynn.jpg") no-repeat center center;
-        height: 100%;
-        border-radius: 50%;
-    }
-
-    #testimonials-image-four {
-        background: url("../images/testimonials-kara-james.jpg") no-repeat center center;
-        height: 100%;
-        border-radius: 50%;
-    }
-
-    #testimonials-image-five {
-        background: url("../images/testimonials-adam-smith.jpg") no-repeat center center;
-        height: 100%;
-        border-radius: 50%;
-    }
-
-    #testimonials-image-six {
-        background: url("../images/testimonials-lily-karlson.jpg") no-repeat center center;
-        height: 100%;
-        border-radius: 50%;
-    }
-
-    .instructor-contact {
-        position: relative;
-        bottom: 40%;
-        left: 50%;
-    } */
-
-/*
-<div id="schedule-container">
-                <h3>Monday</h3>
-                <div class="day-container">
-                    <div class="day">
-                        <p><i class="fa-regular fa-clock clock"></i>16:00 - 17:00 </p>
-                        <h4>Beginner Yoga </h4>
-                        <br>
-                    </div>
-
-                    <div class="day">
-                        <p><i class="fa-regular fa-clock clock"></i>17:00 - 18:00 </p>
-                        <h4>Advanced Yoga </h4>
-                        <br>
-                    </div>
-                </div>
-
-                <h3>Tuesday</h3>
-
-                <div class="day-container">
-                    <div class="day">
-                        <p><i class="fa-regular fa-clock clock"></i>18:00 - 20:00 </p>
-                        <h4>Advanced Yoga </h4>
-                        <br>
-                    </div>
-                </div>
-
-                <h3>Wednesday</h3>
-                <div class="day-container">
-                    <div class="day">
-                        <p><i class="fa-regular fa-clock clock"></i>17:00 - 18:00 </p>
-                        <h4>Beginner Yoga </h4>
-                        <br>
-                    </div>
-                </div>
-
-                <h3>Thursday</h3>
-                <div class="day-container">
-                    <div class="day">
-                        <p><i class="fa-regular fa-clock clock"></i>18:00 - 20:00 </p>
-                        <h4>Advanced Yoga </h4>
-                        <br>
-                    </div>
-                </div>
-
-                <h3>Friday</h3>
-                <div class="day-container">
-                    <div class="day">
-                        <p><i class="fa-regular fa-clock clock"></i>19:00 - 20:00 </p>
-                        <h4>Beginner Yoga </h4>
-                        <br>
-                    </div>
-                </div>
-
-                <h3>Saturday</h3>
-                <div class="day-container">
-                    <div class="day">
-                        <p><i class="fa-regular fa-clock clock"></i>15:00 - 17:00 </p>
-                        <h4>Friend Group Yoga </h4>
-                        <br>
-                   
-                </div>
-
-                
-                    <div class="day">
-                        <p><i class="fa-regular fa-clock clock"></i>18:00 - 20:00 </p>
-                        <h4>Friend Group Yoga </h4>
-                        <br>
-                    </div>
-                    </div>
-                
-
-                <h3>Sunday</h3>
-                <div class="day-container">
-                    <div class="day">
-                        <p><i class="fa-regular fa-clock clock"></i>18:00 - 20:00 </p>
-                        <h4>Friend Group Yoga </h4>
-                        <br>
-                    </div>
-                </div>
-
-            </div>*/
-
-
-/* booking section in classes page*/
-/* 
-    .form-container {
-        margin-bottom: 5%;
-
-    }
-
-    #schedule-information {
-        border: 3px solid #000;
-        height: 55%;
-        width: 40%;
-    }
-
-    .day {
-        font-size: 10px;
-        font-weight: 600;
-    }
-
-    .time {
-        font-size: 12px;
-        font-weight: 600;
-
-    }
-
-    td {
-        font-size: 10px;
-        font-weight: 600;
-    } */
-
-/* contact page and contact response page */
-/* #opening-hours {
-        margin-top: 10%;
-    }
-
-    #opening-hours li {
-        font-size: 13px;
-        font-weight: 600;
-        padding-top: 10%;
-    }
-
-    #contact-information {
-        padding: 3% 1% 0 1%;
-        font-size: 13px;
-    }
-
-    /* contact respons page */
-/* #contact-response {
-        padding: 15% 5% 5% 5%;
-    }
-}  */
-
-/* For screens 768px wide and wider */
-
-/* hero image and first page */
-
-/* @media screen and (min-width: 768px) {
-
-    #hero-outer {
-        height: 600px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
-
-    #hero-image {
-        height: 600px;
-        width: 100%;
-        background: url("../images/image\ \(2\).jpg") no-repeat center center;
-        filter: blur(15px);
-    }
-
-    #hero-image-creator {
-        position: relative;
-        bottom: 4%;
-        margin-left: 10px;
-    }
-
-    #hero-image-creator p {
-        font-size: 10px;
-        text-align: left;
-        letter-spacing: 0px;
-        color: #000;
-        position: absolute;
-    }
-
-    /* testimonials */
-/* #testimonials-outer {
-        height: 1100px;
-        padding: unset;
-    }
-
-    .review-instructor {
-        margin: 15% auto;
-    }
-
-    .review-instructor p {
-        padding-left: 100px;
-
-    }
-
-    .review-instructor h3 {
-        left: 180%;
-    }
-
-    .review-instructor-left {
-        width: unset;
-        position: unset;
-        display: unset;
-        left: unset;
-        float: unset;
-        right: unset;
-    }
-
-    .review-instructor-right {
-        width: unset;
-        position: unset;
-        display: unset;
-        left: unset;
-        float: unset;
-        right: unset;
-    }
-
-    .review-instructor-container {
-        display: inline-block;
-    } */
-
-/* instructor */
-
-/* #instructor-outer {
-        height: 700px;
-        text-align: left;
-        margin: unset;
-    }
-
-    .instructor-contact {
-        position: relative;
-        bottom: 40%;
-        left: 50%;
-    }
-
-    #instructor-outer p {
-        padding-right: 140%;
-    } */
-
-/* navigation links */
-/* #logo {
-        font-size: 180%;
-        margin-left: 10px;
-    }
-
-    #menu,
-    #logo {
-        line-height: 60px;
-    }
-
-    #menu li {
-        margin-right: 15px;
-        font-size: 85%;
-    }
-
-    /* cover-text */
-/* #hero-outer {
-        height: 400px;
-    }
-
-    #hero-image {
-        height: 400px;
-    }
-
-    #cover-text h1 {
-        font-size: 180%;
-    } */
-
-/* Card sections */
-/* .card-container {
-
-    }
-
-    .card-container h2 {
-  
-    }
-
-    .card-section {
-
-    }
-
-    #class-image-one {
-        height: 200px;
-    }
-
-    #class-image-two {
-        height: 200px;
-    }
-
-    #class-image-three {
-        height: 200px;
-    } */
-
-/* .card-section h3 {
-     
-    }
-
-    .card-section p {
-
-    }
-
-    #class-image-one {
-        height: 180px;
-    }
-
-    #class-image-two {
-        height: 180px;
-    }
-
-    #class-image-three {
-        height: 180px;
-    }
-
-    .classes-button {
-
-    }
-
-    .fa-calendar-days {
-        margin-right: 1px;
-        font-size: 90%;
-    }
-
-    .fa-clock {
-        font-size: 90%;
-    }
-
-    .book-button {
-        bottom: 1%;
-        right: 10%;
-    }
-
-    /* About page */
-/* #about {
-        height: 800px;
-        overflow: hidden;
-        text-align: center;
-
-        padding-top: 5%;
-    }
-
-    #about h2 {
-        font-size: 150%;
-    }
-
-    #about-image {
-        background: url("../images/aboutus.jpg") no-repeat;
-    }
-
-    #about-text {
-        padding: 1%;
-    }
-
-    .about-us {
-        display: block;
-        width: 55%;
-        height: 40%;
-        margin: 0 auto;
-        overflow: hidden; 
-    } */
-
-/* Booking section in classes.html */
-/* #schedule-information {
-        height: 20%;
-        width: 45%;
-    }
-
-    #booking {
-        height: 900px;
-        margin-top: 10%;
-    }
-
-    .book-us {
-        display: block;
-        margin: 5% auto;
-        width: 30%;
-    }
-
-    .box {
-        font-size: 10px;
-        font-weight: 600;
-    }
-
-    .time {
-
-        font-size: 10px;
-        font-weight: 600;
-    }
-
-    .day {
-        font-size: 10px;
-        font-weight: 600;
-    }
-
-    #contact-text {
-        text-align: center;
-        font-size: 120%;
-        padding-top: 3%;
-    } */
-
-/* Contact form */
-/* .form-container {
-        height: 1000px;
-        position: relative;
-        text-align: center;
-    }
-
-    #contact-form {
-        background-color: #f2f2f2;
-        padding: 1% 1%;
-        border: 4px solid #f2f2f2;
-        box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-    }
-
-    .contact-us {
-        display: block;
-        width: 45%;
-        height: 48%;
-        margin: 2% auto;
-    }
-
-    .form-input {
-        width: 100%;
-        height: 5%;
-        margin-bottom: 1%;
-        display: block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        padding: 5px 3px;
-        margin: 8px 0;
-    }
-
-    #message {
-        height: 30%;
-    }
-
-
-    #contact-information {
-        padding: 1%;
-        border: 4px solid #000;
-        text-align: left;
-        box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-        list-style-type: none;
-        height: 38%;
-    }
-
-    #contact-information p {
-        text-align: left;
-        padding-bottom: 10%;
-        font-weight: 600;
-    }
-
-    #contact-header {
-        padding-top: 3%;
-    }
-
-    #opening-hours {
-        text-align: right;
-        line-height: 3;
-        list-style-type: none;
-    }
-
-    #opening-hours li {
-        list-style-type: none;
-    }
-
-    #contact-response {
-        font-size: 70%;
-        padding: 15%;
-    } */
-
-/* Footer */
-/* .social-media-container li {
-        display: block;
-    }
-} */
-
-/* For small screens 600px wide and bigger */
-/* @media screen and (max-width: 600px) { */
-
-/* headings and logo */
-/* header a {
+/* small sizes */
+@media screen and (max-width: 600px){
+    #header{
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+    #header a{
         text-decoration: none;
     }
+#menu {
+    display: none;
+}
+.icon{
+    display: block;
+}
 
-    #menu {
-        display: flex;
-        flex-direction: column-reverse;
-        width: 100%;
-        align-items: center;
-    }
-
-    #logo {
-        float: unset;
-        font-size: 150%;
-        color: #000;
-        margin-left: unset;
-    }
-
-    #menu,
-    #logo {
-        line-height: 200%;
-    }
-
-    #hero-outer {
-        height: 250px;
-        width: 100%;
-        overflow: hidden;
-        position: relative;
-    }
-
-    #hero-image {
-        height: 100%;
-        width: 100%;
-        background: url("../images/herosmall.jpg") no-repeat center center;
-        filter: blur(15px);
-    }
-
-    #cover-text {
-        text-align: center;
-        width: 100%;
-        height: 100%;
-        padding-top: unset;
-        position: absolute;
-        top: 1%;
-        left: unset;
-        margin: unset;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #cover-text h2 {
-        font-size: 70%;
-        width: 80%;
-    }
-
-    #cover-button {
-        text-decoration: none;
-        font-weight: 600;
-        color: #000;
-        background-color: #fff;
-        border: 4px solid #000;
-        height: 15%;
-        width: 35%;
-        padding: unset;
-        position: unset;
-        left: unset;
-        top: unset;
-        display: flex;
-        flex-direction: column;
-        font-size: 70%;
-        justify-content: center;
-        margin-top: 5%;
-    } */
-
-/* card section */
-
-/* #class-image-one {
-        background: url("../images/beginner3small.jpeg") no-repeat;
-        height: 40%;
-        margin-bottom: 5%;
-        width: 100%;
-    }
-
-    #class-image-two {
-        background: url("../images/advanced1small.jpg") no-repeat;
-        height: 40%;
-        margin-bottom: 5%;
-        width: 100%;
-    }
-
-    #class-image-three {
-        background: url("../images/group1small.jpg") no-repeat;
-        height: 40%;
-        margin-bottom: 5%;
-        width: 100%;
-    }
-
-    #beginner-image-one {
-        background: url("../images/beginner1small.jpg") no-repeat;
-        height: 40%;
-        margin-bottom: 5%;
-        width: 100%;
-    }
-
-    #beginner-image-two {
-        background: url("../images/beginner2small.jpg") no-repeat;
-        height: 40%;
-        margin-bottom: 5%;
-        width: 100%;
-    }
-
-    #beginner-image-three {
-        background: url("../images/beginner3small.jpeg") no-repeat;
-        height: 40%;
-        margin-bottom: 5%;
-        width: 100%;
-    }
-
-    #advanced-image-one {
-        background: url("../images/advanced1small.jpg") no-repeat;
-        height: 40%;
-        margin-bottom: 5%;
-        width: 100%;
-    }
-
-    #advanced-image-two {
-        background: url("../images/advanced2small.jpg") no-repeat;
-        height: 40%;
-        margin-bottom: 5%;
-        width: 100%;
-    }
-
-    #advanced-image-three {
-        background: url("../images/advanced3small.jpg") no-repeat;
-        height: 40%;
-        margin-bottom: 5%;
-        width: 100%;
-    }
-
-    /* Yoga with friends */
-/*
-    #yoga-image-one {
-        background: url("../images/group1small.jpg") no-repeat;
-        height: 40%;
-        margin-bottom: 5%;
-        width: 100%;
-    }
-
-    #yoga-image-two {
-        background: url("../images/group2small.jpg") no-repeat;
-        height: 40%;
-        margin-bottom: 5%;
-        width: 100%;
-    }
-
-    #yoga-image-three {
-        background: url("../images/group3small.jpg") no-repeat;
-        height: 40%;
-        margin-bottom: 5%;
-        width: 100%;
-    }
-
-    .card-section {
-        width: 60%;
-        height: 37vh;
-        margin: 2% auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 80%;
-    }
-
-    .card-container h2 {
-        font-size: 100%;
-    }
-
-    .card-section h3 {
-        margin: 2% auto;
-        font-size: 80%;
-    }
-
-    .card-section p {
-        font-size: 60%;
-        padding: 1%;
-    }
-
-    .classes-button {
-        padding: 8px;
-        right: unset;
-        position: relative;
-        width: 50%;
-        height: 2%;
-        top: 5%;
-        font-size: 75%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
- */
-
-
-/*REVIEW*/
-/*
-    .review-instructor {
-        height: 70px;
-        margin: unset;
-        margin-top: 10%;
-        font-size: 80%;
-    }
-
-    .review-instructor p {
-        width: 800%;
-        height: unset;
-        padding-left: 150%;
-        padding-top: unset;
-        font-size: 70%;
-    }
-
-    .review-instructor h3 {
-        left: 150%;
-        font-size: 100%;
-        top: 5%;
-        width: 600%;
-    }
-
-    #testimonials-outer {
-        height: 100%;
-        padding: unset;
-    }
-
-    #testimonials-outer h2 {
-        font-size: 80%;
-        padding-top: 5%;
-    }
-
-    /*booking*/
-/*#booking {
-        height: 900px;
-
-        font-size: 60%;
-        width: 100%;
-    }
-
-
-    .form-container {
-        width: 100%;
-    }
-
-    #schedule-information {
-        height: 25%;
-        width: 100%;
-        text-align: left;
-    }
-
-    /* About */
-/*
-    #about-section {
-        height: 450px;
-    }
-
-    #about {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 90%;
-    }
-
-    #about h2 {
-        font-size: 120%;
-        padding-top: 1%;
-    }
-
-    #about-text {
-        padding: unset;
-        font-size: 55%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: flex-start;
-        padding: unset;
-
-    }
-
-    .about-us {
-        width: 75%;
-        height: 100%;
-        margin: 0 auto;
-        border: 3px solid #000;
-    }
-
-    #about-image {
-        background: url("../images/aboutussmall.jpg") no-repeat;
-
-    }
-
-    #about-background {
-
-        background: url("../images/aboutherosmall.jpg") no-repeat center center;
-
-    }
-
-    .book-button {
-        padding: 8px;
-        right: unset;
-        position: relative;
-        width: 50%;
-        height: 2%;
-        top: 3%;
-        font-size: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        bottom: unset;
-    }
-
-
-    /*instructor*/
-/*
-    #instructor-outer {
-        height: 100%;
-        width: 100%;
-        padding: 10% 0;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #instructor-outer p {
-        padding-left: 100%;
-        width: 600%;
-        position: relative;
-        padding-right: unset;
-        top: 1%;
-    }
-
-    .review-instructor-container {
-        display: flex;
-        flex-direction: column;
-        font-size: 80%;
-        width: 60%;
-        margin: 0 auto;
-    }
-
-    #classes-background {
-        background: url("../images/classesherosmall.jpg") no-repeat center center;
-
-    }
-
-    #contact-background {
-        background: url("../images/contactherosmall.jpg") no-repeat center center;
-
-    }
-
-    #contact-header {
-        font-size: 90%;
-    }
-
-    #contact-text {
-        text-align: center;
-        font-size: 80%;
-        padding-top: 3%;
-    }
-
-    .form-container {
-        height: auto;
-        padding: 10% 0;
-    }
-
-    #contact-form {
-        background-color: #f2f2f2;
-        padding: 1% 1%;
-        border: 4px solid #f2f2f2;
-        box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-    }
-
-    #book-form {
-        width: 65%;
-        margin-bottom: 2%;
-
-    }
-
-    .contact-us {
-        display: inline-block;
-        width: 65%;
-        height: auto;
-        margin: 0 auto;
-        overflow: hidden;
-        font-size: 70%;
-    }
-
-    .book-us {
-        display: inline-block;
-        margin: unset;
-        overflow: hidden;
-        width: 45%;
-    }
-
-    .form-input {
-        width: 100%;
-        height: 5%;
-        font-size: 100%;
-        margin: 8px 0;
-    }
-
-    #message {
-        height: 30%;
-    }
-
-    .submit {
-        font-size: 80%;
-    }
-
-    #contact-information {
-        font-size: 60%;
-        height: auto;
-    }
-
-    #contact-information p {
-        padding-bottom: 5%;
-
-    }
-
-    #contact-header {
-        padding-top: 3%;
-    }
-
-    #opening-hours {
-
-        line-height: unset;
-
-    }
-
-    #opening-hours li {
-        font-size: unset;
-        padding-top: 5%;
-    }
-
-    #booking {
-        height: 100%;
-        font-size: 60%;
-        width: 100%;
-    }
-
-    #schedule-information {
-
-        text-align: left;
-    }
-
-    table {
-        height: auto;
-        width: 100%;
-    }
-
-    .time {
-        font-size: 100%;
-        font-weight: 600;
-    }
-
-    .day {
-        font-size: 100%;
-        font-weight: 600;
-    }
-
-    .box {
-        font-size: 100%;
-        font-weight: 600;
-    }
-
-    /* footer */
-
-/* footer h3 {
-        margin-top: unset;
-    }
-
-    #footer-container {
-        height: 40%;
-        font-size: 70%;
-        padding-top: 4%;
-    }
-    .social-media-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding: 4% 0;
-    }
-
-    .social-media-container i {
-
-      margin: unset; 
-
-    }
-
-    .social-media-container li {
-        display: inline-block;
-        align-items: unset;
-         margin: unset; 
-         padding: unset; 
-         font-size: 200%;
-    }
-
-
-} */
+
+
+#logo{
+    margin-left: unset;
+}
+
+#logo, #menu {
+line-height: unset;
+}
+
+
+/* cover text and hero image */
+
+#hero-outer {
+    height: 300px;
+}
+
+#hero-image {
+    height: 300px;
+}
+
+
+#hero-image-creator p {
+font-size: 40%;
+}
+
+/* cover text and button */
+#cover-text {
+    margin: unset;
+    left: unset;
+    padding-top: unset;
+    height: unset;
+    width: unset;
+    font-size: 75%;
+    top: 20%;
+}
+
+#cover-button {
+    padding: 10px 20px;
+    bottom: unset;
+    top: 110%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
