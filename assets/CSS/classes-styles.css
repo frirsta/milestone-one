@@ -7,4 +7,16 @@
     .classes-book-button {
         left: 25%;
     }
+    #booking{
+        height: unset;
+    }
+    .form-container{
+        flex-direction: column;
+    }
+    #book-form{
+        width: 80%;
+    }
+    #schedule-information{
+        font-size: 75%;
+    }
 }
