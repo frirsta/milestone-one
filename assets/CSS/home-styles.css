@@ -90,9 +90,6 @@
 @media screen and (max-width: 1200px) {}
 
 @media screen and (max-width: 770px) {
-    .card-container {
-        font-size: 97%;
-    }
 
     .card-section p {
         font-size: 80%;
@@ -113,7 +110,7 @@
     .card-section {
         margin: 2% 1%;
         width: 90%;
-        height: 28%;
+        height: 30%;
     }
 
     .card-section p{

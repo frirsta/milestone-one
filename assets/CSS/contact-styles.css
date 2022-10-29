@@ -4,9 +4,11 @@
     background: url("../images/contacthero.jpg") no-repeat center center;
     filter: blur(5px);
 }
+
 #contact-header {
     padding-top: 3%;
 }
+
 #contact-text {
     text-align: center;
     font-size: 120%;
@@ -26,6 +28,7 @@
     border: 4px solid #f2f2f2;
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
+
 .form-input {
     width: 100%;
     height: 5%;
@@ -34,6 +37,7 @@
     padding: 10px 3px;
     margin: 3px 0;
 }
+
 #message {
     height: 30%;
 }
@@ -105,7 +109,27 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .contact-us{
+    .contact-us {
         width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contact-us {
+        width: 90%;
+        margin: unset;
+        margin-top: 5%;
+    }
+
+    #contact-text {
+        font-size: 100%;
+    }
+
+    #map {
+        padding-top: 15%;
+    }
+
+    #contact-response {
+        padding: 10%;
     }
 }

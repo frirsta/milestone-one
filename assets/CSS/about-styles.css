@@ -73,11 +73,13 @@
     justify-content: center;
     align-items: center;
 }
-#instructor-one, #instructor-two{
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
+
+#instructor-one,
+#instructor-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .instructor {
@@ -128,9 +130,10 @@ align-items: center;
 .instructor-text-container {}
 
 @media screen and (max-width: 1200px) {
-    #instructor-outer{
+    #instructor-outer {
         height: unset;
     }
+
     .about-us {
         width: 40%;
     }
@@ -140,22 +143,23 @@ align-items: center;
         height: 130%;
         margin: 12%;
     }
+
     .instructor-images {
         height: 90px;
         width: 90px;
     }
-    #instructor-one, #instructor-two{
+
+    #instructor-one,
+    #instructor-two {
         flex-direction: column;
-       margin: 2%;
+        margin: 2%;
     }
 }
 
 @media screen and (max-width: 770px) {
     #instructor-outer {}
 
-    .instructor {
-    
-    }
+    .instructor {}
 
 
     #about-text {}
@@ -164,32 +168,43 @@ align-items: center;
 }
 
 @media screen and (max-width: 600px) {
-    #about{
+    #about {
         height: 450px;
     }
 
- #about-image{
-    width: 190px;
-    height: 350px;
-    border-radius: 4px;
- }   
- #about-text{
-    font-size: 65%;
- }
- .book-button{
-    left: 10%;
-    padding: 5px;
-    width: 60%;
- }
+    .about-background-title {
+        top: unset;
+        bottom: 125px;
+        color: #fff;
+        font-weight: 600;
+    }
 
- .instructor-container{
-    flex-direction: column;
-    padding-top: 10%;
- }
- .instructor-text-container {
-    padding: 0 1%;
-}
-.instructor h3{
-    padding: unset;
-}
+    #about-image {
+        width: 190px;
+        height: 350px;
+        border-radius: 4px;
+    }
+
+    #about-text {
+        font-size: 65%;
+    }
+
+    .book-button {
+        left: 10%;
+        padding: 5px;
+        width: 60%;
+    }
+
+    .instructor-container {
+        flex-direction: column;
+        padding-top: 10%;
+    }
+
+    .instructor-text-container {
+        padding: 0 1%;
+    }
+
+    .instructor h3 {
+        padding: unset;
+    }
 }
