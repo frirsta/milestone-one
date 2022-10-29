@@ -1,0 +1,14 @@
+@media screen and (max-width: 600px) {
+.container{
+    flex-direction: column;
+}
+.card-container {
+    height: 1200px;
+    width: 100%;
+}
+.card-section {
+    margin: unset; 
+    width: 90%;
+    height: 100%;
+}
+}

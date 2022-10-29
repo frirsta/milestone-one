@@ -87,15 +87,14 @@
     top: 2%;
 }
 
-@media screen and (max-width: 1200px) {
-    
-}
+@media screen and (max-width: 1200px) {}
 
 @media screen and (max-width: 770px) {
-    .card-container{
+    .card-container {
         font-size: 97%;
     }
-    .card-section p{
+
+    .card-section p {
         font-size: 80%;
     }
 
@@ -106,5 +105,44 @@
 }
 
 @media screen and (max-width: 600px) {
-    
+    #testimonials-outer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+    .review-images {
+        height: 40px;
+        width: 40px;
+    }
+
+    .review-container {
+        top: 5%;
+        font-size: 45%;
+    }
+    .review{
+        height: 60%;
+        padding: 1%;
+
+    }
+    .review-left, .review-right{
+        height: unset;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .card-container {
+        height: 1200px;
+        width: 100%;
+    }
+
+    .card-section {
+        margin: unset;
+        width: 90%;
+        height: 100%;
+    }
+
 }
