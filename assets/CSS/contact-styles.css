@@ -104,3 +104,8 @@
     left: 45%;
 }
 
+@media screen and (max-width: 1200px) {
+    .contact-us{
+        width: 50%;
+    }
+}
