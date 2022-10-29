@@ -110,7 +110,11 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 400px;
+        height: 800px;
+    }
+    #testimonials-outer h2 {
+        position: relative;
+        top: 2%;
     }
     .review-images {
         height: 40px;
@@ -119,15 +123,21 @@
 
     .review-container {
         top: 5%;
-        font-size: 45%;
+        font-size: 80%;
     }
-    .review{
-        height: 60%;
-        padding: 1%;
 
-    }
     .review-left, .review-right{
         height: unset;
+        flex-direction: column;
+    }
+    .review{
+        height: 100px;
+        width: 95%;
+        margin: 1%;
+        padding: 1%;
+    }
+    .review p{
+        padding: unset;
     }
 
     .container {
