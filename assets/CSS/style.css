@@ -11,6 +11,7 @@
 body {
     font-family: 'Old Standard TT', serif;
     overflow-x: hidden;
+    background-color: #f5ece7;
 }
 
 /* headings and logo */
@@ -29,9 +30,10 @@ h2 {
     margin-left: 20px;
 }
 
-.icon{
+.icon {
     display: none;
 }
+
 /* navigation links */
 #menu {
     font-size: 120%;
@@ -152,67 +154,6 @@ footer h3 {
     text-align: center;
 }
 
-/* about section */
-/* #about {
-    height: 500px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-
-#about-image {
-    background: url("../images/aboutus.png") no-repeat;
-    width: 321px;
-    height: 435px;
-    border-radius: 4px;
-    box-shadow: -39px -16px 0px -1px rgba(0, 0, 0, 0.73);
-    -webkit-box-shadow: -39px -16px 0px -1px rgba(0, 0, 0, 0.73);
-    -moz-box-shadow: -39px -16px 0px -1px rgba(0, 0, 0, 0.73);
-}
-
-#about-text {
-    text-align: left;
-    line-height: 1.5;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-#about-text h2 {
-    text-align: left;
-    font-weight: 600;
-}
-
-#about-text h3 {
-    text-align: left;
-    line-height: 1;
-}
-
-#about-background {
-    height: 200px;
-    width: 100%;
-    background: url("../images/abouthero.jpg") no-repeat center center;
-    filter: blur(5px);
-}
-
-.about-us {
-    width: 25%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    margin: 1%;
-} */
-
-/*CONTACT*/
-/* #contact-background {
-    height: 200px;
-    width: 100%;
-    background: url("../images/contacthero.jpg") no-repeat center center;
-    filter: blur(5px);
-} */
 
 #footer-map {
     width: 100%;
@@ -264,6 +205,7 @@ footer h3 {
     padding: 10px;
     overflow: hidden;
     position: relative;
+    background-color: #d6ccc2;
 }
 
 .class-images {
@@ -305,7 +247,7 @@ footer h3 {
 
 .classes-button {
     color: #000;
-    background-color: #fff;
+    background-color: #d6ccc2;
     text-decoration: none;
     border: 4px solid #000;
     border-radius: 4px;
@@ -456,142 +398,10 @@ footer h3 {
     margin-bottom: 15px;
 }
 
-/* .background-outer {
-    height: 40%;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
 
-.background-title {
-    font-size: 200%;
-    color: #fff;
-    position: absolute;
-    top: 50%;
-    left: 45%;
-} */
-
-/* instructors and testimonials*/
-/* .review-instructor-container {
-   
-}
-
-.review-instructor {
-    height: 100%;
-    width: 100%;
-    border: 5px solid #000;
-}
-
-.review-instructor-left {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-}
-
-.review-instructor-right {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
-}
-
-.review-instructor h3 {
-
-}
-
-.review-instructor p {
-
-
-}
-
-#testimonials-image-one {
-    background: url("../images/reviews-images/testimonials-lisa-marie-1200px.png") no-repeat center center;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-
-#testimonials-image-two {
-    background: url("../images/reviews-images/testimonials-karen-carson-1200px.png") no-repeat center center;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-
-#testimonials-image-three {
-    background: url("../images/reviews-images/testimonials-bree-flynn-1200px.png") no-repeat center center;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-
-#testimonials-image-four {
-    background: url("../images/reviews-images/testimonials-kara-james-1200px.png") no-repeat center center;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-
-#testimonials-image-five {
-    background: url("../images/reviews-images/testimonials-adam-smith-1200px.png") no-repeat center center;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-
-#testimonials-image-six {
-    background: url("../images/reviews-images/testimonials-lily-karlson-1200px.png") no-repeat center center;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-}
-
-#instructors-image-one {
-    background: url("../images/instructor-susan-miranda.png") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-#instructors-image-two {
-    background: url("../images/instructor-jane-johnson.png") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-#instructors-image-three {
-    background: url("../images/instructor-anna-alfred.png") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-
-#instructors-image-four {
-    background: url("../images/instructor-maria-ericson.png") no-repeat center center;
-    height: 100%;
-    border-radius: 50%;
-}
-.review-images{
-    
-}
-
-.instructor-contact {
-    margin: 5% 0;
-}
-
-#instructor-outer {
-    height: 500px;
-    margin: 5%;
-}
-
-#testimonials-outer {
-    height: 600px;
-    margin: 5%;
-} */
 
 /* Schedule */
- #schedule-information {
+#schedule-information {
     border: 3px solid #000;
     border-radius: 4px;
     height: 70%;
@@ -608,49 +418,9 @@ td {
 
 .time {
     border: 1px solid #000;
-} 
-
-/* #schedule-container{
-    width: 50%;
-    text-align: left;
-    padding-left: 2%;
-
-}
-.day-container{
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-}
-.day{
-    font-size: 95%;
-    letter-spacing: 1px;
-    border: 1px solid;
-    width: 100%;
-}
-.clock{
-    margin: unset;
-} */
-
-/* Book form and contact form */
-/* #contact-text {
-    text-align: center;
-    font-size: 120%;
-    padding-top: 3%;
-} */
-
-/* .form-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
-#contact-form {
-    background-color: #f2f2f2;
-    border-radius: 4px;
-    border: 4px solid #f2f2f2;
-    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-} */
+
 
 #book-form {
     width: 300px;
@@ -661,13 +431,7 @@ td {
     box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* .contact-us {
-    display: inline-block;
-    width: 25%;
-    height: 80%;
-    margin: 70px 50px;
-    overflow: hidden;
-} */
+
 
 .book-us {
     display: inline-block;
@@ -675,61 +439,6 @@ td {
     overflow: hidden;
     width: 45%;
 }
-
-/* .form-input {
-    width: 100%;
-    height: 5%;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 10px 3px;
-    margin: 3px 0;
-} */
-
-/* #message {
-    height: 30%;
-} */
-
-/* .submit {
-    font-family: 'Old Standard TT', serif;
-    font-weight: 600;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    width: 50%;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border-radius: 4px;
-    cursor: pointer;
-    border: 4px solid #f2f2f2;
-    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-} */
-
-/* #contact-information {
-    padding: 1%;
-    border: 4px solid #000;
-    text-align: left;
-    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-    list-style-type: none;
-}
-
-#contact-information p {
-    text-align: left;
-    padding-bottom: 20%;
-    font-weight: 600;
-} */
-
-/* #contact-header {
-    padding-top: 3%;
-} */
-
-/* #opening-hours {
-    text-align: right;
-    line-height: 3;
-    list-style-type: none;
-}
-
-#opening-hours li {
-    list-style-type: none;
-} */
 
 /*For screens 1200px wide and wider / medium screen size */
 @media screen and (max-width: 1200px) {
@@ -825,153 +534,126 @@ td {
         background: url('../images/classes-page-images/group3-max-width-1200px.png') no-repeat center center;
     }
 
-    #booking{}
-    #schedule-information{
+    #booking {}
+
+    #schedule-information {
         width: 100%;
         font-size: 90%;
     }
-    #book-form{
+
+    #book-form {
         width: 65%;
     }
-    .book-us{
+
+    .book-us {
         margin: 5px;
     }
+
     /* Contact page */
-    .contact-us{
+    .contact-us {
         width: 100%;
     }
 
-    #contact-response{
+    #contact-response {
         padding: 25%;
     }
 }
+
 /* small sizes */
-@media screen and (max-width: 600px){
-    #header{
+@media screen and (max-width: 600px) {
+    #header {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    nav{
+
+    nav {
         display: flex;
         flex-direction: column-reverse;
         align-items: flex-end;
     }
-    #header a{
+
+    #header a {
         text-decoration: none;
     }
-#menu {
+
+    #menu {
         display: none;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon {
+        display: block;
+        color: #000;
+        position: absolute;
+        top: 1%;
+        right: 2%;
+
+    }
+
+
+
+    #logo {
+        margin-left: unset;
+    }
+
+    #logo,
+    #menu {
+        line-height: unset;
+    }
+
+
+    /* cover text and hero image */
+
+    #hero-outer {
+        height: 300px;
+    }
+
+    #hero-image {
+        height: 300px;
+    }
+
+
+    #hero-image-creator p {
+        font-size: 40%;
+    }
+
+    /* cover text and button */
+    #cover-text {
+        margin: unset;
+        left: unset;
+        padding-top: unset;
+        height: unset;
+        width: unset;
+        font-size: 75%;
+        top: 20%;
+    }
+
+    #cover-button {
+        padding: 10px 20px;
+        bottom: unset;
+        top: 110%;
+    }
+
+    #footer-container {
+        height: unset;
+        font-size: 80%;
+        margin-top: 10%;
+    }
+
+    .social-media-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social-media-container li {
+        display: unset;
+        margin: unset;
+        padding: 20px;
+        font-size: 20px;
+    }
 }
-.icon{
-    display: block;
-    color: #000;
-    position: absolute;
-    top: 1%;
-    right: 2%;
-    
-}
-
-
-
-#logo{
-    margin-left: unset;
-}
-
-#logo, #menu {
-line-height: unset;
-}
-
-
-/* cover text and hero image */
-
-#hero-outer {
-    height: 300px;
-}
-
-#hero-image {
-    height: 300px;
-}
-
-
-#hero-image-creator p {
-font-size: 40%;
-}
-
-/* cover text and button */
-#cover-text {
-    margin: unset;
-    left: unset;
-    padding-top: unset;
-    height: unset;
-    width: unset;
-    font-size: 75%;
-    top: 20%;
-}
-
-#cover-button {
-    padding: 10px 20px;
-    bottom: unset;
-    top: 110%;
-}
-
-#footer-container{
-    height: unset;
-    font-size: 80%;
-    margin-top: 10%;
-}
-.social-media-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.social-media-container li{
-    display: unset;
-    margin: unset;
-    padding: 20px;
-    font-size: 20px;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
