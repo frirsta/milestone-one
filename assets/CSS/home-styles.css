@@ -105,17 +105,34 @@
 }
 
 @media screen and (max-width: 600px) {
-    #testimonials-outer{
+    .card-container h2{
+        position: relative;
+        top: 3%;
+        margin-top: unset;
+    }
+    .card-section {
+        margin: 2% 1%;
+        width: 90%;
+        height: 28%;
+    }
+
+    .card-section p{
+        font-size: 85%;
+    }
+    #testimonials-outer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 800px;
+        height: 700px;
+       
     }
+
     #testimonials-outer h2 {
         position: relative;
         top: 2%;
     }
+
     .review-images {
         height: 40px;
         width: 40px;
@@ -126,17 +143,20 @@
         font-size: 80%;
     }
 
-    .review-left, .review-right{
+    .review-left,
+    .review-right {
         height: unset;
         flex-direction: column;
     }
-    .review{
+
+    .review {
         height: 100px;
         width: 95%;
         margin: 1%;
         padding: 1%;
     }
-    .review p{
+
+    .review p {
         padding: unset;
     }
 
@@ -149,10 +169,15 @@
         width: 100%;
     }
 
-    .card-section {
-        margin: unset;
-        width: 90%;
-        height: 100%;
+    .classes-button-container {
+        height: 15%;
+    }
+
+    .classes-button {
+        bottom: 10%;
+        padding: 8px;
+        right: 25%;
+        top: 10%;
     }
 
 }

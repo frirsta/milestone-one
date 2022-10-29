@@ -61,7 +61,7 @@
 /* Instructor */
 
 #instructor-outer {
-    height: 600px;
+    height: 400px;
     margin: 3%;
 }
 
@@ -70,13 +70,19 @@
     top: 20%;
     display: flex;
     flex-direction: row;
-
-    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+#instructor-one, #instructor-two{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
 }
 
 .instructor {
-    height: 180%;
-    width: 100%;
+    height: 300px;
+    width: 300px;
     border: 3px solid #b5b5b5;
     margin: 0% 1%;
     border-radius: 4px;
@@ -122,18 +128,25 @@
 .instructor-text-container {}
 
 @media screen and (max-width: 1200px) {
+    #instructor-outer{
+        height: unset;
+    }
     .about-us {
         width: 40%;
     }
 
     .instructor {
         padding: 0.5%;
-        font-size: 75%;
         height: 130%;
+        margin: 12%;
     }
     .instructor-images {
         height: 90px;
         width: 90px;
+    }
+    #instructor-one, #instructor-two{
+        flex-direction: column;
+       margin: 2%;
     }
 }
 
@@ -141,7 +154,7 @@
     #instructor-outer {}
 
     .instructor {
-        font-size: 70%;
+    
     }
 
 
@@ -151,5 +164,32 @@
 }
 
 @media screen and (max-width: 600px) {
-    
+    #about{
+        height: 450px;
+    }
+
+ #about-image{
+    width: 190px;
+    height: 350px;
+    border-radius: 4px;
+ }   
+ #about-text{
+    font-size: 65%;
+ }
+ .book-button{
+    left: 10%;
+    padding: 5px;
+    width: 60%;
+ }
+
+ .instructor-container{
+    flex-direction: column;
+    padding-top: 10%;
+ }
+ .instructor-text-container {
+    padding: 0 1%;
+}
+.instructor h3{
+    padding: unset;
+}
 }

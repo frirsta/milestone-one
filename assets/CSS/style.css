@@ -917,6 +917,24 @@ font-size: 40%;
     bottom: unset;
     top: 110%;
 }
+
+#footer-container{
+    height: unset;
+    font-size: 80%;
+    margin-top: 10%;
+}
+.social-media-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.social-media-container li{
+    display: unset;
+    margin: unset;
+    padding: 20px;
+    font-size: 20px;
+}
 }
 
 
