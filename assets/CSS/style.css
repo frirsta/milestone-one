@@ -849,18 +849,30 @@ td {
 @media screen and (max-width: 600px){
     #header{
         display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-end;
     }
     #header a{
         text-decoration: none;
     }
 #menu {
-    display: none;
+        display: none;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
 }
 .icon{
     display: block;
+    color: #000;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
 }
 
 

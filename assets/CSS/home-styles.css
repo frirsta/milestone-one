@@ -87,3 +87,24 @@
     top: 2%;
 }
 
+@media screen and (max-width: 1200px) {
+    
+}
+
+@media screen and (max-width: 770px) {
+    .card-container{
+        font-size: 97%;
+    }
+    .card-section p{
+        font-size: 80%;
+    }
+
+    .review-images {
+        height: 60px;
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+}

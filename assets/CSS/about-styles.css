@@ -9,7 +9,7 @@
 
 
 #about-image {
-    background: url("../images/aboutus.png") no-repeat;
+    background: url("../images/aboutus.png") no-repeat center center;
     width: 321px;
     height: 435px;
     border-radius: 4px;
@@ -36,11 +36,12 @@
     line-height: 1;
 }
 
-.about-background-title{
+.about-background-title {
     position: relative;
     top: 10px;
     margin: 1%;
 }
+
 #about-background {
     height: 200px;
     width: 100%;
@@ -69,7 +70,7 @@
     top: 20%;
     display: flex;
     flex-direction: row;
- 
+
     height: 200px;
 }
 
@@ -110,7 +111,7 @@
     background: url("../images/instructor-maria-ericson.png") no-repeat center center;
 }
 
-.instructor-images{
+.instructor-images {
     height: 120px;
     width: 120px;
     border-radius: 50%;
@@ -118,8 +119,37 @@
     margin: -65px auto 0;
 }
 
-.instructor-text-container{
+.instructor-text-container {}
 
+@media screen and (max-width: 1200px) {
+    .about-us {
+        width: 40%;
+    }
+
+    .instructor {
+        padding: 0.5%;
+        font-size: 75%;
+        height: 130%;
+    }
+    .instructor-images {
+        height: 90px;
+        width: 90px;
+    }
 }
 
+@media screen and (max-width: 770px) {
+    #instructor-outer {}
 
+    .instructor {
+        font-size: 70%;
+    }
+
+
+    #about-text {}
+
+    #about-image {}
+}
+
+@media screen and (max-width: 600px) {
+    
+}

@@ -17,12 +17,12 @@
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <a href="index.html">
             <h1 id="logo">Mind and Body</h1>
         </a>
         <nav>
-            <ul id="menu">
+            <ul id="menu" class="menu">
                 <li>
                     <a aria-label="Go to our contact page" href="contact.html">Contact</a>
                 </li>
@@ -36,7 +36,7 @@
                     <a aria-label="Go to our home page" href="index.html">Home</a>
                 </li>
             </ul>
-        </nav>
+        </nav><a href="javascript:void(0);" class="icon" onclick="hamburger()"><i class="fa-solid fa-bars"></i></a>
     </header>
     <section class="background-outer">
         <div id="classes-background"></div>
@@ -311,6 +311,7 @@
 
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/215e1e67e2.js" crossorigin="anonymous"></script>
+    <script src="assets/javascript/script.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
