@@ -1,4 +1,11 @@
 @media screen and (max-width: 600px) {
+    #contact-background{
+        background: url("../images/classeshero-600px.png") no-repeat center center;
+    }
+    .background-title{
+        font-size: 150%;
+        left: 30%;
+    }
     .classes-book-button-container {
         bottom: 1%;
         padding-top: 1%;
@@ -17,6 +24,6 @@
         width: 80%;
     }
     #schedule-information{
-        font-size: 75%;
+        font-size: 65%;
     }
 }
