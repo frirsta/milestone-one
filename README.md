@@ -12,36 +12,36 @@ Mind and Body is a website that represents the physical yoga studio in Stockholm
 <li>This makes it easy to find what you are looking for.</li>
 </ul>
 
-<img src="assets/images/navbar(1).jpg" alt="navigation menu">
+<img src="assets/images/readme-images/menu.png" alt="navigation menu">
 
 ### The home page image
 <ul><li>The image is a blurred photo of one of the instructors doing a yoga pose. This lets the user know what the website is about</li>
 <li>There is text that lets the user know that this is a Yoga studio in Stockholm</li>
 <li>This section also has a "Book Now" button that sends the customers to the classes page where they can book a class.</li></ul>
 
-<img src="assets/images/navbar(4).jpg" alt="The home page background image of a woman doing a yoga pose, with text">
+<img src="assets/images/readme-images/hero.png" alt="The home page background image of a woman doing a yoga pose, with text">
 
 
 ### Explore our classes
 <ul><li>This section allows the user to see what types of Yoga is being offered</li>
 <li>This section also allows the user to use the "Learn More" button where they will be sent directly to the classes page, where they can book a class.</li></ul>
-<img src="assets/images/navbar(3).jpg" alt="Advanced yoga class with time and information about it">
+<img src="assets/images/readme-images/classes.png" alt="Advanced yoga class with time and information about it">
 
 ### Reviews
 <ul><li>
 The reviews are shown on the home page so the user can see if its a good enough studio for them.</li></ul>
 
-<img src="assets/images/readme-kara-james.png" alt="Review about the yoga studio with image of woman">
+<img src="assets/images/readme-images/reviews.png" style="width: 200px" alt="Review about the yoga studio with image of woman">
 
 ### Footer
 <ul><li>
 The footer links to the studios social media.</li></ul>
-<img src="assets/images/footer.png" alt="footer text saying Follow us, with social media links">
+<img src="assets/images/readme-images/footer.png" alt="footer text saying Follow us, with social media links">
 
 ### Background images on top of the pages
 <ul><li>
 Every page has a smaller version of the header image with a title of what page the user is in.</li></ul>
-<img src="assets/images/readme-aboutus.png" alt="Navigation menu in about page">
+<img src="assets/images/readme-images/about-hero.png" alt="Navigation menu in about page">
 
 
 ### About section
@@ -51,7 +51,7 @@ This sections allows the user to read about the history of the yoga studio and w
 
 ### Instructors
 
-<img src="assets/images/readme-anna-alfred.jpg" alt="image of one of the instructors with their contact information">
+<img src="assets/images/readme-images/instructors.png" alt="image of the instructors with their contact information">
 <ul><li>
 This section in the about page introduces all the instructors, what kind of instructor they are and their contact information.</li>
 <li>This is for every user wheter its their first time on the website, to see who the instructors are, and if a student needs to contact the instructors.</li></ul>
@@ -60,25 +60,25 @@ This section in the about page introduces all the instructors, what kind of inst
 ### Classes
 <ul><li>This and more classes are in the classes page for the user too look through. When they have decided what class to take they can press the "book now" button and that sends them to the booking form</li></ul>
 
-<img src="assets/images/navbar(3).jpg" alt="Advanced yoga class with time and information about it">
+<img src="assets/images/readme-images/advanced-classes.png" alt="Advanced yoga class with time and information about it">
 
 <ul><li>This allows the user to book a class at Mind and Body Yoga studio</li><li>The schedule also allows the user to see when the classes are instead of having to scroll up to the classes to make sure they have chosen the right one.</li></ul>
 
 ### Booking
-<img src="assets/images/readme-schedule.jpg" alt="booking form and schedule">
+<img src="assets/images/readme-images/booking-form.png" alt="booking form and schedule">
 
 <ul><li>The contact section allows the user to see the opening hours of the studio, contact information, and the location.</li>
 <li>The contact form is for users to contact the studio with whatever questions they have.</li></ul>
 
 ### Contact
-<img src="assets/images/readme-contact-form.jpg" alt="Contact form, location of the studio and contact information">
+<img src="assets/images/readme-images/contact-form.png" alt="Contact form, location of the studio and contact information">
 
 ### Contact response
 <ul><li>
 When a user has sent a question through the contact form they will be sent to contact-reply page.</li><li>
 this text lets the user know when they can expect a response.</li><li>
 The user can also press the "here" link and they will be sent to the home page.</li></ul>
-<img src="assets/images/contact-reply.png" alt="Text telling user when they can expect a response">
+<img src="assets/images/readme-images/contact-soon.png" style="width: 400px" alt="Text telling user when they can expect a response">
 
 ## Future feature
 <ul>
