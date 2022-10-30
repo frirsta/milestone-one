@@ -1,3 +1,168 @@
+/* cover text and hero image */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero.jpg") no-repeat center center;
+    filter: blur(15px);
+}
+
+#hero-image-creator {
+    position: relative;
+    bottom: 4%;
+    margin-left: 10px;
+}
+
+#hero-image-creator p {
+    font-size: 10px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #000;
+    position: absolute;
+}
+
+/* cover text and button */
+#cover-text {
+    text-align: left;
+    width: 600px;
+    height: 400px;
+    padding-top: 70px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px 0 0 -300px;
+}
+
+#cover-text h2 {
+    font-size: 150%;
+    color: #fff;
+}
+
+#cover-button {
+    text-decoration: none;
+    font-weight: 600;
+    color: #000;
+    background-color: #f5ece7;
+    border: 3px solid #b5b5b5;
+    border-radius: 4px;
+    padding: 15px 30px;
+    position: absolute;
+    right: 10%;
+    bottom: 25%;
+}
+.card-container {
+    height: 600px;
+    width: 100%;
+}
+
+.card-container h2 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-section {
+    display: inline-block;
+    width: 25%;
+    height: 500px;
+    border: 3px solid #b5b5b5;
+    ;
+    border-radius: 10px;
+    margin: 20px 30px;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+    background-color: #d6ccc2;
+}
+
+.class-images {
+    border-radius: 10px;
+
+}
+
+.card-section h3 {
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 5px;
+}
+
+.card-section p {
+    margin: 10px;
+}
+
+#class-image-one {
+    background: url("../images/classes-page-images/beginner1.jpg") no-repeat center center;
+    height: 40%;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#class-image-two {
+    background: url("../images/classes-page-images/advanced1.jpg") no-repeat center center;
+    height: 40%;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#class-image-three {
+    background: url("../images/classes-page-images/group1.png") no-repeat center center;
+    height: 40%;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.classes-button {
+    color: #000;
+    background-color: #f5ece7;
+    text-decoration: none;
+
+    border-radius: 4px;
+    padding: 15px;
+    margin: 20px 15px;
+    position: absolute;
+    bottom: 4%;
+    right: 0;
+    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.classes-button-container {
+    height: 18%;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    border-top: 1px solid #000;
+    padding-top: 5%;
+    left: 0;
+}
+
+.fa-regular {
+    display: inline-block;
+}
+
+.fa-calendar-days {
+    margin-right: 0px;
+}
+
+.fa-clock {
+    margin-left: 10px;
+}
+
 #testimonials-outer {
     height: 600px;
     margin: 3%;
@@ -87,7 +252,49 @@
     top: 2%;
 }
 
-@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 1200px) {
+    #class-image-one {
+        background: url("../images/classes-page-images/beginner1-max-width-1200px.png") no-repeat center center;
+    }
+
+    #class-image-two {
+        background: url("../images/classes-page-images/advanced1-max-width-1200px.png") no-repeat center center;
+    }
+
+    #class-image-three {
+        background: url("../images/classes-page-images/group1-max-width-1200px.png") no-repeat center center;
+    }
+
+    .card-section {
+        margin: 10px 10px;
+        width: 50%;
+        height: 75%;
+    }
+
+    .card-section h3 {
+        margin: 5px 0;
+        font-size: 95%;
+        letter-spacing: 2px;
+    }
+
+    .card-section p {
+        margin: 5px 0;
+        font-size: 85%;
+    }
+
+    .classes-button-container {
+        height: 20%;
+    }
+
+    .classes-button {
+        padding: 10px;
+        margin: unset;
+        text-align: center;
+        width: 50%;
+        right: 5%;
+        bottom: 25%;
+    }
+}
 
 @media screen and (max-width: 770px) {
 
@@ -102,27 +309,59 @@
 }
 
 @media screen and (max-width: 600px) {
-    .card-container h2{
+    #hero-outer {
+        height: 300px;
+    }
+
+    #hero-image {
+        height: 300px;
+    }
+
+
+    #hero-image-creator p {
+        font-size: 40%;
+    }
+
+    /* cover text and button */
+    #cover-text {
+        margin: unset;
+        left: unset;
+        padding-top: unset;
+        height: unset;
+        width: unset;
+        font-size: 75%;
+        top: 20%;
+    }
+
+    #cover-button {
+        padding: 10px 20px;
+        bottom: unset;
+        top: 110%;
+    }
+
+    .card-container h2 {
         position: relative;
         top: 3%;
         margin-top: unset;
     }
+
     .card-section {
         margin: 2% 1%;
         width: 90%;
         height: 30%;
     }
 
-    .card-section p{
+    .card-section p {
         font-size: 85%;
     }
+
     #testimonials-outer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 700px;
-       
+
     }
 
     #testimonials-outer h2 {
@@ -176,33 +415,34 @@
         right: 25%;
         top: 10%;
     }
+
     /* images */
     #testimonials-image-one {
         background: url("../images/reviews-images/reviews-images-600px/testimonials-lisa-marie-600px.png") no-repeat center center;
     }
-    
+
     #testimonials-image-two {
         background: url("../images/reviews-images/reviews-images-600px/testimonials-karen-carson-600px.png") no-repeat center center;
     }
-    
+
     #testimonials-image-three {
         background: url("../images/reviews-images/reviews-images-600px/testimonials-bree-flynn-600px.png") no-repeat center center;
     }
-    
+
     #testimonials-image-four {
         background: url("../images/reviews-images/reviews-images-600px/testimonials-kara-james-600px.png") no-repeat center center;
     }
-    
+
     #testimonials-image-five {
         background: url("../images/reviews-images/reviews-images-600px/testimonials-adam-smith-600px.png") no-repeat center center;
     }
-    
+
     #testimonials-image-six {
         background: url("../images/reviews-images/reviews-images-600px/testimonials-lily-karlson-600px.png") no-repeat center center;
     }
 
     /* Hero images */
-    #hero-image{
+    #hero-image {
         background: url("../images/hero-600px.png") no-repeat center center;
     }
 

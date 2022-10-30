@@ -5,9 +5,7 @@
     padding: 0;
     margin: 0;
     border: none;
-
 }
-
 body {
     font-family: 'Old Standard TT', serif;
     overflow-x: hidden;
@@ -22,111 +20,39 @@ h2 {
     font-weight: 300;
     text-align: center;
 }
-
 #logo {
     float: left;
     font-size: 280%;
     color: #000;
     margin-left: 20px;
 }
-
 .icon {
     display: none;
 }
-
 /* navigation links */
 #menu {
     font-size: 120%;
     letter-spacing: 3px;
 }
-
 #menu,
 #logo {
     line-height: 80px;
 }
-
 #menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
-
 #menu a {
     text-decoration: none;
     color: #000;
 }
-
 #menu a:hover {
     border-bottom: 1px solid #000;
 }
-
 .active {
     border-bottom: 1px solid #000;
 }
-
-/* cover text and hero image */
-
-#hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-
-#hero-image {
-    height: 600px;
-    width: 100%;
-    background: url("../images/hero.jpg") no-repeat center center;
-    filter: blur(15px);
-}
-
-#hero-image-creator {
-    position: relative;
-    bottom: 4%;
-    margin-left: 10px;
-}
-
-#hero-image-creator p {
-    font-size: 10px;
-    text-align: left;
-    letter-spacing: 0px;
-    color: #000;
-    position: absolute;
-}
-
-/* cover text and button */
-#cover-text {
-    text-align: left;
-    width: 600px;
-    height: 400px;
-    padding-top: 70px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -200px 0 0 -300px;
-}
-
-#cover-text h2 {
-    font-size: 150%;
-    color: #fff;
-}
-
-#cover-button {
-    text-decoration: none;
-    font-weight: 600;
-    color: #000;
-    background-color: #f5ece7;
-    border: 3px solid #b5b5b5;
-    border-radius: 4px;
-    padding: 15px 30px;
-    position: absolute;
-    right: 10%;
-    bottom: 25%;
-}
-
-/* social media links footer */
-.social-media-container {}
-
 .social-media-container li {
     display: inline-block;
     font-size: 30px;
@@ -134,432 +60,39 @@ h2 {
     margin: 50px;
     padding: 10px;
 }
-
 .social-media-container i {
     color: #000;
     margin: 5px;
 }
-
 /* footer */
 footer h3 {
     margin-top: 30px;
     line-height: 40px;
     letter-spacing: 5px;
 }
-
 #footer-container {
     position: absolute;
     height: 200px;
     width: 100%;
     text-align: center;
 }
-
-
 #footer-map {
     width: 100%;
     height: 300px;
 }
 
-#contact-response {
-    width: 100%;
-    padding: 15% 0 8% 0;
-}
-
-/* Classes header */
-
-#classes-background {
-    height: 200px;
-    width: 100%;
-    background: url("../images/classeshero.jpg") no-repeat center center;
-    filter: blur(5px);
-}
-
-/* card-section, practices home page & classes page */
-
-.card-container {
-    height: 600px;
-    width: 100%;
-}
-
-.card-container h2 {
-    text-align: center;
-    margin-top: 2%;
-}
-
-.container {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.card-section {
-    display: inline-block;
-    width: 25%;
-    height: 500px;
-    border: 3px solid #b5b5b5;
-    ;
-    border-radius: 10px;
-    margin: 20px 30px;
-    padding: 10px;
-    overflow: hidden;
-    position: relative;
-    background-color: #d6ccc2;
-}
-
-.class-images {
-    border-radius: 10px;
-
-}
-
-.card-section h3 {
-    text-align: left;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    margin: 5px;
-}
-
-.card-section p {
-    margin: 10px;
-}
-
-#class-image-one {
-    background: url("../images/classes-page-images/beginner1.jpg") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-#class-image-two {
-    background: url("../images/classes-page-images/advanced1.jpg") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-#class-image-three {
-    background: url("../images/classes-page-images/group1.png") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-.classes-button {
-    color: #000;
-    background-color: #f5ece7;
-    text-decoration: none;
-
-    border-radius: 4px;
-    padding: 15px;
-    margin: 20px 15px;
-    position: absolute;
-    bottom: 4%;
-    right: 0;
-    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-}
-
-.classes-button-container {
-    height: 18%;
-    width: 100%;
-    position: absolute;
-    bottom: 0%;
-    border-top: 1px solid #000;
-    padding-top: 5%;
-    left: 0;
-}
-
-.fa-regular {
-    display: inline-block;
-}
-
-.fa-calendar-days {
-    margin-right: 0px;
-}
-
-.fa-clock {
-    margin-left: 10px;
-}
-
-/* beginner classes */
-#beginner-image-one {
-    background: url("../images/classes-page-images/beginner1.jpg") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-#beginner-image-two {
-    background: url("../images/classes-page-images/beginner2.png") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-#beginner-image-three {
-    background: url("../images/classes-page-images/beginner3.jpg") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-
-.book-button {
-    background-color: #f5ece7;
-    text-decoration: none;
-    border: 3px solid #b5b5b5;
-    border-radius: 4px;
-    color: #000;
-    padding: 10px;
-    width: 40%;
-    text-align: center;
-    position: relative;
-    top: 1%;
-    left: 50%;
-    box-shadow: 5px 10px 10px 5px rgb(0 0 0 / 30%);
-}
-
-/* classes book-button*/
-.classes-book-button-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    position: absolute;
-    bottom: 5%;
-    left: 0;
-    border-top: 1px solid #000;
-    padding-top: 5%;
-}
-
-.classes-book-button {
-    background-color: #f5ece7;
-    text-decoration: none;
-    border: 3px solid #b5b5b5;
-    border-radius: 4px;
-    color: #000;
-    padding: 10px;
-    width: 40%;
-    text-align: center;
-    position: relative;
-    top: 1%;
-    left: 50%;
-    box-shadow: 5px 10px 10px 5px rgb(0 0 0 / 30%);
-
-}
-
-#booking {
-    height: 600px;
-    width: 100%;
-}
-
-/* advanced classes*/
-#advanced-image-one {
-    background: url("../images/classes-page-images/advanced1.jpg") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-#advanced-image-two {
-    background: url("../images/classes-page-images/advanced2.jpg") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-#advanced-image-three {
-    background: url("../images/classes-page-images/advanced3.jpg") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-/* Yoga with friends */
-
-#yoga-image-one {
-    background: url("../images/classes-page-images/group3.png") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-#yoga-image-two {
-    background: url("../images/classes-page-images/group2.png") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-#yoga-image-three {
-    background: url("../images/classes-page-images/group1.png") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
-}
-
-
-
-/* Schedule */
-#schedule-information {
-    border: 3px solid #b5b5b5;
-    border-radius: 4px;
-    height: 70%;
-}
-
-table {
-    height: 100%;
-    width: 100%;
-}
-
-td {
-    border: 3px solid #b5b5b5;
-}
-
-.time {
-    border: 3px solid #b5b5b5;
-}
-
-
-
-#book-form {
-    width: 300px;
-    background-color: #d6ccc2;
-    vertical-align: top;
-    border: 3px solid #b5b5b5;
-    border-radius: 4px;
-    box-shadow: 5px 10px 10px 5px rgba(0, 0, 0, 0.3);
-}
-
-
-
-.book-us {
-    display: inline-block;
-    margin: 70px 20px;
-    overflow: hidden;
-    width: 45%;
-}
-
 /*For screens 1200px wide and wider / medium screen size */
 @media screen and (max-width: 1200px) {
-
     #logo {
         font-size: 180%;
     }
-
-    .card-section {
-        margin: 10px 10px;
-        width: 50%;
-        height: 75%;
-    }
-
-    .card-section h3 {
-        margin: 5px 0;
-        font-size: 95%;
-        letter-spacing: 2px;
-    }
-
-    .card-section p {
-        margin: 5px 0;
-        font-size: 85%;
-    }
-
-    .classes-button-container {
-        height: 20%;
-    }
-
-    .classes-button {
-        padding: 10px;
-        margin: unset;
-        text-align: center;
-        width: 50%;
-        right: 5%;
-        bottom: 25%;
-    }
-
     .background-title {
         left: 35%;
     }
-
-    /*Home page class images*/
-
-    #class-image-one {
-        background: url("../images/classes-page-images/beginner1-max-width-1200px.png") no-repeat center center;
-    }
-
-    #class-image-two {
-        background: url("../images/classes-page-images/advanced1-max-width-1200px.png") no-repeat center center;
-    }
-
-    #class-image-three {
-        background: url("../images/classes-page-images/group1-max-width-1200px.png") no-repeat center center;
-    }
-
-    /*class images*/
-
-    .classes-book-button {
-        left: 5%;
-        width: 50%;
-    }
-
-    #beginner-image-one {
-        background: url('../images/classes-page-images/beginner1-max-width-1200px.png') no-repeat center center;
-    }
-
-    #beginner-image-two {
-        background: url('../images/classes-page-images/beginner2-max-width-1200px.png') no-repeat center center;
-    }
-
-    #advanced-image-one {
-        background: url('../images/classes-page-images/advanced1-max-width-1200px.png') no-repeat center center;
-    }
-
-    #advanced-image-two {
-        background: url('../images/classes-page-images/advanced2-max-width-1200px.png') no-repeat center center;
-    }
-
-    #advanced-image-three {
-        background: url('../images/classes-page-images/advanced3-max-width-1200px.png') no-repeat center center;
-    }
-
-    #yoga-image-one {
-        background: url('../images/classes-page-images/group1-max-width-1200px.png') no-repeat center center;
-    }
-
-    #yoga-image-two {
-        background: url('../images/classes-page-images/group2-max-width-1200px.png') no-repeat center center;
-    }
-
-    #yoga-image-three {
-        background: url('../images/classes-page-images/group3-max-width-1200px.png') no-repeat center center;
-    }
-
-    #booking {}
-
-    #schedule-information {
-        width: 100%;
-        font-size: 80%;
-    }
-
-    #book-form {
-        width: 65%;
-    }
-
-    .book-us {
-        margin: 5px;
-    }
-
     /* Contact page */
-    .contact-us {
-        width: 100%;
-    }
 
-    #contact-response {
-        padding: 25%;
-    }
+ 
 }
-
 /* small sizes */
 @media screen and (max-width: 600px) {
     #header {
@@ -568,90 +101,45 @@ td {
         align-items: center;
         font-size: 90%;
     }
-
     nav {
         display: flex;
         flex-direction: column-reverse;
         align-items: flex-end;
     }
-
     #header a {
         text-decoration: none;
     }
-
     #menu {
         display: none;
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
     }
-
     .icon {
         display: block;
         color: #000;
         position: absolute;
         top: 1%;
         right: 2%;
-
     }
-
-
-
     #logo {
         margin-left: unset;
     }
-
     #logo,
     #menu {
         line-height: unset;
     }
-
-
-    /* cover text and hero image */
-
-    #hero-outer {
-        height: 300px;
-    }
-
-    #hero-image {
-        height: 300px;
-    }
-
-
-    #hero-image-creator p {
-        font-size: 40%;
-    }
-
-    /* cover text and button */
-    #cover-text {
-        margin: unset;
-        left: unset;
-        padding-top: unset;
-        height: unset;
-        width: unset;
-        font-size: 75%;
-        top: 20%;
-    }
-
-    #cover-button {
-        padding: 10px 20px;
-        bottom: unset;
-        top: 110%;
-    }
-
     #footer-container {
         height: unset;
         font-size: 80%;
         margin-top: 10%;
     }
-
     .social-media-container {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-
     .social-media-container li {
         display: unset;
         margin: unset;

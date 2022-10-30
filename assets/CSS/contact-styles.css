@@ -109,10 +109,17 @@
     top: 50%;
     left: 45%;
 }
+#contact-response {
+    width: 100%;
+    padding: 15% 0 8% 0;
+}
 
 @media screen and (max-width: 1200px) {
     .contact-us {
         width: 50%;
+    }
+    .contact-us {
+        width: 100%;
     }
 }
 
@@ -125,7 +132,7 @@
         margin: unset;
         margin-top: 5%;
     }
-
+    
     #contact-text {
         font-size: 100%;
     }
@@ -137,5 +144,8 @@
     #contact-response {
         padding: 10%;
         font-size: 90%;
+    }
+    #contact-response {
+        padding: 25%;
     }
 }
