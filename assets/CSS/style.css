@@ -226,21 +226,21 @@ footer h3 {
 }
 
 #class-image-one {
-    background: url("../images/beginner1.jpg") no-repeat center center;
+    background: url("../images/classes-page-images/beginner1.jpg") no-repeat center center;
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #class-image-two {
-    background: url("../images/advanced1.jpg") no-repeat center center;
+    background: url("../images/classes-page-images/advanced1.jpg") no-repeat center center;
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #class-image-three {
-    background: url("../images/group1.png") no-repeat center center;
+    background: url("../images/classes-page-images/group1.png") no-repeat center center;
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
@@ -284,21 +284,21 @@ footer h3 {
 
 /* beginner classes */
 #beginner-image-one {
-    background: url("../images/beginner1.jpg") no-repeat center center;
+    background: url("../images/classes-page-images/beginner1.jpg") no-repeat center center;
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #beginner-image-two {
-    background: url("../images/beginner2.png") no-repeat center center;
+    background: url("../images/classes-page-images/beginner2.png") no-repeat center center;
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #beginner-image-three {
-    background: url("../images/beginner3.jpg") no-repeat center center;
+    background: url("../images/classes-page-images/beginner3.jpg") no-repeat center center;
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
@@ -356,21 +356,21 @@ footer h3 {
 
 /* advanced classes*/
 #advanced-image-one {
-    background: url("../images/advanced1.jpg") no-repeat center center;
+    background: url("../images/classes-page-images/advanced1.jpg") no-repeat center center;
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #advanced-image-two {
-    background: url("../images/advanced2.jpg") no-repeat center center;
+    background: url("../images/classes-page-images/advanced2.jpg") no-repeat center center;
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #advanced-image-three {
-    background: url("../images/advanced3.jpg") no-repeat center center;
+    background: url("../images/classes-page-images/advanced3.jpg") no-repeat center center;
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
@@ -379,21 +379,21 @@ footer h3 {
 /* Yoga with friends */
 
 #yoga-image-one {
-    background: url("../images/group3.png") no-repeat center center;
+    background: url("../images/classes-page-images/group3.png") no-repeat center center;
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #yoga-image-two {
-    background: url("../images/group2.png") no-repeat center center;
+    background: url("../images/classes-page-images/group2.png") no-repeat center center;
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
 }
 
 #yoga-image-three {
-    background: url("../images/group1.png") no-repeat center center;
+    background: url("../images/classes-page-images/group1.png") no-repeat center center;
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
