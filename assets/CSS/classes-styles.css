@@ -219,9 +219,76 @@ td {
         flex-direction: column;
     }
     #book-form{
-        width: 80%;
+        width: 90%;
+        padding: 1%;
     }
     #schedule-information{
         font-size: 65%;
+    }
+        
+    #beginner-image-one {
+        background: url('../images/classes-page-images/beginner1-600px.avif') no-repeat center center;
+        height: 129px;
+    width: 300px;
+    margin-bottom: 5px;
+    }
+
+    #beginner-image-two {
+        background: url('../images/classes-page-images/beginner2-600px.avif') no-repeat center center;
+        height: 129px;
+    width: 300px;
+    margin-bottom: 5px;
+    }
+    #beginner-image-three{
+        background: url("../images/classes-page-images/beginner3-600px.avif") no-repeat center center;
+        height: 129px;
+    width: 300px;
+    margin-bottom: 5px;
+    }
+
+    #advanced-image-one {
+        background: url('../images/classes-page-images/advanced1-600px.avif') no-repeat center center;
+        height: 129px;
+    width: 300px;
+    margin-bottom: 5px;
+    }
+
+    #advanced-image-two {
+        background: url('../images/classes-page-images/advanced2-600px.avif') no-repeat center center;
+        height: 129px;
+    width: 300px;
+    margin-bottom: 5px;
+    }
+
+    #advanced-image-three {
+        background: url('../images/classes-page-images/advanced3-600px.avif') no-repeat center center;
+        height: 129px;
+    width: 300px;
+    margin-bottom: 5px;
+    }
+
+    #yoga-image-one {
+        background: url('../images/classes-page-images/group1-600px.avif') no-repeat center center;
+        height: 129px;
+    width: 300px;
+    margin-bottom: 5px;
+    }
+
+    #yoga-image-two {
+        background: url('../images/classes-page-images/group2-600px.avif') no-repeat center center;
+        height: 129px;
+    width: 300px;
+    margin-bottom: 5px;
+    }
+
+    #yoga-image-three {
+        background: url('../images/classes-page-images/group3-600px.avif') no-repeat center center;
+        height: 129px;
+    width: 300px;
+    margin-bottom: 5px;
+    }
+    .class-images{
+        border: 3px solid #b5b5b5;
+    border-radius: 15px;
     }
 }

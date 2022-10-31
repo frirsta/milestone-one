@@ -347,8 +347,11 @@
 
     .card-section {
         margin: 2% 1%;
-        width: 90%;
-        height: 30%;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     }
 
     .card-section p {
@@ -413,7 +416,7 @@
         bottom: 10%;
         padding: 8px;
         right: 25%;
-        top: 10%;
+        top: unset;
     }
 
     /* images */
@@ -444,6 +447,27 @@
     /* Hero images */
     #hero-image {
         background: url("../images/hero-600px.avif") no-repeat center center;
+    }
+    /* class images */
+    #class-image-one {
+        background: url("../images/classes-page-images/beginner1-600px.avif") no-repeat center center;
+        height: 129px;
+    width: 300px;
+    margin-bottom: 5px;
+    }
+
+    #class-image-two {
+        background: url("../images/classes-page-images/advanced1-600px.avif") no-repeat center center;
+        height: 129px;
+    width: 300px;
+    margin-bottom: 5px;
+    }
+
+    #class-image-three {
+        background: url("../images/classes-page-images/group1-600px.avif") no-repeat center center;
+        height: 129px;
+    width: 300px;
+    margin-bottom: 5px;
     }
 
 }
