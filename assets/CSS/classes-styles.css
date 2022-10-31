@@ -1,6 +1,53 @@
 #classes-background {
     background: url("../images/classeshero.jpg") no-repeat center center;
 }
+
+/* Beginner images */
+#beginner-image-one {
+    background: url("../images/classes-page-images/beginner1.jpg") no-repeat center center;
+}
+
+#beginner-image-two {
+    background: url("../images/classes-page-images/beginner2.png") no-repeat center center;
+}
+
+#beginner-image-three {
+    background: url("../images/classes-page-images/beginner3.jpg") no-repeat center center;
+}
+
+/* advanced classes*/
+#advanced-image-one {
+    background: url("../images/classes-page-images/advanced1.jpg") no-repeat center center;
+}
+
+#advanced-image-two {
+    background: url("../images/classes-page-images/advanced2.jpg") no-repeat center center;
+}
+
+#advanced-image-three {
+    background: url("../images/classes-page-images/advanced3.jpg") no-repeat center center;
+}
+
+/* Yoga with friends */
+#yoga-image-one {
+    background: url("../images/classes-page-images/group3.png") no-repeat center center;
+}
+
+#yoga-image-two {
+    background: url("../images/classes-page-images/group2.png") no-repeat center center;
+}
+
+#yoga-image-three {
+    background: url("../images/classes-page-images/group1.png") no-repeat center center;
+}
+
+.class-images {
+    height: 40%;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Book class button */
 .classes-book-button-container {
     width: 100%;
     display: flex;
@@ -12,10 +59,7 @@
     border-top: 1px solid #000;
     padding-top: 5%;
 }
-#booking {
-    height: 600px;
-    width: 100%;
-}
+
 .classes-book-button {
     padding: 10px;
     width: 40%;
@@ -23,157 +67,143 @@
     top: 1%;
     left: 50%;
 }
-#beginner-image-one {
-    background: url("../images/classes-page-images/beginner1.jpg") no-repeat center center;
-}
-#beginner-image-two {
-    background: url("../images/classes-page-images/beginner2.png") no-repeat center center;
-}
-#beginner-image-three {
-    background: url("../images/classes-page-images/beginner3.jpg") no-repeat center center;
-}
-/* advanced classes*/
-#advanced-image-one {
-    background: url("../images/classes-page-images/advanced1.jpg") no-repeat center center;
-}
-#advanced-image-two {
-    background: url("../images/classes-page-images/advanced2.jpg") no-repeat center center;
-}
-#advanced-image-three {
-    background: url("../images/classes-page-images/advanced3.jpg") no-repeat center center;
-}
-/* Yoga with friends */
-#yoga-image-one {
-    background: url("../images/classes-page-images/group3.png") no-repeat center center;
-}
-#yoga-image-two {
-    background: url("../images/classes-page-images/group2.png") no-repeat center center;
-}
-#yoga-image-three {
-    background: url("../images/classes-page-images/group1.png") no-repeat center center;
-}
-.class-images{
-    height: 40%;
+
+/* Booking form */
+#booking {
+    height: 600px;
     width: 100%;
-    margin-bottom: 15px;
 }
+
 #book-form {
     width: 300px;
     vertical-align: top;
 }
+
 .book-us {
     display: inline-block;
     margin: 70px 20px;
     overflow: hidden;
     width: 45%;
 }
+
 /* Schedule */
 #schedule-information {
     border: 3px solid #b5b5b5;
     border-radius: 4px;
     height: 70%;
 }
+
 table {
     height: 100%;
     width: 100%;
 }
+
 td {
     border: 3px solid #b5b5b5;
 }
+
 .time {
     border: 3px solid #b5b5b5;
 }
+
 @media screen and (max-width: 1200px) {
     #beginner-image-one {
         background: url('../images/classes-page-images/beginner1-max-width-1200px.png') no-repeat center center;
     }
+
     #beginner-image-two {
         background: url('../images/classes-page-images/beginner2-max-width-1200px.png') no-repeat center center;
     }
+
     #advanced-image-one {
         background: url('../images/classes-page-images/advanced1-max-width-1200px.png') no-repeat center center;
     }
+
     #advanced-image-two {
         background: url('../images/classes-page-images/advanced2-max-width-1200px.png') no-repeat center center;
     }
+
     #advanced-image-three {
         background: url('../images/classes-page-images/advanced3-max-width-1200px.png') no-repeat center center;
     }
+
     #yoga-image-one {
         background: url('../images/classes-page-images/group1-max-width-1200px.png') no-repeat center center;
     }
+
     #yoga-image-two {
         background: url('../images/classes-page-images/group2-max-width-1200px.png') no-repeat center center;
     }
+
     #yoga-image-three {
         background: url('../images/classes-page-images/group3-max-width-1200px.png') no-repeat center center;
     }
+
     .classes-book-button {
         left: 5%;
         width: 50%;
     }
+
     #schedule-information {
         width: 100%;
         font-size: 80%;
     }
+
     #book-form {
         width: 65%;
     }
+
     .book-us {
         margin: 5px;
     }
 }
+
 @media screen and (max-width: 600px) {
+
+    /* hero image */
     #classes-background {
         background: url("../images/classeshero-600px.avif") no-repeat center center;
     }
-    .classes-book-button-container {
-        bottom: 1%;
-        padding-top: 1%;
-    }
-    .classes-book-button {
-        left: 25%;
-    }
-    #booking {
-        height: unset;
-    }
-    .form-container {
-        flex-direction: column;
-    }
-    #book-form {
-        width: 90%;
-        padding: 1%;
-    }
-    #schedule-information {
-        font-size: 65%;
-    }
+
+    /* class images beginner images */
     #beginner-image-one {
         background: url('../images/classes-page-images/beginner1-600px.avif') no-repeat center center;
     }
+
     #beginner-image-two {
         background: url('../images/classes-page-images/beginner2-600px.avif') no-repeat center center;
     }
+
     #beginner-image-three {
         background: url("../images/classes-page-images/beginner3-600px.avif") no-repeat center center;
     }
+
+    /* Advanced class images */
     #advanced-image-one {
         background: url('../images/classes-page-images/advanced1-600px.avif') no-repeat center center;
     }
+
     #advanced-image-two {
         background: url('../images/classes-page-images/advanced2-600px.avif') no-repeat center center;
     }
+
     #advanced-image-three {
         background: url('../images/classes-page-images/advanced3-600px.avif') no-repeat center center;
     }
+
+    /* Group yoga images */
     #yoga-image-one {
         background: url('../images/classes-page-images/group1-600px.avif') no-repeat center center;
     }
+
     #yoga-image-two {
         background: url('../images/classes-page-images/group2-600px.avif') no-repeat center center;
     }
+
     #yoga-image-three {
         background: url('../images/classes-page-images/group3-600px.avif') no-repeat center center;
     }
+
     .class-images {
         border: 3px solid #b5b5b5;
         border-radius: 15px;
@@ -181,4 +211,34 @@ td {
         width: 300px;
         margin-bottom: 5px;
     }
+
+    /* Book class button */
+    .classes-book-button-container {
+        bottom: 1%;
+        padding-top: 1%;
+    }
+
+    .classes-book-button {
+        left: 25%;
+    }
+
+    /* booking form */
+    #booking {
+        height: unset;
+    }
+
+    .form-container {
+        flex-direction: column;
+    }
+
+    #book-form {
+        width: 90%;
+        padding: 1%;
+    }
+
+    /* schedule */
+    #schedule-information {
+        font-size: 65%;
+    }
+
 }

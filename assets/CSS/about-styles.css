@@ -1,3 +1,15 @@
+/* about hero */
+.about-background-title {
+    position: relative;
+    top: 10px;
+    margin: 1%;
+}
+
+#about-background {
+    background: url("../images/abouthero.jpg") no-repeat center center;
+}
+
+/* About us section*/
 #about {
     height: 500px;
     overflow: hidden;
@@ -15,6 +27,14 @@
     box-shadow: -39px -16px 0px -1px rgba(0, 0, 0, 0.73);
     -webkit-box-shadow: -39px -16px 0px -1px rgba(0, 0, 0, 0.73);
     -moz-box-shadow: -39px -16px 0px -1px rgba(0, 0, 0, 0.73);
+}
+
+.about-us {
+    width: 25%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 1%;
 }
 
 #about-text {
@@ -35,16 +55,6 @@
     line-height: 1;
 }
 
-.about-background-title {
-    position: relative;
-    top: 10px;
-    margin: 1%;
-}
-
-#about-background {
-    background: url("../images/abouthero.jpg") no-repeat center center;
-}
-
 .book-button {
     padding: 10px;
     width: 40%;
@@ -55,16 +65,7 @@
     box-shadow: 5px 10px 10px 5px rgb(0 0 0 / 30%);
 }
 
-.about-us {
-    width: 25%;
-    height: 100%;
-    overflow: hidden;
-    position: relative;
-    margin: 1%;
-}
-
 /* Instructor */
-
 #instructor-outer {
     height: 400px;
     margin: 3%;
@@ -127,14 +128,16 @@
     margin: -65px auto 0;
 }
 
-
 @media screen and (max-width: 1200px) {
-    #instructor-outer {
-        height: unset;
-    }
 
+    /* about us section */
     .about-us {
         width: 40%;
+    }
+
+    /* instructors section */
+    #instructor-outer {
+        height: unset;
     }
 
     .instructor {
@@ -155,14 +158,9 @@
     }
 }
 
-
 @media screen and (max-width: 600px) {
     #about-background {
         background: url('../images/abouthero-600px.avif') no-repeat center center;
-    }
-
-    #about {
-        height: 450px;
     }
 
     .about-background-title {
@@ -170,6 +168,10 @@
         bottom: 125px;
         color: #fff;
         font-weight: 600;
+    }
+
+    #about {
+        height: 450px;
     }
 
     #about-image {
@@ -184,20 +186,16 @@
         line-height: 1.2;
     }
 
-
     .book-button {
         left: 10%;
         padding: 5px;
         width: 60%;
     }
 
+    /* instructors section */
     .instructor-container {
         flex-direction: column;
         padding-top: 10%;
-    }
-
-    .instructor-text-container {
-        padding: 0 1%;
     }
 
     .instructor {
@@ -222,5 +220,9 @@
 
     #instructors-image-four {
         background: url("../images/about-images/instructor-maria-eriscson-600px.avif") no-repeat center center;
+    }
+
+    .instructor-text-container {
+        padding: 0 1%;
     }
 }

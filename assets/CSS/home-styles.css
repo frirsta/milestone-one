@@ -1,5 +1,4 @@
-/* cover text and hero image */
-
+/* Hero */
 #hero-outer {
     height: 600px;
     width: 100%;
@@ -46,18 +45,14 @@
 }
 
 #cover-button {
-    
     font-weight: 600;
-
-  
     padding: 15px 30px;
     position: absolute;
     right: 10%;
     bottom: 25%;
 }
 
-
-
+/* classes cards */
 .card-container {
     height: 600px;
     width: 100%;
@@ -82,7 +77,6 @@
     width: 25%;
     height: 500px;
     border: 3px solid #b5b5b5;
-    ;
     border-radius: 10px;
     margin: 20px 30px;
     padding: 10px;
@@ -96,7 +90,6 @@
     height: 40%;
     width: 100%;
     margin-bottom: 15px;
-
 }
 
 .card-section h3 {
@@ -110,6 +103,7 @@
     margin: 10px;
 }
 
+/* class images and classes button */
 #class-image-one {
     background: url("../images/classes-page-images/beginner1.jpg") no-repeat center center;
 }
@@ -131,7 +125,7 @@
     right: 0;
 }
 
-.buttons{
+.buttons {
     text-decoration: none;
     background-color: #f5ece7;
     border: 3px solid #b5b5b5;
@@ -149,6 +143,7 @@
     left: 0;
 }
 
+/* classes icons */
 .fa-regular {
     display: inline-block;
 }
@@ -161,6 +156,7 @@
     margin-left: 10px;
 }
 
+/* Review section */
 #testimonials-outer {
     height: 600px;
     margin: 3%;
@@ -240,7 +236,6 @@
     border: 3px solid #b5b5b5;
 }
 
-
 .review-image-container {
     display: flex;
     flex-direction: row;
@@ -251,6 +246,8 @@
 }
 
 @media screen and (max-width: 1200px) {
+
+    /* classes section and buttons in home page*/
     #class-image-one {
         background: url("../images/classes-page-images/beginner1-max-width-1200px.png") no-repeat center center;
     }
@@ -295,7 +292,6 @@
 }
 
 @media screen and (max-width: 770px) {
-
     .card-section p {
         font-size: 80%;
     }
@@ -314,7 +310,6 @@
     #hero-image {
         height: 300px;
     }
-
 
     #hero-image-creator p {
         font-size: 40%;
@@ -337,6 +332,7 @@
         top: 110%;
     }
 
+    /* classes section in home page */
     .card-container h2 {
         position: relative;
         top: 3%;
@@ -356,13 +352,57 @@
         font-size: 85%;
     }
 
+    .container {
+        flex-direction: column;
+    }
+
+    .card-container {
+        height: 1200px;
+        width: 100%;
+    }
+
+    .classes-button-container {
+        height: 15%;
+    }
+
+    .classes-button {
+        bottom: 10%;
+        padding: 8px;
+        right: 25%;
+        top: unset;
+    }
+
+    /* Hero images */
+    #hero-image {
+        background: url("../images/hero-600px.avif") no-repeat center center;
+    }
+
+    /* class images */
+    #class-image-one {
+        background: url("../images/classes-page-images/beginner1-600px.avif") no-repeat center center;
+    }
+
+    #class-image-two {
+        background: url("../images/classes-page-images/advanced1-600px.avif") no-repeat center center;
+    }
+
+    #class-image-three {
+        background: url("../images/classes-page-images/group1-600px.avif") no-repeat center center;
+    }
+
+    .class-images {
+        height: 129px;
+        width: 300px;
+        margin-bottom: 5px;
+    }
+
+    /* reviews section */
     #testimonials-outer {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 700px;
-
     }
 
     #testimonials-outer h2 {
@@ -397,26 +437,6 @@
         padding: unset;
     }
 
-    .container {
-        flex-direction: column;
-    }
-
-    .card-container {
-        height: 1200px;
-        width: 100%;
-    }
-
-    .classes-button-container {
-        height: 15%;
-    }
-
-    .classes-button {
-        bottom: 10%;
-        padding: 8px;
-        right: 25%;
-        top: unset;
-    }
-
     /* images */
     #testimonials-image-one {
         background: url("../images/reviews-images/reviews-images-600px/testimonials-lisa-marie-600px.avif") no-repeat center center;
@@ -440,30 +460,6 @@
 
     #testimonials-image-six {
         background: url("../images/reviews-images/reviews-images-600px/testimonials-lily-karlson-600px.avif") no-repeat center center;
-    }
-
-    /* Hero images */
-    #hero-image {
-        background: url("../images/hero-600px.avif") no-repeat center center;
-    }
-
-    /* class images */
-    #class-image-one {
-        background: url("../images/classes-page-images/beginner1-600px.avif") no-repeat center center;
-    }
-
-    #class-image-two {
-        background: url("../images/classes-page-images/advanced1-600px.avif") no-repeat center center;
-    }
-
-    #class-image-three {
-        background: url("../images/classes-page-images/group1-600px.avif") no-repeat center center;
-    }
-
-    .class-images {
-        height: 129px;
-        width: 300px;
-        margin-bottom: 5px;
     }
 
 }
