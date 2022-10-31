@@ -12,36 +12,36 @@ Mind and Body is a website that represents the physical yoga studio in Stockholm
 <li>This makes it easy to find what you are looking for.</li>
 </ul>
 
-<img src="assets/images/readme-images/menu.png" alt="navigation menu">
+<img src="assets/images/readme-images/desktop/readme-menu.png" alt="navigation menu" style="width: 400px">
 
 ### The home page image
 <ul><li>The image is a blurred photo of one of the instructors doing a yoga pose. This lets the user know what the website is about</li>
 <li>There is text that lets the user know that this is a Yoga studio in Stockholm</li>
 <li>This section also has a "Book Now" button that sends the customers to the classes page where they can book a class.</li></ul>
 
-<img src="assets/images/readme-images/hero.png" alt="The home page background image of a woman doing a yoga pose, with text">
+<img src="assets/images/readme-images/desktop/readme-hero.png" alt="The home page background image of a woman doing a yoga pose, with text" style="width: 400px">
 
 
 ### Explore our classes
 <ul><li>This section allows the user to see what types of Yoga is being offered</li>
 <li>This section also allows the user to use the "Learn More" button where they will be sent directly to the classes page, where they can book a class.</li></ul>
-<img src="assets/images/readme-images/classes.png" alt="Advanced yoga class with time and information about it">
+<img src="assets/images/readme-images/desktop/readme-classes.png" alt="Advanced yoga class with time and information about it" style="width: 400px">
 
 ### Reviews
 <ul><li>
 The reviews are shown on the home page so the user can see if its a good enough studio for them.</li></ul>
 
-<img src="assets/images/readme-images/reviews.png" style="width: 200px" alt="Review about the yoga studio with image of woman">
+<img src="assets/images/readme-images/desktop/readme-reviews.png" style="width: 200px" alt="Review about the yoga studio with image of woman" style="width: 400px">
 
 ### Footer
 <ul><li>
 The footer links to the studios social media.</li></ul>
-<img src="assets/images/readme-images/footer.png" alt="footer text saying Follow us, with social media links">
+<img src="assets/images/readme-images/desktop/readme-footer.png" alt="footer text saying Follow us, with social media links" style="width: 400px">
 
 ### Background images on top of the pages
 <ul><li>
 Every page has a smaller version of the header image with a title of what page the user is in.</li></ul>
-<img src="assets/images/readme-images/about-hero.png" alt="Navigation menu in about page">
+<img src="assets/images/readme-images/desktop/readme-about-hero.png" alt="Navigation menu in about page" style="width: 400px">
 
 
 ### About section
@@ -51,7 +51,7 @@ This sections allows the user to read about the history of the yoga studio and w
 
 ### Instructors
 
-<img src="assets/images/readme-images/instructors.png" alt="image of the instructors with their contact information">
+<img src="assets/images/readme-images/desktop/readme-instructors.png" alt="image of the instructors with their contact information" style="width: 400px">
 <ul><li>
 This section in the about page introduces all the instructors, what kind of instructor they are and their contact information.</li>
 <li>This is for every user wheter its their first time on the website, to see who the instructors are, and if a student needs to contact the instructors.</li></ul>
@@ -60,25 +60,25 @@ This section in the about page introduces all the instructors, what kind of inst
 ### Classes
 <ul><li>This and more classes are in the classes page for the user too look through. When they have decided what class to take they can press the "book now" button and that sends them to the booking form</li></ul>
 
-<img src="assets/images/readme-images/advanced-classes.png" alt="Advanced yoga class with time and information about it">
+<img src="assets/images/readme-images/desktop/readme-advanced-classes.png" alt="Advanced yoga class with time and information about it" style="width: 400px">
 
 <ul><li>This allows the user to book a class at Mind and Body Yoga studio</li><li>The schedule also allows the user to see when the classes are instead of having to scroll up to the classes to make sure they have chosen the right one.</li></ul>
 
 ### Booking
-<img src="assets/images/readme-images/booking-form.png" alt="booking form and schedule">
+<img src="assets/images/readme-images/desktop/readme-booking.png" alt="booking form and schedule" style="width: 400px">
 
 <ul><li>The contact section allows the user to see the opening hours of the studio, contact information, and the location.</li>
 <li>The contact form is for users to contact the studio with whatever questions they have.</li></ul>
 
 ### Contact
-<img src="assets/images/readme-images/contact-form.png" alt="Contact form, location of the studio and contact information">
+<img src="assets/images/readme-images/desktop/readme-contact.png" style="width: 400px" alt="Contact form, location of the studio and contact information">
 
 ### Contact response
 <ul><li>
 When a user has sent a question through the contact form they will be sent to contact-reply page.</li><li>
 this text lets the user know when they can expect a response.</li><li>
 The user can also press the "here" link and they will be sent to the home page.</li></ul>
-<img src="assets/images/readme-images/contact-soon.png" style="width: 400px" alt="Text telling user when they can expect a response">
+<img src="assets/images/readme-images/desktop/readme-contact-soon.png" style="width: 400px" alt="Text telling user when they can expect a response">
 
 ## Future feature
 <ul>
@@ -89,12 +89,29 @@ The user can also press the "here" link and they will be sent to the home page.<
 ## Testing
 ### Code Validation
 The Mind and Body Yoga studio html has been tested with<a href="https://validator.w3.org/"> W3C HTML Validator.</a> 
-<img src="assets/images/html.png" alt="HTML Validation">
-
-The fixing of that bug created another bug, that is when the screen gets bigger, the image does not resize.
+<img src="assets/images/readme-images/testing/html-validator.png" alt="HTML Validation">
 
 The Mind and Body Yoga studio has been tested with <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>
-<img src="assets/images/css.png" alt="CSS Validation image">
+<img src="assets/images/readme-images/testing/css-validator.png" alt="CSS Validation image">
+
+#### Lighthouse
+The Mind and Body Yoga studio has been tested with <a href="https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv">Lighthouse</a>
+
+The website got tested for desktop.
+
+<img src="assets/images/readme-images/testing/lighthouse-desktop-home.png" alt="lighthouse validation" style="width: 300px">
+<img src="assets/images/readme-images/testing/lighthouse-desktop-about.png" alt="lighthouse validation" style="width: 300px">
+<img src="assets/images/readme-images/testing/lighthouse-desktop-classes.png" alt="lighthouse validation" style="width: 300px">
+<img src="assets/images/readme-images/testing/lighthouse-desktop-contact.png" alt="lighthouse validation" style="width: 300px">
+<img src="assets/images/readme-images/testing/lighthouse-desktop-contact-soon.png" alt="lighthouse validation" style="width: 300px">
+
+The website got tested for mobile.
+
+<img src="assets/images/readme-images/testing/lighthouse-mobile-home.png" alt="lighthouse validation" style="width: 300px">
+<img src="assets/images/readme-images/testing/lighthouse-mobile-about.png" alt="lighthouse validation" style="width: 300px">
+<img src="assets/images/readme-images/testing/lighthouse-mobile-classes.png" alt="lighthouse validation" style="width: 300px">
+<img src="assets/images/readme-images/testing/lighthouse-mobile-contact.png" alt="lighthouse validation" style="width: 300px">
+<img src="assets/images/readme-images/testing/lighthouse-mobile-contact-soon.png" alt="lighthouse validation" style="width: 300px">
 
 
 ## Technologies Used
@@ -130,7 +147,7 @@ Third select the main branch or the master branch.
 Now you wait a few minutes and the link for the website will show up as shown in the image</li>
 </ul>
 
-<img src="assets/images/github deploy.png" alt="Github hosting website">
+<img src="assets/images/readme-images/github-deploy.png" style="width: 700px" alt="Github hosting website">
 This is the live link to the website - <a href="https://frirsta.github.io/milestone-one/">https://frirsta.github.io/milestone-one/</a>
 
 ## Credits
