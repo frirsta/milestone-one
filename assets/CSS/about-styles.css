@@ -140,7 +140,6 @@
     margin: -65px auto 0;
 }
 
-.instructor-text-container {}
 
 @media screen and (max-width: 1200px) {
     #instructor-outer {
@@ -172,7 +171,7 @@
 
 @media screen and (max-width: 600px) {
     #about-background{
-        background: url('../images/abouthero-600px.png') no-repeat center center;
+        background: url('../images/abouthero-600px.avif') no-repeat center center;
     }
     #about {
         height: 450px;
@@ -218,18 +217,18 @@
         padding: unset;
     }
     #instructors-image-one {
-        background: url("../images/about-images/instructor-susan-miranda-600px.png") no-repeat center center;
+        background: url("../images/about-images/instructor-susan-miranda-600px.avif") no-repeat center center;
     }
     
     #instructors-image-two {
-        background: url("../images/about-images/instructor-jane-johnson-600px.png") no-repeat center center;
+        background: url("../images/about-images/instructor-jane-johnson-600px.avif") no-repeat center center;
     }
     
     #instructors-image-three {
-        background: url("../images/about-images/instructor-anna-alfred-600px.png") no-repeat center center;
+        background: url("../images/about-images/instructor-anna-alfred-600px.avif") no-repeat center center;
     }
     
     #instructors-image-four {
-        background: url("../images/about-images/instructor-maria-eriscson-600px.png") no-repeat center center;
+        background: url("../images/about-images/instructor-maria-eriscson-600px.avif") no-repeat center center;
     }
 }

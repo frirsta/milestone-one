@@ -197,8 +197,8 @@ td {
 }
 
 @media screen and (max-width: 600px) {
-    #contact-background{
-        background: url("../images/classeshero-600px.png") no-repeat center center;
+    #classes-background{
+        background: url("../images/classeshero-600px.avif") no-repeat center center;
     }
     .background-title{
         font-size: 150%;

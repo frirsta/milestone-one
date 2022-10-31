@@ -125,7 +125,7 @@
 
 @media screen and (max-width: 600px) {
     #contact-background{
-        background: url("../images/contacthero-600px.png") no-repeat center center;
+        background: url("../images/contacthero-600px.avif") no-repeat center center;
     }
     .contact-us {
         width: 90%;
