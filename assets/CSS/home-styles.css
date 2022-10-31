@@ -57,6 +57,7 @@
     right: 10%;
     bottom: 25%;
 }
+
 .card-container {
     height: 600px;
     width: 100%;
@@ -92,6 +93,9 @@
 
 .class-images {
     border-radius: 10px;
+    height: 40%;
+    width: 100%;
+    margin-bottom: 15px;
 
 }
 
@@ -108,30 +112,22 @@
 
 #class-image-one {
     background: url("../images/classes-page-images/beginner1.jpg") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
 }
 
 #class-image-two {
     background: url("../images/classes-page-images/advanced1.jpg") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
 }
 
 #class-image-three {
     background: url("../images/classes-page-images/group1.png") no-repeat center center;
-    height: 40%;
-    width: 100%;
-    margin-bottom: 15px;
 }
 
 .classes-button {
     color: #000;
     background-color: #f5ece7;
     text-decoration: none;
-
+    width: 50%;
+    text-align: center;
     border-radius: 4px;
     padding: 15px;
     margin: 20px 15px;
@@ -347,11 +343,11 @@
 
     .card-section {
         margin: 2% 1%;
-    width: 90%;
-    height: 30%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+        width: 90%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .card-section p {
@@ -448,26 +444,24 @@
     #hero-image {
         background: url("../images/hero-600px.avif") no-repeat center center;
     }
+
     /* class images */
     #class-image-one {
         background: url("../images/classes-page-images/beginner1-600px.avif") no-repeat center center;
-        height: 129px;
-    width: 300px;
-    margin-bottom: 5px;
     }
 
     #class-image-two {
         background: url("../images/classes-page-images/advanced1-600px.avif") no-repeat center center;
-        height: 129px;
-    width: 300px;
-    margin-bottom: 5px;
     }
 
     #class-image-three {
         background: url("../images/classes-page-images/group1-600px.avif") no-repeat center center;
+    }
+
+    .class-images {
         height: 129px;
-    width: 300px;
-    margin-bottom: 5px;
+        width: 300px;
+        margin-bottom: 5px;
     }
 
 }

@@ -1,8 +1,7 @@
 #contact-background {
-    height: 200px;
-    width: 100%;
+
     background: url("../images/contacthero.jpg") no-repeat center center;
-    filter: blur(5px);
+
 }
 
 #contact-header {
@@ -109,6 +108,7 @@
     top: 50%;
     left: 45%;
 }
+
 #contact-response {
     width: 100%;
     padding: 15% 0 8% 0;
@@ -118,22 +118,24 @@
     .contact-us {
         width: 50%;
     }
+
     .contact-us {
         width: 100%;
     }
 }
 
 @media screen and (max-width: 600px) {
-    #contact-background{
+    #contact-background {
         background: url("../images/contacthero-600px.avif") no-repeat center center;
     }
+
     .contact-us {
         width: 90%;
         margin: unset;
         margin-top: 5%;
         padding: 1%;
     }
-    
+
     #contact-text {
         font-size: 100%;
     }
@@ -146,6 +148,7 @@
         padding: 10%;
         font-size: 90%;
     }
+
     #contact-response {
         padding: 25%;
     }
