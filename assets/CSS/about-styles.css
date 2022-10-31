@@ -7,7 +7,6 @@
     align-items: center;
 }
 
-
 #about-image {
     background: url("../images/about-images/aboutus.png") no-repeat center center;
     width: 321px;
@@ -43,17 +42,10 @@
 }
 
 #about-background {
-
     background: url("../images/abouthero.jpg") no-repeat center center;
-
 }
 
 .book-button {
-    background-color: #f5ece7;
-    text-decoration: none;
-    border: 3px solid #b5b5b5;
-    border-radius: 4px;
-    color: #000;
     padding: 10px;
     width: 40%;
     text-align: center;
@@ -81,14 +73,11 @@
 .instructor-container {
     position: relative;
     top: 20%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 #instructor-one,
-#instructor-two {
+#instructor-two,
+.instructor-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -104,8 +93,6 @@
     padding: 2% 1%;
     background-color: #f5ece7;
 }
-
-
 
 .instructor h3 {
     text-align: center;
@@ -193,8 +180,10 @@
     }
 
     #about-text {
-        font-size: 65%;
+        font-size: 12px;
+        line-height: 1.2;
     }
+
 
     .book-button {
         left: 10%;
