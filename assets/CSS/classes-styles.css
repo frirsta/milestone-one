@@ -30,19 +30,19 @@
 
 /* Yoga with friends */
 #yoga-image-one {
-    background: url("../images/classes-page-images/group3.png") no-repeat center center;
+    background: url("../images/classes-page-images/group3.jpg") no-repeat center center;
 }
 
 #yoga-image-two {
-    background: url("../images/classes-page-images/group2.png") no-repeat center center;
+    background: url("../images/classes-page-images/group2.jpg") no-repeat center center;
 }
 
 #yoga-image-three {
-    background: url("../images/classes-page-images/group1.png") no-repeat center center;
+    background: url("../images/classes-page-images/group1.jpg") no-repeat center center;
 }
 
 .class-images {
-    height: 40%;
+    height: 234px;
     width: 100%;
     margin-bottom: 15px;
 }
@@ -158,58 +158,57 @@ td {
     }
 }
 
-@media screen and (max-width: 600px) {
-
-    /* hero image */
-    #classes-background {
-        background: url("../images/classeshero-600px.avif") no-repeat center center;
-    }
-
+@media screen and (max-width: 1024px) {
+    
     /* class images beginner images */
     #beginner-image-one {
-        background: url('../images/classes-page-images/beginner1-600px.avif') no-repeat center center;
+        background: url('../images/classes-page-images/beginner1_400.jpg') no-repeat center center;
     }
 
     #beginner-image-two {
-        background: url('../images/classes-page-images/beginner2-600px.avif') no-repeat center center;
+        background: url('../images/classes-page-images/beginner2_400.jpg') no-repeat center center;
     }
 
     #beginner-image-three {
-        background: url("../images/classes-page-images/beginner3-600px.avif") no-repeat center center;
+        background: url("../images/classes-page-images/beginner3_400.jpg") no-repeat center center;
     }
 
     /* Advanced class images */
     #advanced-image-one {
-        background: url('../images/classes-page-images/advanced1-600px.avif') no-repeat center center;
+        background: url('../images/classes-page-images/advanced1_400.jpg') no-repeat center center;
     }
 
     #advanced-image-two {
-        background: url('../images/classes-page-images/advanced2-600px.avif') no-repeat center center;
+        background: url('../images/classes-page-images/advanced2_400.jpg') no-repeat center center;
     }
 
     #advanced-image-three {
-        background: url('../images/classes-page-images/advanced3-600px.avif') no-repeat center center;
+        background: url('../images/classes-page-images/advanced3_400.jpg') no-repeat center center;
     }
 
     /* Group yoga images */
     #yoga-image-one {
-        background: url('../images/classes-page-images/group1-600px.avif') no-repeat center center;
+        background: url('../images/classes-page-images/group1_400.jpg') no-repeat center center;
     }
 
     #yoga-image-two {
-        background: url('../images/classes-page-images/group2-600px.avif') no-repeat center center;
+        background: url('../images/classes-page-images/group2_400.jpg') no-repeat center center;
     }
 
     #yoga-image-three {
-        background: url('../images/classes-page-images/group3-600px.avif') no-repeat center center;
+        background: url('../images/classes-page-images/group3_400.jpg') no-repeat center center;
     }
-
     .class-images {
-        border: 3px solid #b5b5b5;
-        border-radius: 15px;
-        height: 129px;
-        width: 300px;
-        margin-bottom: 5px;
+        border-radius: 3px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* hero image */
+    #classes-background {
+        background: url("../images/classeshero_310px.jpg") no-repeat center center;
     }
 
     /* Book class button */
