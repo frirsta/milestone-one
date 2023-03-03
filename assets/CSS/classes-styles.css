@@ -43,8 +43,7 @@
 
 .class-images {
     height: 234px;
-    width: 100%;
-    margin-bottom: 15px;
+    border-radius: 10px;
 }
 
 /* Book class button */
@@ -198,17 +197,96 @@ td {
     #yoga-image-three {
         background: url('../images/classes-page-images/group3_400.jpg') no-repeat center center;
     }
+
+}
+
+@media screen and (max-width: 770px) {
+    #beginner-image-one {
+        background: url('../images/classes-page-images/beginner1_500.jpg') no-repeat center center;
+    }
+
+    #beginner-image-two {
+        background: url('../images/classes-page-images/beginner2_500.jpg') no-repeat center center;
+    }
+
+    #beginner-image-three {
+        background: url("../images/classes-page-images/beginner3_500.jpg") no-repeat center center;
+    }
+
+    /* Advanced class images */
+    #advanced-image-one {
+        background: url('../images/classes-page-images/advanced1_500.jpg') no-repeat center center;
+    }
+
+    #advanced-image-two {
+        background: url('../images/classes-page-images/advanced2_500.jpg') no-repeat center center;
+    }
+
+    #advanced-image-three {
+        background: url('../images/classes-page-images/advanced3_500.jpg') no-repeat center center;
+    }
+
+    /* Group yoga images */
+    #yoga-image-one {
+        background: url('../images/classes-page-images/group1_500.jpg') no-repeat center center;
+    }
+
+    #yoga-image-two {
+        background: url('../images/classes-page-images/group2_500.jpg') no-repeat center center;
+    }
+
+    #yoga-image-three {
+        background: url('../images/classes-page-images/group3_500.jpg') no-repeat center center;
+    }
     .class-images {
-        border-radius: 3px;
-        margin-bottom: 15px;
+        height: 250px;
     }
 }
+
 
 @media screen and (max-width: 600px) {
 
     /* hero image */
     #classes-background {
         background: url("../images/classeshero_310px.jpg") no-repeat center center;
+    }
+    /* classes */
+    #beginner-image-one {
+        background: url('../images/classes-page-images/beginner1_400.jpg') no-repeat center center;
+    }
+
+    #beginner-image-two {
+        background: url('../images/classes-page-images/beginner2_400.jpg') no-repeat center center;
+    }
+
+    #beginner-image-three {
+        background: url("../images/classes-page-images/beginner3_400.jpg") no-repeat center center;
+    }
+
+    /* Advanced class images */
+    #advanced-image-one {
+        background: url('../images/classes-page-images/advanced1_400.jpg') no-repeat center center;
+    }
+
+    #advanced-image-two {
+        background: url('../images/classes-page-images/advanced2_400.jpg') no-repeat center center;
+    }
+
+    #advanced-image-three {
+        background: url('../images/classes-page-images/advanced3_400.jpg') no-repeat center center;
+    }
+
+    /* Group yoga images */
+    #yoga-image-one {
+        background: url('../images/classes-page-images/group1_400.jpg') no-repeat center center;
+    }
+
+    #yoga-image-two {
+        background: url('../images/classes-page-images/group2_400.jpg') no-repeat center center;
+    }
+
+    #yoga-image-three {
+        background: url('../images/classes-page-images/group3_400.jpg') no-repeat center center;
     }
 
     /* Book class button */
