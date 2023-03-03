@@ -64,43 +64,27 @@
 }
 
 /* Instructor */
-#instructor-outer {
-    height: 400px;
-    margin: 3%;
-}
 
-.instructor-container {
-    position: relative;
-    top: 20%;
-}
 
-#instructor-one,
-#instructor-two,
-.instructor-container {
-    display: flex;
-    flex-direction: row;
+.trainers-container{
     justify-content: center;
-    align-items: center;
+    padding-top: 50px;
 }
 
 .instructor {
-    height: 300px;
-    width: 300px;
-    border: 3px solid #b5b5b5;
-    margin: 0% 1%;
+    border: 1px solid rgb(88, 123, 88) !important;
     border-radius: 4px;
-    padding: 2% 1%;
     background-color: #f5ece7;
-}
-
-.instructor h3 {
+    margin: 50px!important;
+    padding: 0px!important;
     text-align: center;
-    padding: 10% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
 }
 
-.instructor p {
-    padding: 8% 0;
-}
 
 #instructors-image-one {
     background: url("../images/about-images/instructor-susan-miranda.png") no-repeat center center;
@@ -122,40 +106,21 @@
     height: 120px;
     width: 120px;
     border-radius: 50%;
-    border: 3px solid #b5b5b5;
-    margin: -65px auto 0;
+    border: 1px solid rgb(88, 123, 88);
 }
 
 @media screen and (max-width: 1200px) {
 
     /* about us section */
-    .about-us {
-        width: 40%;
-    }
-
     /* instructors section */
-    #instructor-outer {
-        height: unset;
-    }
-
-    .instructor {
-        padding: 0.5%;
-        height: 130%;
-        margin: 12%;
-    }
-
     .instructor-images {
         height: 90px;
         width: 90px;
     }
-
-    #instructor-one,
-    #instructor-two {
-        flex-direction: column;
-        margin: 2%;
-    }
 }
+@media screen and(max-width: 1024px) {
 
+}
 @media screen and (max-width: 600px) {
     #about-background {
         background: url('../images/abouthero-600px.avif') no-repeat center center;

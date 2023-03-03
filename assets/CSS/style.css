@@ -23,6 +23,9 @@
     align-items: center;
     width: 100%;
 }
+.green-section{
+    background-color: rgb(223, 255, 217);
+}
 body {
     font-family: 'Comfortaa', cursive;
     overflow-x: hidden;
@@ -82,6 +85,20 @@ h2 {
     color: #464646;
     font-weight: 700;
 }
+/* forms */
+
+.form{
+    border: 1px solid rgb(88, 123, 88);
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 40vw;
+}
+.form-input{
+    margin: 5px 0;
+}
+.submit{
+    margin-top: 5px;
+}
 /* footer social media links */
 #social-media{
     width: 100%;
@@ -116,10 +133,52 @@ footer h3 {
         left: 35%;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    label{
+        font-size: 13px!important;
+    }
+    .form{
+        padding: 10px;
+    }
+    .form-input{
+        padding: 5px!important;
+        font-size: 13px!important;
+    }
+}
+@media screen and (max-width:770px) {
+    .form{
+        min-width: 60vw;
+    }
+    label{
+        font-size: 15px!important;
+    }
+    .form-input{
+        padding: 5px 10px!important;
+        font-size: 15px!important;
+    }
+}
 /* small sizes */
 @media screen and (max-width: 600px) {
     .background-title {
         font-size: 150%;
         left: 30%;
+    }
+
+    .form{
+        min-width: 80vw;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    label{
+        font-size: 13px!important;
+    }
+    .form{
+        padding: 10px;
+    }
+    .form-input{
+        padding: 5px!important;
+        font-size: 13px!important;
     }
 }

@@ -8,7 +8,7 @@
 }
 
 #beginner-image-two {
-    background: url("../images/classes-page-images/beginner2.png") no-repeat center center;
+    background: url("../images/classes-page-images/beginner2.jpg") no-repeat center center;
 }
 
 #beginner-image-three {
@@ -47,118 +47,41 @@
 }
 
 /* Book class button */
-.classes-book-button-container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    position: absolute;
-    bottom: 5%;
-    left: 0;
-    border-top: 1px solid #000;
-    padding-top: 5%;
-}
-
-.classes-book-button {
-    padding: 10px;
-    width: 40%;
-    position: relative;
-    top: 1%;
-    left: 50%;
-}
 
 /* Booking form */
+.classes-form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.schedule-information {
+    max-width: 50vw;
+}
+
+table {
+    border: 1px solid rgb(88, 123, 88);
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-width: 1px !important;
+    border: 1px solid rgb(88, 123, 88) !important;
+}
+
 #booking {
     height: 600px;
     width: 100%;
 }
 
-#book-form {
-    width: 300px;
-    vertical-align: top;
-}
-
-.book-us {
-    display: inline-block;
-    margin: 70px 20px;
-    overflow: hidden;
-    width: 45%;
-}
-
-/* Schedule */
-#schedule-information {
-    border: 3px solid #b5b5b5;
-    border-radius: 4px;
-    height: 70%;
-}
-
-table {
-    height: 100%;
-    width: 100%;
-}
-
-td {
-    border: 3px solid #b5b5b5;
-}
-
-.time {
-    border: 3px solid #b5b5b5;
-}
-
-@media screen and (max-width: 1200px) {
-    #beginner-image-one {
-        background: url('../images/classes-page-images/beginner1-max-width-1200px.png') no-repeat center center;
-    }
-
-    #beginner-image-two {
-        background: url('../images/classes-page-images/beginner2-max-width-1200px.png') no-repeat center center;
-    }
-
-    #advanced-image-one {
-        background: url('../images/classes-page-images/advanced1-max-width-1200px.png') no-repeat center center;
-    }
-
-    #advanced-image-two {
-        background: url('../images/classes-page-images/advanced2-max-width-1200px.png') no-repeat center center;
-    }
-
-    #advanced-image-three {
-        background: url('../images/classes-page-images/advanced3-max-width-1200px.png') no-repeat center center;
-    }
-
-    #yoga-image-one {
-        background: url('../images/classes-page-images/group1-max-width-1200px.png') no-repeat center center;
-    }
-
-    #yoga-image-two {
-        background: url('../images/classes-page-images/group2-max-width-1200px.png') no-repeat center center;
-    }
-
-    #yoga-image-three {
-        background: url('../images/classes-page-images/group3-max-width-1200px.png') no-repeat center center;
-    }
-
-    .classes-book-button {
-        left: 5%;
-        width: 50%;
-    }
-
-    #schedule-information {
-        width: 100%;
-        font-size: 80%;
-    }
-
-    #book-form {
-        width: 65%;
-    }
-
-    .book-us {
-        margin: 5px;
-    }
-}
+@media screen and (max-width: 1200px) {}
 
 @media screen and (max-width: 1024px) {
-    
+
     /* class images beginner images */
     #beginner-image-one {
         background: url('../images/classes-page-images/beginner1_400.jpg') no-repeat center center;
@@ -196,6 +119,10 @@ td {
 
     #yoga-image-three {
         background: url('../images/classes-page-images/group3_400.jpg') no-repeat center center;
+    }
+    /* classes book form */
+    .schedule-information {
+        font-size: 13px;
     }
 
 }
@@ -238,9 +165,23 @@ td {
     #yoga-image-three {
         background: url('../images/classes-page-images/group3_500.jpg') no-repeat center center;
     }
+
     .class-images {
         height: 250px;
     }
+
+    /* classes book form */
+    .classes-form-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .schedule-information {
+        max-width: 90vw;
+        margin-top: 50px;
+    }
+
 }
 
 
@@ -250,6 +191,7 @@ td {
     #classes-background {
         background: url("../images/classeshero_310px.jpg") no-repeat center center;
     }
+
     /* classes */
     #beginner-image-one {
         background: url('../images/classes-page-images/beginner1_400.jpg') no-repeat center center;
@@ -290,14 +232,8 @@ td {
     }
 
     /* Book class button */
-    .classes-book-button-container {
-        bottom: 1%;
-        padding-top: 1%;
-    }
 
-    .classes-book-button {
-        left: 25%;
-    }
+
 
     /* booking form */
     #booking {
@@ -314,8 +250,24 @@ td {
     }
 
     /* schedule */
-    #schedule-information {
-        font-size: 65%;
-    }
 
+}
+
+@media screen and (max-width: 440px){
+    .schedule-information {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 410px){
+    .schedule-information {
+        font-size: 10px;
+        max-width: unset;
+    }
+}
+
+@media screen and (max-width: 310px){
+    .schedule-information {
+        font-size: 8px;
+    }
 }
