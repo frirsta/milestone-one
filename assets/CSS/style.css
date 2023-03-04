@@ -60,14 +60,7 @@ h2 {
     width: 100%;
 }
 
-/*about us and cover button*/
-.buttons {
-    text-decoration: none;
-    background-color: #D8F3DC;
-    border: 1px solid #b5b5b5;
-    border-radius: 4px;
-    color: #464646;
-}
+/*cover button*/
 .card-buttons {
     text-decoration: none;
     color: #464646;
