@@ -66,6 +66,9 @@ h2 {
     color: #464646;
     font-weight: 700;
 }
+.card-buttons:hover {
+    color: #464646;
+}
 /* forms */
 
 .form{

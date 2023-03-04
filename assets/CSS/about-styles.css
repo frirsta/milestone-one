@@ -6,11 +6,9 @@ background: url('../images/about-images/about.jpg') no-repeat center center;
 height: 500px;
 width: 400px;
 border-radius: 10px;
-margin: 0px 50px;
+margin: 0px 10px;
 max-width: 50vw;
 }
-
-
 #about-text {
     text-align: left;
     line-height: 1.5;
@@ -19,6 +17,7 @@ max-width: 50vw;
     justify-content: center;
     width: 500px;
     max-width: 50vw;
+    padding-right: 20px;
 }
 #about-text h2 {
     text-align: left;
@@ -73,15 +72,38 @@ max-width: 50vw;
 }
 @media screen and(max-width: 1024px) {
 
+
 }
-@media screen and(max-width: 700px) {
+@media screen and (max-width: 700px) {
     .about-image {
         background: url('../images/about-images/about_300.jpg') no-repeat center center;
-        height: 300px;
-        width: 300px;
+        height: 400px;
+        width: 250px;
+        border-radius: 10px;
+    }
+        #about-text {
+        font-size: 13px;
+        width: 250px;
+        line-height: 1.2;
         }
-}
+    }
 @media screen and (max-width: 600px) {
+    #about-text {
+        font-size: 12px;
+        width: 250px;
+        line-height: 1.2;
+    }
+    #about-text h2 {
+        font-size: 15px;
+        line-height: 0;
+    }
+    #about-text h3 {
+        font-size: 20px;
+    }
+    .about-button{
+        font-size: 15px;
+        text-decoration: underline;
+    }
     /* instructors section */
     .instructor-container {
         flex-direction: column;
@@ -90,9 +112,7 @@ max-width: 50vw;
     .instructor {
         padding: 5%;
     }
-    .instructor h3 {
-        padding: unset;
-    }
+
     #instructors-image-one {
         background: url("../images/about-images/instructor-susan-miranda-600px.avif") no-repeat center center;
     }
@@ -108,4 +128,44 @@ max-width: 50vw;
     .instructor-text-container {
         padding: 0 1%;
     }
+}
+@media screen and (max-width: 500px) {
+    .instructor h3 {
+        font-size: 15px;
+    }
+    .instructor p {
+        font-size: 14px;
+    }
+    .about-image {
+        height: 300px;
+        width: 150px;
+    }
+        #about-text {
+        font-size: 10px;
+        }
+
+        #about-text h2 {
+            font-size: 13px;
+            letter-spacing: 2px;
+        }
+        #about-text h3 {
+            font-size: 15px;
+        }
+}
+@media screen and (max-width: 340px) {
+        #about-text {
+        font-size: 10px;
+        line-height: 1;
+        }
+
+        #about-text h2 {
+            font-size: 11px;
+            letter-spacing: 1px;
+        }
+        #about-text h3 {
+            font-size: 14px;
+        }
+        .about-button{
+            font-size: 13px;
+        }
 }
