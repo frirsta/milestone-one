@@ -1,14 +1,3 @@
-/* about hero */
-.about-background-title {
-    position: relative;
-    top: 10px;
-    margin: 1%;
-}
-
-#about-background {
-    background: url("../images/abouthero.jpg") no-repeat center center;
-}
-
 /* About us section*/
 #about {
     height: 500px;
@@ -74,7 +63,7 @@
 .instructor {
     border: 1px solid rgb(88, 123, 88) !important;
     border-radius: 4px;
-    background-color: #f5ece7;
+    background-color: #CCD5AE;
     margin: 50px!important;
     padding: 0px!important;
     text-align: center;
@@ -122,16 +111,8 @@
 
 }
 @media screen and (max-width: 600px) {
-    #about-background {
-        background: url('../images/abouthero-600px.avif') no-repeat center center;
-    }
 
-    .about-background-title {
-        top: unset;
-        bottom: 125px;
-        color: #fff;
-        font-weight: 600;
-    }
+
 
     #about {
         height: 450px;

@@ -177,5 +177,6 @@ Photo by Yan Krukau: https://www.pexels.com/photo/elderly-people-doing-yoga-8436
 <a href="https://www.freepik.com/free-photo/group-young-sporty-people-sitting-easy-seat-pose_3954522.htm?query=yoga%20class#from_view=detail_alsolike">Image by yanalya</a> on Freepik
 <a href="https://www.freepik.com/free-photo/group-young-sporty-people-meditating-easy-seat-pose_3954518.htm?query=yoga%20class#from_view=detail_alsolike">Image by yanalya</a> on Freepik
 <a href="https://www.freepik.com/free-photo/funny-young-woman-laughing-multi-ethnic-group-fitness-yoga-cl_3954981.htm?query=yoga%20class#from_view=detail_alsolike">Image by yanalya</a> on Freepik
+<a href="https://www.freepik.com/free-photo/hands-rolling-fitness-mat-concept-healthy-lifestyle_3955343.htm#query=yoga&position=4&from_view=search&track=robertav1">Image by yanalya</a> on Freepik
 #### Other
 The commits at the start of the project till about a week ago have not been done properly because my plan was to have this code as a draft.

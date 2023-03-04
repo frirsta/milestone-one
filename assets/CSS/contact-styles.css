@@ -1,13 +1,3 @@
-/* contact hero */
-.background-outer {
-    height: 40%;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-}
-#contact-background {
-    background: url("../images/contacthero.jpg") no-repeat center center;
-}
 /* Contact information */
 .contact-us{
     border: 1px solid rgb(88, 123, 88);
@@ -50,9 +40,6 @@
 
 @media screen and (max-width: 600px) {
     /* Contact hero */
-    #contact-background {
-        background: url("../images/contacthero-600px.avif") no-repeat center center;
-    }
     .contact-text {
        max-width: 85vw;
     }

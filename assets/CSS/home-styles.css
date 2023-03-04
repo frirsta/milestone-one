@@ -9,41 +9,38 @@
     height: 600px;
     width: 100%;
     background: url("../images/hero.jpg") no-repeat center center;
-    filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
-#hero-image-creator {
-    position: relative;
-    bottom: 4%;
-    margin-left: 10px;
-}
-#hero-image-creator p {
-    font-size: 10px;
-    text-align: left;
-    letter-spacing: 0px;
-    color: #000;
-    position: absolute;
-}
+
+
 /* cover text and button */
-#cover-text {
-    text-align: left;
-    width: 600px;
-    height: 400px;
-    padding-top: 70px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -200px 0 0 -300px;
+#cover-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+    position: relative;
+    right: 200px;
+    text-align: end;
 }
-#cover-text h2 {
-    font-size: 150%;
-    color: #fff;
+
+#cover-text h1{
+    font-size: 30px;
+}
+
+#cover-text h3{
+    font-size: 100px;
+    font-weight: 100;
+    margin: 0;
+    line-height: 0.8;
 }
 #cover-button {
-    font-weight: 600;
-    padding: 15px 30px;
-    position: absolute;
-    right: 10%;
-    bottom: 25%;
+    text-decoration: underline;
+    width: 100%;
+    font-size: 25px;
 }
 /* classes cards */
 .card-container {
@@ -60,11 +57,12 @@
 .card-section {
     border: 1px solid #b5b5b5;
     border-radius: 10px;
-    background-color: #d6ccc2;
+    background-color: #CCD5AE;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 0px!important;
+    overflow: hidden;
 }
 .col-lg-3 {
     flex: 0 0 auto;
@@ -124,7 +122,7 @@
 .review {
     border: 1px solid #b5b5b5;
     border-radius: 4px;
-    background-color: #d6ccc2;
+    background-color: #CCD5AE;
     padding: 5px;
     margin: 30px;
 }
@@ -167,6 +165,11 @@
     flex-direction: row;
     align-items: center;
 }
+@media screen and (max-width: 1400px) {
+#hero-image{
+    background: url("../images/hero_1400.jpg") no-repeat center center;
+}
+}
 @media screen and (max-width: 1200px) {
     /* classes section and buttons in home page*/
     .class-information{
@@ -178,6 +181,11 @@
         font-size: 20px;
     }
 }
+@media screen and (max-width: 1000px) {
+    #hero-image{
+        background: url("../images/hero_1000.jpg") no-repeat center center;
+    }
+    }
 @media screen and (max-width: 900px) {
 /* classes home page */
 .card-section h3{
@@ -232,38 +240,42 @@
         width: 60px;
     }
 }
-@media screen and (max-width: 673px) {
-    /* reviews */  
+@media screen and (max-width: 750px) {  
+    #hero-image{
+        background: url("../images/hero_750.jpg") no-repeat center center;
+        height: 500px;
+    }
+    #hero-outer{
+        height: 500px;
+    }
+    #cover-text{
+        right: 100px;
+    }
 }
 @media screen and (max-width: 600px) {
-    #hero-outer {
-        height: 300px;
-    }
-    #hero-image {
-        height: 300px;
-    }
-    #hero-image-creator p {
-        font-size: 40%;
-    }
-    /* cover text and button */
-    #cover-text {
-        margin: unset;
-        left: unset;
-        padding-top: unset;
-        height: unset;
-        width: unset;
-        font-size: 75%;
-        top: 20%;
-    }
-    #cover-button {
-        padding: 10px 20px;
-        bottom: unset;
-        top: 110%;
-    }
-    /* Hero images */
-    #hero-image {
-        background: url("../images/hero-600px.avif") no-repeat center center;
-    }
+        /* reviews */  
+        #hero-image{
+            background: url("../images/hero_600.jpg") no-repeat center center;
+            height: 400px;
+        }
+        #hero-outer{
+            height: 400px;
+        }
+        #cover-text{
+            right: 40px;
+        }
+        #cover-text h1{
+            font-size: 25px;
+        }
+        
+        #cover-text h3{
+            font-size: 80px;
+        }
+        #cover-button {
+            font-size: 20px;
+        }
+        
+
     /* classes home page section */
     #class-image-one {
         background: url("../images/classes-page-images/beginner1_400.jpg") no-repeat center center;
@@ -282,6 +294,15 @@
     }
 }
 @media screen and (max-width: 440px) {
+    #cover-text h1{
+        font-size: 20px;
+    }
+    #cover-text h3{
+        font-size: 60px;
+    }
+    #cover-button {
+        font-size: 15px;
+    }
     .card-section h3{
         font-size: 20px;
     }
@@ -294,7 +315,25 @@
     .class-information {
         height: 200px;
     }
-
+}
+@media screen and (max-width: 400px) {
+    /* reviews */  
+    #hero-image{
+        background: url("../images/hero_400.jpg") no-repeat center center;
+        height: 250px;
+    }
+    #hero-outer{
+        height: 250px;
+    }
+    #cover-text h1{
+        font-size: 15px;
+    }
+    #cover-text h3{
+        font-size: 50px;
+    }
+    #cover-button {
+        font-size: 15px;
+    }
 }
 @media screen and (max-width: 350px) {
     .col-10 {

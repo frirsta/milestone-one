@@ -1,7 +1,3 @@
-#classes-background {
-    background: url("../images/classeshero.jpg") no-repeat center center;
-}
-
 /* Beginner images */
 #beginner-image-one {
     background: url("../images/classes-page-images/beginner1.jpg") no-repeat center center;
@@ -43,7 +39,7 @@
 
 .class-images {
     height: 234px;
-    border-radius: 10px;
+    border-radius: 0;
 }
 
 /* Book class button */
@@ -186,11 +182,6 @@ tr {
 
 
 @media screen and (max-width: 600px) {
-
-    /* hero image */
-    #classes-background {
-        background: url("../images/classeshero_310px.jpg") no-repeat center center;
-    }
 
     /* classes */
     #beginner-image-one {
