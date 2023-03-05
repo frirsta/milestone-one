@@ -162,27 +162,42 @@ The Home page was taken from what I had learnt in the Love Running project.</li>
 </ul>
 
 ### Media
-All images have been taken from <a href="https://www.pexels.com/">Pexels</a>
-All images except te review images and instructor images was taken from <a href="https://www.pexels.com/@yankrukov/">Yan Krukov</a> at Pexels!
-Photo by Yan Krukau: https://www.pexels.com/photo/man-in-white-top-doing-stretching-with-eyes-closed-8436601/
-Photo by Yan Krukau: https://www.pexels.com/photo/three-women-meditating-in-a-yoga-class-8436746/
-Photo by Yan Krukau: https://www.pexels.com/photo/elderly-people-doing-yoga-8436479/
-<a href="https://www.freepik.com/free-photo/group-sporty-people-child-pose_3954973.htm#query=yoga%20class&position=16&from_view=search&track=robertav1">Image by yanalya</a> on Freepik
-<a href="https://www.freepik.com/free-photo/young-yogi-woman-group-people-paschimottanasana-pose_3954988.htm#query=yoga%20class&position=17&from_view=search&track=robertav1#position=17&query=yoga%20class">Image by yanalya</a> on Freepik
-<a href="https://www.freepik.com/free-photo/group-sporty-people-bird-dog-exercise-with-instructor_3954984.htm#from_view=detail_alsolike">Image by yanalya</a> on Freepik
-<a href="https://www.freepik.com/free-photo/group-sporty-people-sukhasana-pose_3955007.htm#from_view=detail_alsolike">Image by yanalya</a> on Freepik
-<a href="https://www.freepik.com/free-photo/group-sporty-people-donkey-pose_3954980.htm#from_view=detail_alsolike">Image by yanalya</a> on Freepik
-<a href="https://www.freepik.com/free-photo/group-young-sporty-people-sitting-sukhasana-exercise_3955016.htm?query=yoga%20class#from_view=detail_alsolike">Image by yanalya</a> on Freepik
-<a href="https://www.freepik.com/free-photo/group-young-sporty-people-sitting-sukhasana-exercise_3954523.htm?query=yoga%20class#from_view=detail_alsolike">Image by yanalya</a> on Freepik
-<a href="https://www.freepik.com/free-photo/group-young-sporty-people-sitting-easy-seat-pose_3954522.htm?query=yoga%20class#from_view=detail_alsolike">Image by yanalya</a> on Freepik
-<a href="https://www.freepik.com/free-photo/group-young-sporty-people-meditating-easy-seat-pose_3954518.htm?query=yoga%20class#from_view=detail_alsolike">Image by yanalya</a> on Freepik
-<a href="https://www.freepik.com/free-photo/funny-young-woman-laughing-multi-ethnic-group-fitness-yoga-cl_3954981.htm?query=yoga%20class#from_view=detail_alsolike">Image by yanalya</a> on Freepik
+
+Hero image:
 <a href="https://www.freepik.com/free-photo/hands-rolling-fitness-mat-concept-healthy-lifestyle_3955343.htm#query=yoga&position=4&from_view=search&track=robertav1">Image by yanalya</a> on Freepik
-Bild av Nick Wehrli: https://www.pexels.com/sv-se/foto/manniskor-kvinnor-rock-kondition-5345858/
-#### Other
-The commits at the start of the project till about a week ago have not been done properly because my plan was to have this code as a draft.
-instructors
+
+All review images have been taken from <a href="https://www.pexels.com/">Pexels</a>
+
+About us image:
+Image by Nick Wehrli: https://www.pexels.com/sv-se/foto/manniskor-kvinnor-rock-kondition-5345858/
+
+Class images:
+<a href="https://www.freepik.com/free-photo/group-sporty-people-child-pose_3954973.htm#query=yoga%20class&position=16&from_view=search&track=robertav1">Image by yanalya</a> on Freepik
+
+<a href="https://www.freepik.com/free-photo/young-yogi-woman-group-people-paschimottanasana-pose_3954988.htm#query=yoga%20class&position=17&from_view=search&track=robertav1#position=17&query=yoga%20class">Image by yanalya</a> on Freepik
+
+<a href="https://www.freepik.com/free-photo/group-sporty-people-bird-dog-exercise-with-instructor_3954984.htm#from_view=detail_alsolike">Image by yanalya</a> on Freepik
+
+<a href="https://www.freepik.com/free-photo/group-sporty-people-sukhasana-pose_3955007.htm#from_view=detail_alsolike">Image by yanalya</a> on Freepik
+
+<a href="https://www.freepik.com/free-photo/group-sporty-people-donkey-pose_3954980.htm#from_view=detail_alsolike">Image by yanalya</a> on Freepik
+
+<a href="https://www.freepik.com/free-photo/group-young-sporty-people-sitting-sukhasana-exercise_3955016.htm?query=yoga%20class#from_view=detail_alsolike">Image by yanalya</a> on Freepik
+
+<a href="https://www.freepik.com/free-photo/group-young-sporty-people-sitting-sukhasana-exercise_3954523.htm?query=yoga%20class#from_view=detail_alsolike">Image by yanalya</a> on Freepik
+
+<a href="https://www.freepik.com/free-photo/group-young-sporty-people-sitting-easy-seat-pose_3954522.htm?query=yoga%20class#from_view=detail_alsolike">Image by yanalya</a> on Freepik
+
+<a href="https://www.freepik.com/free-photo/group-young-sporty-people-meditating-easy-seat-pose_3954518.htm?query=yoga%20class#from_view=detail_alsolike">Image by yanalya</a> on Freepik
+
+<a href="https://www.freepik.com/free-photo/funny-young-woman-laughing-multi-ethnic-group-fitness-yoga-cl_3954981.htm?query=yoga%20class#from_view=detail_alsolike">Image by yanalya</a> on Freepik
+
+
+Instructor images:
 <a href="https://www.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_6632280.htm#query=yoga&position=0&from_view=search&track=robertav1">Image by prostooleh</a> on Freepik
 <a href="https://www.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_6632280.htm#query=yoga&position=0&from_view=search&track=robertav1">Image by prostooleh</a> on Freepik
 <a href="https://www.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_6632280.htm#query=yoga&position=0&from_view=search&track=robertav1">Image by prostooleh</a> on Freepik
 Image by <a href="https://www.freepik.com/free-photo/young-woman-practicing-meditation_20282967.htm#query=yoga&position=23&from_view=search&track=robertav1">Freepik</a>
+
+#### Other
+The commits at the start of the project till about a week ago have not been done properly because my plan was to have this code as a draft.
