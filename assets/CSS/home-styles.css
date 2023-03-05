@@ -11,7 +11,7 @@
     background: url("../images/hero.jpg") no-repeat center center;
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: center;
 }
 
 
@@ -20,11 +20,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: end;
+    align-items: center;
     height: 100%;
-    position: relative;
-    right: 200px;
-    text-align: end;
+    text-align: center;
 }
 
 #cover-text h1{
@@ -248,9 +246,6 @@
     #hero-outer{
         height: 500px;
     }
-    #cover-text{
-        right: 100px;
-    }
 }
 @media screen and (max-width: 600px) {
         /* reviews */  
@@ -260,9 +255,6 @@
         }
         #hero-outer{
             height: 400px;
-        }
-        #cover-text{
-            right: 40px;
         }
         #cover-text h1{
             font-size: 25px;
