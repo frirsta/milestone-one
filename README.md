@@ -6,80 +6,82 @@ Mind and Body is a website that represents the physical yoga studio in Stockholm
 
 <img src="assets/images/readme-images/all-devices.png" alt="Website on all devices">
 
-## Features 
+# Features 
 
-### Navbar
+## Navbar
 <ul><li>The navigation menu is on all four pages. The menu links to Home page, About, Classes, Contact and Logo</li>
 <li>This makes it easy to find what you are looking for.</li>
 </ul>
 
-<img src="assets/images/readme-images/desktop/readme-menu.png" alt="navigation menu" style="width: 400px">
-
-### The home page image
-<ul><li>The image is a blurred photo of one of the instructors doing a yoga pose. This lets the user know what the website is about</li>
-<li>There is text that lets the user know that this is a Yoga studio in Stockholm</li>
-<li>This section also has a "Book Now" button that sends the customers to the classes page where they can book a class.</li></ul>
-
-<img src="assets/images/readme-images/desktop/readme-hero.png" alt="The home page background image of a woman doing a yoga pose, with text" style="width: 400px">
+<img src="assets/images/readme-images/desktop/navbar_desktop.png" alt="The navbar page on desktop screen">
+<img src="assets/images/readme-images/desktop/navbar_tablet.png" alt="The navbar page on tablet screen">
+<img src="assets/images/readme-images/desktop/navbar_mobile.png" alt="The navbar page on mobile screen">
 
 
-### Explore our classes
-<ul><li>This section allows the user to see what types of Yoga is being offered</li>
-<li>This section also allows the user to use the "Learn More" button where they will be sent directly to the classes page, where they can book a class.</li></ul>
-<img src="assets/images/readme-images/desktop/readme-classes.png" alt="Advanced yoga class with time and information about it" style="width: 400px">
-
-### Reviews
-<ul><li>
+## The home page image
+<ul><li>The image is a photo of a yoga mat. This lets the user know what the website is about</li>
+<li>There is text that lets the user know that this is a Yoga studio</li>
+<li>This section also has a "Book Now" button that sends the customers to the classes page where they can book a class.</li>
+<li>There is a "Explore our classes" section allows the user to see what types of Yoga is being offered</li>
+<li>This section also allows the user to use the "Learn More" button where they will be sent directly to the classes page, where they can book a class.</li>
+<li>
 The reviews are shown on the home page so the user can see if its a good enough studio for them.</li></ul>
 
-<img src="assets/images/readme-images/desktop/readme-reviews.png" style="width: 200px" alt="Review about the yoga studio with image of woman" style="width: 400px">
+<img src="assets/images/readme-images/desktop/home_desktop.png" alt="The home page on desktop screen">
+<img src="assets/images/readme-images/desktop/home_tablet.png" alt="The home page on tablet screen">
+<img src="assets/images/readme-images/desktop/home_mobile.png" alt="The home page on mobile screen">
 
-### Footer
-<ul><li>
-The footer links to the studios social media.</li></ul>
-<img src="assets/images/readme-images/desktop/readme-footer.png" alt="footer text saying Follow us, with social media links" style="width: 400px">
-
-### Background images on top of the pages
-<ul><li>
-Every page has a smaller version of the header image with a title of what page the user is in.</li></ul>
-<img src="assets/images/readme-images/desktop/readme-about-hero.png" alt="Navigation menu in about page" style="width: 400px">
-
-
+## About us page
 ### About section
 <ul><li>
-This sections allows the user to read about the history of the yoga studio and what kind of studio Mind and Body is.</li></ul>
-
-
-### Instructors
-
-<img src="assets/images/readme-images/desktop/readme-instructors.png" alt="image of the instructors with their contact information" style="width: 400px">
-<ul><li>
+This sections allows the user to read about the history of the yoga studio and what kind of studio Mind and Body is.</li>
+<li>
 This section in the about page introduces all the instructors, what kind of instructor they are and their contact information.</li>
 <li>This is for every user wheter its their first time on the website, to see who the instructors are, and if a student needs to contact the instructors.</li></ul>
 
+<img src="assets/images/readme-images/desktop/about_desktop.png" alt="The about page on desktop screen">
+<img src="assets/images/readme-images/desktop/about_tablet.png" alt="The about page on tablet screen">
+<img src="assets/images/readme-images/desktop/about_mobile.png" alt="The about page on mobile screen">
 
-### Classes
-<ul><li>This and more classes are in the classes page for the user too look through. When they have decided what class to take they can press the "book now" button and that sends them to the booking form</li></ul>
 
-<img src="assets/images/readme-images/desktop/readme-advanced-classes.png" alt="Advanced yoga class with time and information about it" style="width: 400px">
 
-<ul><li>This allows the user to book a class at Mind and Body Yoga studio</li><li>The schedule also allows the user to see when the classes are instead of having to scroll up to the classes to make sure they have chosen the right one.</li></ul>
+## Classes page
+<ul
+><li>The classes page have all the classes for the user too look through. When they have decided what class to take they can press the "book now" button and that sends them to the booking form</li>
+<li>This allows the user to book a class at Mind and Body Yoga studio</li>
+<li>The schedule also allows the user to see when the classes are instead of having to scroll up to the classes to make sure they have chosen the right one.</li>
+</ul>
+<img src="assets/images/readme-images/desktop/classes_desktop.png" alt="The classes page on desktop screen">
+<img src="assets/images/readme-images/desktop/classes_tablet.png" alt="The classes page on tablet screen">
+<img src="assets/images/readme-images/desktop/classes_mobile.png" alt="The classes page on mobile screen">
 
-### Booking
-<img src="assets/images/readme-images/desktop/readme-booking.png" alt="booking form and schedule" style="width: 400px">
 
-<ul><li>The contact section allows the user to see the opening hours of the studio, contact information, and the location.</li>
+## Contact
+<ul>
+<li>The contact section allows the user to see the opening hours of the studio, contact information, and the location.</li>
 <li>The contact form is for users to contact the studio with whatever questions they have.</li></ul>
+<img src="assets/images/readme-images/desktop/contact_desktop.png" alt="The contact page on desktop screen">
+<img src="assets/images/readme-images/desktop/contact_tablet.png" alt="The contact page on tablet screen">
+<img src="assets/images/readme-images/desktop/contact_mobile.png" alt="The contact page on mobile screen">
 
-### Contact
-<img src="assets/images/readme-images/desktop/readme-contact.png" style="width: 400px" alt="Contact form, location of the studio and contact information">
-
-### Contact response
+## Contact response
 <ul><li>
 When a user has sent a question through the contact form they will be sent to contact-reply page.</li><li>
 this text lets the user know when they can expect a response.</li><li>
 The user can also press the "here" link and they will be sent to the home page.</li></ul>
-<img src="assets/images/readme-images/desktop/readme-contact-soon.png" style="width: 400px" alt="Text telling user when they can expect a response">
+<img src="assets/images/readme-images/desktop/contact_response_desktop.png" alt="The contact response page on desktop screen">
+<img src="assets/images/readme-images/desktop/contact_response_tablet.png" alt="The contact response page on tablet screen">
+<img src="assets/images/readme-images/desktop/contact_response_mobile.png" alt="The contact response page on mobile screen">
+
+
+### Footer
+<ul><li>
+The footer links to the studios social media.</li></ul>
+<img src="assets/images/readme-images/desktop/footer_desktop.png" alt="The footer page on desktop screen">
+<img src="assets/images/readme-images/desktop/footer_tablet.png" alt="The footer page on tablet screen">
+<img src="assets/images/readme-images/desktop/footer_mobile.png" alt="The footer page on mobile screen">
+
+
 
 ## Future feature
 <ul>
@@ -88,6 +90,7 @@ The user can also press the "here" link and they will be sent to the home page.<
 
 
 ## Testing
+The website has been updated after these tests were made, and have not yet been tested.
 ### Code Validation
 The Mind and Body Yoga studio html has been tested with<a href="https://validator.w3.org/"> W3C HTML Validator.</a> 
 <img src="assets/images/readme-images/testing/html-validator.png" alt="HTML Validation">
