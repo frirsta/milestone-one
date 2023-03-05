@@ -181,3 +181,8 @@ Photo by Yan Krukau: https://www.pexels.com/photo/elderly-people-doing-yoga-8436
 Bild av Nick Wehrli: https://www.pexels.com/sv-se/foto/manniskor-kvinnor-rock-kondition-5345858/
 #### Other
 The commits at the start of the project till about a week ago have not been done properly because my plan was to have this code as a draft.
+instructors
+<a href="https://www.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_6632280.htm#query=yoga&position=0&from_view=search&track=robertav1">Image by prostooleh</a> on Freepik
+<a href="https://www.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_6632280.htm#query=yoga&position=0&from_view=search&track=robertav1">Image by prostooleh</a> on Freepik
+<a href="https://www.freepik.com/free-photo/beautiful-girl-is-engaged-yoga-studio_6632280.htm#query=yoga&position=0&from_view=search&track=robertav1">Image by prostooleh</a> on Freepik
+Image by <a href="https://www.freepik.com/free-photo/young-woman-practicing-meditation_20282967.htm#query=yoga&position=23&from_view=search&track=robertav1">Freepik</a>

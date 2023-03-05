@@ -45,34 +45,57 @@ max-width: 50vw;
     align-items: center;
     height: 320px;
 }
+.instructor h3{
+    font-size: 20px;
+}
 #instructors-image-one {
-    background: url("../images/about-images/instructor-susan-miranda.png") no-repeat center center;
+    background: url("../images/about-images/instructor1.jpg") no-repeat center center;
 }
 #instructors-image-two {
-    background: url("../images/about-images/instructor-jane-johnson.png") no-repeat center center;
+    background: url("../images/about-images/instructor2.jpg") no-repeat center center;
 }
 #instructors-image-three {
-    background: url("../images/about-images/instructor-anna-alfred.png") no-repeat center center;
+    background: url("../images/about-images/instructor3.jpg") no-repeat center center;
+}
+.instructor-text-container {
+    padding: 0 1%;
 }
 #instructors-image-four {
-    background: url("../images/about-images/instructor-maria-ericson.png") no-repeat center center;
+    background: url("../images/about-images/instructor4.jpg") no-repeat center center;
 }
+
 .instructor-images {
-    height: 120px;
-    width: 120px;
+    height: 150px;
+    width: 150px;
     border-radius: 50%;
     border: 1px solid rgb(88, 123, 88);
 }
-@media screen and (max-width: 1200px) {
-    /* instructors section */
-    .instructor-images {
-        height: 90px;
-        width: 90px;
+@media screen and (max-width: 1024px) {
+    .instructor h3 {
+        font-size: 18px;
+    }
+    .instructor p {
+        font-size: 15px;
     }
 }
-@media screen and(max-width: 1024px) {
-
-
+@media screen and (max-width: 925px) {
+    #instructors-image-one {
+        background: url("../images/about-images/instructor1_100.jpg") no-repeat center center;
+    }
+    #instructors-image-two {
+        background: url("../images/about-images/instructor2_100.jpg") no-repeat center center;
+    }
+    #instructors-image-three {
+        background: url("../images/about-images/instructor3_100.jpg") no-repeat center center;
+    }
+    #instructors-image-four {
+        background: url("../images/about-images/instructor4_100.jpg") no-repeat center center;
+    }
+    
+    .instructor-images {
+        height: 100px;
+        width: 100px;
+    }
 }
 @media screen and (max-width: 700px) {
     .about-image {
@@ -109,33 +132,9 @@ max-width: 50vw;
         flex-direction: column;
         padding-top: 10%;
     }
-    .instructor {
-        padding: 5%;
-    }
 
-    #instructors-image-one {
-        background: url("../images/about-images/instructor-susan-miranda-600px.avif") no-repeat center center;
-    }
-    #instructors-image-two {
-        background: url("../images/about-images/instructor-jane-johnson-600px.avif") no-repeat center center;
-    }
-    #instructors-image-three {
-        background: url("../images/about-images/instructor-anna-alfred-600px.avif") no-repeat center center;
-    }
-    #instructors-image-four {
-        background: url("../images/about-images/instructor-maria-eriscson-600px.avif") no-repeat center center;
-    }
-    .instructor-text-container {
-        padding: 0 1%;
-    }
 }
 @media screen and (max-width: 500px) {
-    .instructor h3 {
-        font-size: 15px;
-    }
-    .instructor p {
-        font-size: 14px;
-    }
     .about-image {
         height: 300px;
         width: 150px;
@@ -150,6 +149,16 @@ max-width: 50vw;
         }
         #about-text h3 {
             font-size: 15px;
+        }
+        /* instructors */
+        .instructor{
+            height: 250px;
+        }
+        .instructor h3 {
+            font-size: 15px;
+        }
+        .instructor p {
+            font-size: 13px;
         }
 }
 @media screen and (max-width: 340px) {
@@ -167,5 +176,15 @@ max-width: 50vw;
         }
         .about-button{
             font-size: 13px;
+        }
+        /* instructors */
+        .instructor{
+            height: 250px;
+        }
+        .instructor h3 {
+            font-size: 13px;
+        }
+        .instructor p {
+            font-size: 11px;
         }
 }
