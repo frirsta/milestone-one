@@ -1,6 +1,6 @@
 /* Contact information */
 .contact-us{
-    border: 1px solid rgb(88, 123, 88);
+    border: 1px solid #464646;
     height: 350px;
     display: flex;
     flex-direction: column;

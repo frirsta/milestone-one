@@ -33,7 +33,7 @@ max-width: 50vw;
     padding-top: 50px;
 }
 .instructor {
-    border: 1px solid rgb(88, 123, 88) !important;
+    border: 1px solid #464646!important;
     border-radius: 4px;
     background-color: #CCD5AE;
     margin: 50px!important;
@@ -68,7 +68,7 @@ max-width: 50vw;
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    border: 1px solid rgb(88, 123, 88);
+    border: 1px solid #464646;
 }
 @media screen and (max-width: 1024px) {
     .instructor h3 {

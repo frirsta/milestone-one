@@ -24,7 +24,7 @@
     width: 100%;
 }
 .green-section{
-    background-color: #E9EDC9;
+    background-color: #f2ffd6;
 }
 body {
     font-family: 'Comfortaa', cursive;
@@ -53,7 +53,7 @@ h2 {
     width: 100%;
 }
 .active {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #464646;
 }
 .navbar-nav {
     justify-content: end;
@@ -72,7 +72,7 @@ h2 {
 /* forms */
 
 .form{
-    border: 1px solid rgb(88, 123, 88);
+    border: 1px solid #464646;
     border-radius: 5px;
     padding: 15px;
     max-width: 40vw;
