@@ -253,12 +253,11 @@ tr {
 @media screen and (max-width: 410px){
     .schedule-information {
         font-size: 10px;
-        max-width: unset;
     }
 }
 
 @media screen and (max-width: 310px){
     .schedule-information {
-        font-size: 8px;
+        font-size: 7px;
     }
 }
